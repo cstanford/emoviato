@@ -1,0 +1,31 @@
+{
+  "name": "emoviatobuild",
+  "version": "1.0.0",
+  "description": "Provides build time dependencies and build script execution capabilities with JS based build utilities.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp fullbuild",
+    "test": "echo \"WARN: no test specified\" && exit 0"
+  },
+  "author": "bmnorwoo",
+  "license": "",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-frep": "^0.1.3",
+    "gulp-jshint": "^2.0.0",
+    "gulp-eslint": "latest",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "httpinvoke": "^1.4.0",
+    "jshint": "^2.9.1",
+    "jshint-stylish": "^2.1.0",
+    "log4js": "^0.6.31",
+    "q": "^1.4.1"
+  }
+}

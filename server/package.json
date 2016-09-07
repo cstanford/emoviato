@@ -1,0 +1,24 @@
+{
+  "name": "EmoviatoServer",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "compression": "^1.6.2",
+    "express": "^4.13.4",
+    "helmet": "^2.1.0",
+    "morgan": "^1.1.1",
+    "q": "^1.4.1",
+    "mongoose": "latest",
+    "nconf": "latest",
+    "node.extend": "^1.1.5",
+    "redis-sessions": "latest",
+    "cookie-parser": "latest",
+    "simple-encryptor": "latest",
+    "bcryptjs": "latest",
+    "bluebird": "latest"
+  }
+}

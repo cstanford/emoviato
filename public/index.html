@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-us" data-ng-app="app">
+    <head>
+        <meta charset="utf-8">
+        <title>Emoviato</title>
+        <meta name="description" content="Emoviato app">
+        <meta name="author" content="Connor Stanford">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Concatenation of all third party css files -->
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/css/gulpstyles.css">
+        <!-- You should not edit this file. Make changes in the .scss stylesheets.-->
+        <link rel="stylesheet" type="text/css" media="screen" href="styles/css/emoviato_styles.css">
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <!-- thirdparty.js is built by gulp. contains all 3rd party libs -->
+        <script src="build/js/thirdparty.js"></script>
+        <!-- AngularJS app. Built by gulp. -->
+        <script type="text/javascript" src="build/js/emoviatoApp.js"></script>
+        <base href="/">
+    </head>
+
+    <body data-gnt-page-title="Emoviato" data-ng-controller="BaseBodyController as baseBodyController">
+        <div data-ui-view="root" class="container-fluid content-container"></div>
+
+
+    </body>
+</html>
+</html>

@@ -1,0 +1,37 @@
+/*
+ * -- Global Sass Variables --
+ * These are variables that will be used throughout the ui, and are not specific
+ * to a single state.
+ *
+ */
+
+$header-height: 72px;
+$emoviato-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$card-background-color: #f1f1f1;
+$bs-info-color: #5bc0de;
+$bs-success-color: #5cb85c;
+$bs-primary-color: #337ab7;
+$bs-danger-color: #d9534f;
+$border-radius: 4px;
+@mixin no-highlight {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* End global sass variables */
+
+
+/* Global styles */
+.content {
+  position: relative;
+  background-color: yellow; // change this.
+  }
+/* end Global Sytles */
+
+.home-view .temp-placeholder {
+  margin: 10px;
+}
