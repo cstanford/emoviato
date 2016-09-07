@@ -1,0 +1,11 @@
+gulp/node_modules/*
+npm-debug.log
+server/node_modules/*
+server/npm-debug.log
+server/custom.conf.json
+public/build
+public/plugin/*
+public/styles/fonts/*
+public/styles/css/*
+public/styles/fonts/*
+!public/styles/css/emoviato_styles.scss
