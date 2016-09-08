@@ -24,8 +24,8 @@
     "angular-bootstrap": "~0.14.3",
     "moment": "~2.10.6",
     "moment-timezone": "~0.4.1",
-    "bootstrap": "~3.3.6",
-    "components-font-awesome": "~4.6.3"
+    "components-font-awesome": "~4.6.3",
+    "bootstrap": "v4.0.0-alpha.4"
   },
   "resolutions": {
     "angular": "1.5.8"
