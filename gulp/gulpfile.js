@@ -135,21 +135,6 @@ gulp.task('copy:fonts', function() {
 });
 
 
-/* copy:tinymceSkins copies the 'skins' dir to public/build/js.
- * It contains fonts, img files, and css required by tinymce. Tinymce will
- * not find these resources if they are placed in the regular fonts dir,
- * img dir, and gulpstyles.css.
- */
-var tinymceSkins = ['public/plugin/tinymce-dist/skins/**/*'];
-var tinymceSkinsOutputDir = path.join(emoviatoRoot, 'public', 'build', 'js','skins');
-var tinymceSkinsOutputMessage = 'Task: "copy:fonts" created ' + fontsOutputDir;
-gulp.task('copy:tinymceSkins', function() {
-    return gulp.src(tinymceSkins)
-    .pipe(gulp.dest(tinymceSkinsOutputDir))
-    .on(taskFinishEvt, log.bind(tinymceSkinsOutputMessage));
-});
-
-
 gulp.task('3pjs-ugly', function() {
     return gulp.src(thirdPartyJSFiles)
     .pipe(concat(thirdPartyJSFileName))
@@ -165,7 +150,7 @@ var sassOutputMessage = 'Task: "sass" created ' + path.join(sassOutputPath, sass
 //App.css should always be last, for overrides.
 gulp.task('sass', function() {
     sass('public/styles/css/emoviato_styles.scss', {
-      cacheLocation: 'public/styles/css/'
+      cacheLocation: 'public/styles/css/sass_cache'
     })
     .pipe(gulp.dest(sassOutputPath))
     .on(taskFinishEvt, log.bind(sassOutputMessage));
@@ -223,5 +208,5 @@ gulp.task('watch', ['js','sass'], function () {
     gulp.watch('public/app/**/*.js',['js']);
     gulp.watch('public/styles/css/emoviato_styles.scss', ['sass']);
 });
-gulp.task('fullbuild', ['copy:fonts', 'copy:tinymceSkins', 'css','sass', 'js', '3pjs', 'lint']);
-gulp.task('fullbuildprod', ['copy:fonts', 'copy:tinymceSkins', 'css', 'sass', 'js-ugly', '3pjs-ugly', 'lint']);
+gulp.task('fullbuild', ['copy:fonts', 'css','sass', 'js', '3pjs', 'lint']);
+gulp.task('fullbuildprod', ['copy:fonts', 'css', 'sass', 'js-ugly', '3pjs-ugly', 'lint']);
