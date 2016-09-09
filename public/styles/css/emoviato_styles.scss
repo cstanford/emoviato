@@ -10,13 +10,14 @@ $emoviato-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1
 $card-background-color: #f1f1f1;
 $bs-info-color: #5bc0de;
 $bs-success-color: #5cb85c;
-$bs-primary-color: #337ab7;
+$bs-primary-color: #0275d8;
 $bs-danger-color: #d9534f;
+$bs-active-color: #025aa5;
 $border-radius: 4px;
+
 @mixin no-highlight {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -28,9 +29,31 @@ $border-radius: 4px;
 /* Global styles */
 .content {
   position: relative;
-  background-color: yellow; // change this.
   }
 /* end Global Sytles */
+
+.home-view {
+
+  .emoviato-heading {
+    background-color: $bs-active-color;
+    padding-bottom: 100px;
+    margin-left: -20px; // Removes default padding from Bootstrap
+    margin-right: -20px;
+    }
+
+    .card-deck {
+      table-layout: auto; // Enables min-width of trend-card.
+      margin-top: 80px;
+    }
+
+  .trend-card {
+    margin-right: 10px;
+    min-width: 200px;
+    max-width: 300px;
+    box-shadow: $emoviato-shadow;
+  }
+
+}
 
 .home-view .temp-placeholder {
   margin: 10px;

@@ -1,18 +1,28 @@
 <div class="home-view">
 
-    <div class="row temp-placeholder">
-
-      <h1 class="text-info col-md-4 fa fa-5x fa-hashtag">Harambe</h1>
-      <div class="col-md-4 text-xs-center">
-          <h1 class="fa fa-spin fa-meh-o fa-5x">  </h1>
-      </div>
-      <div class="col-md-4">
-          <h1 class="text-danger fa fa-5x fa-hashtag pull-right">Lit</h1>
-      </div>
-      <div class="col-md-12 img-responsive text-xs-center">
-          <img src="https://i2.wp.com/www.denverpost.com/wp-content/uploads/2016/06/gorilla-killed-cincinnati-zoo.jpg?w=620&crop=0%2C0px%2C100%2C9999px"></img>
-      </div>
-
+  <div class="jumbotron jumbotron-fluid emoviato-heading">
+    <div class="container">
+      <pre class="text-warning text-xs-center">
+███████╗ ███╗   ███╗  ██████╗  ██╗   ██╗ ██╗  █████╗  ████████╗  ██████╗
+██╔════╝ ████╗ ████║ ██╔═══██╗ ██║   ██║ ██║ ██╔══██╗ ╚══██╔══╝ ██╔═══██╗
+█████╗   ██╔████╔██║ ██║   ██║ ██║   ██║ ██║ ███████║    ██║    ██║   ██║
+██╔══╝   ██║╚██╔╝██║ ██║   ██║ ╚██╗ ██╔╝ ██║ ██╔══██║    ██║    ██║   ██║
+███████╗ ██║ ╚═╝ ██║ ╚██████╔╝  ╚████╔╝  ██║ ██║  ██║    ██║    ╚██████╔╝
+╚══════╝ ╚═╝     ╚═╝  ╚═════╝    ╚═══╝   ╚═╝ ╚═╝  ╚═╝    ╚═╝     ╚═════╝
+      </pre>
+        <h1 class="text-success text-xs-center display-4">&#128514; &#128293; &#128553; </h1>
     </div>
+  </div>
+
+  <div class="card-deck-wrapper">
+    <div class="card-deck">
+      <div class="card card-outline-primary trend-card" ng-repeat="trend in homeController.demoTrends">
+        <img class="card-img-top img-fluid trend-card-image" src="{{trend.img}}" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title fa fa-lg fa-hashtag trend-card-title" ng-bind="trend.trendName"></h4>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </div>
