@@ -1,10 +1,10 @@
 #!/usr/bin/env python3.4
 import json
 
-jsonData = open("/Users/Emily/Desktop/twitterJson/data.json")
+jsonData = open("data.json")
 parsedJson = json.load(jsonData)
 
-savedTweets = open("/Users/Emily/Desktop/twitterJson/savedTweets", "w")
+savedTweets = open("savedTweets", "w")
 
 #lists of emojis we will count
 happyEmojis = [ u'\U0001F601',
