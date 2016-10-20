@@ -1,13 +1,12 @@
 #!/usr/bin/env python3.4
-import codecs
-import unicodedata
 import json
-
-#emojiString = "\ud83d\ude44 is my fav emoji"
 
 jsonData = open("/Users/Emily/Desktop/twitterJson/data.json")
 parsedJson = json.load(jsonData)
 
+savedTweets = open("/Users/Emily/Desktop/twitterJson/savedTweets", "w")
+
+#lists of emojis we will count
 happyEmojis = [ u'\U0001F601',
                 u'\U0001F603',
                 u'\U0001F60A',
@@ -38,15 +37,18 @@ funnyEmojis = [ u'\U0001F602',
                 u'\U0001F639']
 
 def parseString(emojiString):
+
     emojiString = emojiString.encode('utf-16', 'surrogatepass').decode('utf-16')
-    #print(emojiString)
+    savedTweets.write(emojiString + "\n")
+
+    #count for single tweet
     numHappy = 0
     numSad = 0
     numMad = 0
     numFunny = 0
 
+    #parses emojiString passed in, increments count/prints emoji to console
     for char in emojiString:
-        #print(ord(char))
 
         if char in happyEmojis:
             numHappy += 1
@@ -63,24 +65,36 @@ def parseString(emojiString):
 
     return (numHappy, numSad, numMad, numFunny)
 
+#final count for all tweets
 tweetCount = 0
 numHappy = 0
 numSad = 0
 numMad = 0
 numFunny = 0
+
 for tweets in parsedJson:
+
     tweetCount += 1
+
+    savedTweets.write("tweet number: %d \n" % tweetCount)
     text = tweets["text"]
     res = parseString(text)
+
+    retweetCount = tweets["retweet_count"]
+    tweetLocation = tweets["user"]["location"]
+    savedTweets.write("retweet count: %d \n" % retweetCount)
+    savedTweets.write("location: %s \n\n" % tweetLocation)
+
     numHappy += res[0]
     numSad += res[1]
     numMad += res[2]
     numFunny += res[3]
 
+    #print to console when we get a hit
     if(res != (0,0,0,0)):
         print((numHappy, numSad, numMad, numFunny))
 
-print(tweetCount)
+print("total number of tweets parsed: ", tweetCount)
 
 
 
