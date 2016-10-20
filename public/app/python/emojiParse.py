@@ -5,7 +5,7 @@ import json
 
 #emojiString = "\ud83d\ude44 is my fav emoji"
 
-jsonData = open("/Users/Emily/Desktop/twitterJson/data.json")
+jsonData = open("data.json")
 parsedJson = json.load(jsonData)
 
 happyEmojis = [ u'\U0001F601',
@@ -78,9 +78,9 @@ for tweets in parsedJson:
     numFunny += res[3]
 
     if(res != (0,0,0,0)):
-        print((numHappy, numSad, numMad, numFunny))
+      print("Num Happy: {}, Num Sad: {}, Num Mad: {}, Num Funny: {}. ".format(numHappy, numSad, numMad, numFunny))
 
-print(tweetCount)
+print("\nTotal tweets parsed: {}.".format(tweetCount))
 
 
 
