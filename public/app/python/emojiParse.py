@@ -2,9 +2,10 @@
 import json
 
 jsonData = open("data.json")
-parsedJson = json.load(jsonData)
 
 savedTweets = open("savedTweets", "w")
+
+#emojiString = "\ud83d\ude44 is my fav emoji"
 
 #lists of emojis we will count
 happyEmojis = [ u'\U0001F601',
@@ -72,6 +73,8 @@ numSad = 0
 numMad = 0
 numFunny = 0
 
+#parsedJson needs to be here because it should only load after the parser has executed.
+parsedJson = json.load(jsonData)
 for tweets in parsedJson:
 
     tweetCount += 1
@@ -92,24 +95,6 @@ for tweets in parsedJson:
 
     #print to console when we get a hit
     if(res != (0,0,0,0)):
-        print((numHappy, numSad, numMad, numFunny))
+      print("Num Happy: {}, Num Sad: {}, Num Mad: {}, Num Funny: {}. ".format(numHappy, numSad, numMad, numFunny))
 
-print("total number of tweets parsed: ", tweetCount)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print("\nTotal tweets parsed: {}.".format(tweetCount))
