@@ -3,7 +3,7 @@
 
     angular.module('emoviato.ui.controllers').controller('HomeController', Controller);
 
-    Controller.$inject = ['$log', '$state', 'StateTransitionService'];
+    Controller.$inject = ['$log', '$state', '$stateParams', 'StateTransitionService'];
 
     function Controller($log, $state, $stateParams, StateTransitionService) {
 
@@ -29,6 +29,11 @@
           img: 'https://i.ytimg.com/vi/QUk6tPE4vuI/maxresdefault.jpg'
         }
       ];
+
+        this.goToTrendReport = function($index) {
+            console.log($index);
+            $state.go('app.trend_report', {trendData: $index});
+        };
 
   }
 
