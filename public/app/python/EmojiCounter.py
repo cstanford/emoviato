@@ -1,6 +1,8 @@
 import json
+import collections
 
-outfile = open('emojicount.txt', encoding = "utf-16", mode = "w")
+outfile = open('emojicount.json', mode = "w")
+cnt = collections.Counter()
 
 json_data = open('data.json')
 parsed_json = json.load(json_data)
@@ -10,4 +12,5 @@ for tweets in parsed_json:
 	for i in range(0, len(text)):
 		if text[i] > u"\U0001f600" and text[i] < u"\U0001f64f":
 			emoji = text[i]
-			outfile.write(emoji)
+			cnt[emoji] += 1
+json.dumps(cnt, outfile)
