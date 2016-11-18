@@ -1,5 +1,8 @@
 {
     "directory": "../public/plugin",
     "strict-ssl": false,
-    "https-proxy": ""
+    "https-proxy": "",
+    "resolvers": [
+    "bower-npm-resolver"
+    ]
 }

@@ -108,7 +108,9 @@ var thirdPartyJSFiles = [
     'public/plugin/angular-ui-router/release/angular-ui-router.js',
     'public/plugin/jQuery/dist/jquery.js',
     'public/plugin/bootstrap/dist/js/bootstrap.js',
-    'public/plugin/chartist/dist/chartist.js'
+    'public/plugin/angular-chartist.js/dist/angular-chartist.js',
+    'public/plugin/highcharts/js/highcharts.js',
+    'public/plugin/highcharts-ng/dist/highcharts-ng.js'
 ];
 
 var thirdPartyJSFileName = 'thirdparty.js';
