@@ -22,7 +22,17 @@
         </div>
     </div>
     <div class="row">
-        <highchart id="chart1" config="trendController.chartConfig"></highchart>
+        <div class="col-md-6">
+            <highchart id="chart1" config="trendController.pieChartConfig"></highchart>
+        </div>
+        <div class="col-md-6">
+            <highchart id="chart2" config="trendController.columnChartConfig"></highchart>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <highchart id="chart3" config="trendController.histoChartConfig"></highchart>
+        </div>
     </div>
 
 

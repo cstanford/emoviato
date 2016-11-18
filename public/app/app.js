@@ -7,7 +7,6 @@ var app = angular.module('app', [
     'ngCookies',
     'ui.router',
     'ui.bootstrap',
-    'angular-chartist',
     'highcharts-ng',
     //END third party modules
     //BEGIN Do Re ME (emoviato) modules

@@ -107,10 +107,7 @@ var thirdPartyJSFiles = [
     'public/plugin/angular-ui-grid/ui-grid.min.js',
     'public/plugin/angular-ui-router/release/angular-ui-router.js',
     'public/plugin/jQuery/dist/jquery.js',
-    'public/plugin/bootstrap/dist/js/bootstrap.js',
-    'public/plugin/angular-chartist.js/dist/angular-chartist.js',
-    'public/plugin/highcharts/js/highcharts.js',
-    'public/plugin/highcharts-ng/dist/highcharts-ng.js'
+    'public/plugin/bootstrap/dist/js/bootstrap.js'
 ];
 
 var thirdPartyJSFileName = 'thirdparty.js';
@@ -170,8 +167,7 @@ gulp.task('css', function() {
         'public/plugin/angular-bootstrap/angular-bootstrap-csp.css',
         'public/plugin/components-font-awesome/css/font-awesome.css',
         'public/plugin/angular-motion/dist/angular-motion.css',
-        'public/plugin/bootstrap/dist/css/bootstrap.css',
-        'public/plugin/chartist/dist/chartist.css'
+        'public/plugin/bootstrap/dist/css/bootstrap.css'
     ])
     .pipe(concat(cssFilename))
     .pipe(frep(newLinePattern))
