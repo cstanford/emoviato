@@ -11,3 +11,4 @@ public/styles/fonts/*
 !public/styles/css/emoviato_styles.scss
 .DS_Store
 public/app/python/savedTweets
+public/app/python/generatedFiles
