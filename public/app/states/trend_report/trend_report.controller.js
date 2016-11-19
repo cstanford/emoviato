@@ -3,15 +3,21 @@
 
     angular.module('emoviato.ui.controllers').controller('TrendController', Controller);
 
-    Controller.$inject = ['$log', '$state', '$stateParams', '$interval', '$timeout','StateTransitionService'];
+    Controller.$inject = ['$log', '$state', '$stateParams', '$interval', '$timeout','ChartService'];
 
-    function Controller($log, $state, $stateParams, $interval, $timeout, StateTransitionService) {
+    function Controller($log, $state, $stateParams, $interval, $timeout, ChartService) {
 
-        this.trendData = $stateParams;
+        this.currentTrendName = $stateParams;
 
-        this.testParams = function () {
+        var trendReportContainer = ChartService.getTrendReportContainer();
+        this.trendData = trendReportContainer.trendData;
+
+        var testLog = function () {
+            console.log('testlog');
             console.log(this.trendData);
-        };
+        }.bind(this);
+
+        testLog();
 
         this.pieChartConfig = {
 

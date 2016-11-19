@@ -16,7 +16,7 @@
             }
         };
 
-        var path = '/app/python/web-data/';
+        var path = '/app/web-data/';
 
         var getTopTrends =  function(){
 
@@ -25,18 +25,20 @@
 
             return $http.get(requestString).then(function(response){
                 topTrendsContainer.topTrends = response.data;
+                $log.debug("in service: getTopTrends()");
                 $log.debug(response.data);
                 return response;
             });
         };
 
-        var getTrendInfo = function (trendName) {
-            var requestString = path + 'currentTrendTweets/' + trendName + '/JsonParsed.json';
+        var getTrendInfo = function (trendNameOb) {
+            $log.debug('in service getTrendInfo()');
+            var trendName = trendNameOb.currentTrendName;
+            $log.debug(trendName);
+            var requestString = path + 'current-trending-tweets/' + trendName + '.json';
 
             return $http.get(requestString).then(function (response) {
                 trendReportContainer.trendData = response.data;
-                $log.debug("getTrendInfo()");
-                $log.debug(response.data);
                 return response;
             });
         };
@@ -50,7 +52,7 @@
                 return topTrendsContainer;
             },
             refreshTrendReportContainer: function (trendName) {
-                return getTopTrends();
+                return getTrendInfo(trendName);
             },
             getTrendReportContainer: function(){
                 return trendReportContainer;

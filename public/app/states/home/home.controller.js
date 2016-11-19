@@ -34,11 +34,11 @@
       ];
 
         this.goToTrendReport = function($index) {
-          console.log(this.topTrends[$index].trendName);
-          $state.go('app.trend_report', {trendData: $index});
+          $state.go('app.trend_report', {currentTrendName: this.topTrends[$index].trendName});
         };
 
-  }
+
+    }
 
     return Controller;
 })();

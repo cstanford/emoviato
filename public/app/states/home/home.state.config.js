@@ -11,6 +11,7 @@ angular.module('emoviato.ui.routes')
                             topTrends: ['$log', '$stateParams', 'ChartService',
                                 function($log, $stateParams, ChartService) {
                                     return ChartService.refreshTopTrendsContainer().then(function(response) { // Gets the new binding container when it needs to be updated
+
                                         $log.debug(response.data);
                                         return response.data;
 
