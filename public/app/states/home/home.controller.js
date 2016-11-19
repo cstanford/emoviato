@@ -3,9 +3,12 @@
 
     angular.module('emoviato.ui.controllers').controller('HomeController', Controller);
 
-    Controller.$inject = ['$log', '$state', '$stateParams', 'StateTransitionService'];
+    Controller.$inject = ['$log', '$state', '$stateParams', 'ChartService'];
 
-    function Controller($log, $state, $stateParams, StateTransitionService) {
+    function Controller($log, $state, $stateParams, ChartService) {
+
+      var topTrendContainer = ChartService.getBindingContainer();
+      this.topTrends = topTrendContainer.topTrends;
 
       this.demoTrends = [
         {
@@ -31,8 +34,8 @@
       ];
 
         this.goToTrendReport = function($index) {
-            console.log($index);
-            $state.go('app.trend_report', {trendData: $index});
+          console.log(this.topTrends[$index].trendName);
+          $state.go('app.trend_report', {trendData: $index});
         };
 
   }
