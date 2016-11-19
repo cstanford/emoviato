@@ -7,7 +7,7 @@
 
     function Controller($log, $state, $stateParams, ChartService) {
 
-      var topTrendContainer = ChartService.getBindingContainer();
+      var topTrendContainer = ChartService.getTopTrendsContainer();
       this.topTrends = topTrendContainer.topTrends;
 
       this.demoTrends = [

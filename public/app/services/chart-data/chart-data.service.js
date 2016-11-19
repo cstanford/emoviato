@@ -4,34 +4,56 @@
 
     Service.$inject = ['$log', '$http', '$state', '$stateParams'];
     function Service($log, $http, $state, $stateParams){
-        var bindingContainer = {
+        var topTrendsContainer = {
             topTrends: {
 
             }
         };
 
-        var getTrends =  function(){
+        var trendReportContainer = {
+            trendData: {
 
-            var requestString =  '/app/python/topTrends.json';
+            }
+        };
+
+        var path = '/app/python/web-data/';
+
+        var getTopTrends =  function(){
+
+            var requestString =  path + 'topTrends.json';
+            $log.debug('requestSting: ' + requestString);
 
             return $http.get(requestString).then(function(response){
-                bindingContainer.topTrends = response.data;
+                topTrendsContainer.topTrends = response.data;
+                $log.debug(response.data);
                 return response;
             });
         };
 
-        var init = function(){
-            getTrends();
+        var getTrendInfo = function (trendName) {
+            var requestString = path + 'currentTrendTweets/' + trendName + '/JsonParsed.json';
+
+            return $http.get(requestString).then(function (response) {
+                trendReportContainer.trendData = response.data;
+                $log.debug("getTrendInfo()");
+                $log.debug(response.data);
+                return response;
+            });
         };
 
-        init();
 
         return {
-            refreshContainer: function () {
-                return getTrends();
+            refreshTopTrendsContainer: function () {
+                return getTopTrends();
             },
-            getBindingContainer: function(){
-                return bindingContainer;
+            getTopTrendsContainer: function(){
+                return topTrendsContainer;
+            },
+            refreshTrendReportContainer: function (trendName) {
+                return getTopTrends();
+            },
+            getTrendReportContainer: function(){
+                return trendReportContainer;
             }
         };
 
