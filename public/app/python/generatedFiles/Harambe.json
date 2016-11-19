@@ -1,0 +1,4314 @@
+[
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 20:25:01 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/XjXIxj9vWf",
+          "expanded_url": "https://twitter.com/FoxNews/status/799347632602804225/photo/1",
+          "id": 799338473874333696,
+          "id_str": "799338473874333696",
+          "indices": [
+            104,
+            127
+          ],
+          "media_url": "http://pbs.twimg.com/media/CxfSG16VIAAPHze.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CxfSG16VIAAPHze.jpg",
+          "sizes": {
+            "large": {
+              "h": 493,
+              "resize": "fit",
+              "w": 876
+            },
+            "medium": {
+              "h": 493,
+              "resize": "fit",
+              "w": 876
+            },
+            "small": {
+              "h": 383,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/XjXIxj9vWf"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "fxn.ws/2flgTS7",
+          "expanded_url": "http://fxn.ws/2flgTS7",
+          "indices": [
+            80,
+            103
+          ],
+          "url": "https://t.co/fySQyKFj5I"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/XjXIxj9vWf",
+          "expanded_url": "https://twitter.com/FoxNews/status/799347632602804225/photo/1",
+          "id": 799338473874333696,
+          "id_str": "799338473874333696",
+          "indices": [
+            104,
+            127
+          ],
+          "media_url": "http://pbs.twimg.com/media/CxfSG16VIAAPHze.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CxfSG16VIAAPHze.jpg",
+          "sizes": {
+            "large": {
+              "h": 493,
+              "resize": "fit",
+              "w": 876
+            },
+            "medium": {
+              "h": 493,
+              "resize": "fit",
+              "w": 876
+            },
+            "small": {
+              "h": 383,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/XjXIxj9vWf"
+        }
+      ]
+    },
+    "favorite_count": 488,
+    "favorited": false,
+    "geo": null,
+    "id": 799347632602804225,
+    "id_str": "799347632602804225",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 385,
+    "retweeted": false,
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "text": "Barrier in Cincinnati Zoo's Harambe exhibit failed to meet standards, feds say  https://t.co/fySQyKFj5I https://t.co/XjXIxj9vWf",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Sat Mar 17 19:01:26 +0000 2007",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "America\u2019s Strongest Primetime Lineup Anywhere! Follow America's #1 cable news network, delivering you breaking news, insightful analysis, and must-see videos.",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "foxnews.com",
+              "expanded_url": "http://www.foxnews.com",
+              "indices": [
+                0,
+                22
+              ],
+              "url": "http://t.co/ZYG58XZtAC"
+            }
+          ]
+        }
+      },
+      "favourites_count": 0,
+      "follow_request_sent": false,
+      "followers_count": 11753019,
+      "following": false,
+      "friends_count": 430,
+      "geo_enabled": false,
+      "has_extended_profile": false,
+      "id": 1367531,
+      "id_str": "1367531",
+      "is_translation_enabled": true,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 54898,
+      "location": "U.S.A.",
+      "name": "Fox News",
+      "notifications": false,
+      "profile_background_color": "0E2331",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/414488415/xyz123abc.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/414488415/xyz123abc.jpg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1367531/1478723679",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/794654746342662144/hHnFe4Sx_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/794654746342662144/hHnFe4Sx_normal.jpg",
+      "profile_link_color": "183A52",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F4F4F4",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "FoxNews",
+      "statuses_count": 279970,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "regular",
+      "url": "http://t.co/ZYG58XZtAC",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Nov 18 00:36:21 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 592,
+    "favorited": false,
+    "geo": null,
+    "id": 799410882044252161,
+    "id_str": "799410882044252161",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 160,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "text": "things to leave in 2016:\n\n- trannies\n- buzzfeed\n- harambe\n- neocons\n- international bankers\n- mainstream media\n- illegal mexicans",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Sat Nov 19 03:48:45 +0000 2011",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "ALT RIGHT PROPAGANDIST. NATIONALIST CULT LEADER. JOURNALIST. // mike@yiannopoulos.net",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "soundcloud.com/SADVILLAIN",
+              "expanded_url": "http://soundcloud.com/SADVILLAIN",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/Bmf2cGFooG"
+            }
+          ]
+        }
+      },
+      "favourites_count": 103787,
+      "follow_request_sent": false,
+      "followers_count": 16013,
+      "following": false,
+      "friends_count": 381,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 416016530,
+      "id_str": "416016530",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 114,
+      "location": "Raleigh, NC",
+      "name": "Mike Ma",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/416016530/1464322453",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/791916765685157888/6pV6VNes_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/791916765685157888/6pV6VNes_normal.jpg",
+      "profile_link_color": "1E1E1E",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "MikeMa_",
+      "statuses_count": 14075,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "regular",
+      "url": "https://t.co/Bmf2cGFooG",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 00:28:25 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "id": 95234063,
+          "id_str": "95234063",
+          "indices": [
+            47,
+            58
+          ],
+          "name": "Bill Chastain",
+          "screen_name": "wwchastain"
+        }
+      ]
+    },
+    "favorite_count": 737,
+    "favorited": false,
+    "geo": null,
+    "id": 799046499921317888,
+    "id_str": "799046499921317888",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 329,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "You probably voted for Harambe in the election @wwchastain",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Tue Apr 19 03:49:08 +0000 2011",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "I play sports but mostly just tweet bad dad jokes. Instagram: Ben_Verlander",
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "favourites_count": 2447,
+      "follow_request_sent": false,
+      "followers_count": 29194,
+      "following": false,
+      "friends_count": 579,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 284350412,
+      "id_str": "284350412",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 195,
+      "location": "",
+      "name": "Ben Verlander",
+      "notifications": false,
+      "profile_background_color": "1A1B1F",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/418163735/imgres.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/418163735/imgres.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/284350412/1437588170",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/623343129740091392/iAc3maEn_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/623343129740091392/iAc3maEn_normal.jpg",
+      "profile_link_color": "2FC2EF",
+      "profile_sidebar_border_color": "181A1E",
+      "profile_sidebar_fill_color": "252429",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "Verly32",
+      "statuses_count": 3422,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": null,
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 23:51:48 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/CqY1y0U0t4",
+          "expanded_url": "http://twitter.com/BuzzFeedNews/status/799399672338989057/photo/1",
+          "id": 799399613807542272,
+          "id_str": "799399613807542272",
+          "indices": [
+            98,
+            121
+          ],
+          "media_url": "http://pbs.twimg.com/media/CxgJtp6VQAAk9-v.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CxgJtp6VQAAk9-v.jpg",
+          "sizes": {
+            "large": {
+              "h": 924,
+              "resize": "fit",
+              "w": 1632
+            },
+            "medium": {
+              "h": 679,
+              "resize": "fit",
+              "w": 1200
+            },
+            "small": {
+              "h": 385,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/CqY1y0U0t4"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "buzzfeed.com/claudiakoerner\u2026",
+          "expanded_url": "https://www.buzzfeed.com/claudiakoerner/cincinnati-zoos-fence-between-visitors-and-harambe-didnt-mee?bftwnews&utm_term=4ldqpgc#4ldqpgc",
+          "indices": [
+            74,
+            97
+          ],
+          "url": "https://t.co/Qlpdiv2RTs"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/CqY1y0U0t4",
+          "expanded_url": "http://twitter.com/BuzzFeedNews/status/799399672338989057/photo/1",
+          "id": 799399613807542272,
+          "id_str": "799399613807542272",
+          "indices": [
+            98,
+            121
+          ],
+          "media_url": "http://pbs.twimg.com/media/CxgJtp6VQAAk9-v.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CxgJtp6VQAAk9-v.jpg",
+          "sizes": {
+            "large": {
+              "h": 924,
+              "resize": "fit",
+              "w": 1632
+            },
+            "medium": {
+              "h": 679,
+              "resize": "fit",
+              "w": 1200
+            },
+            "small": {
+              "h": 385,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/CqY1y0U0t4"
+        }
+      ]
+    },
+    "favorite_count": 153,
+    "favorited": false,
+    "geo": null,
+    "id": 799399672338989057,
+    "id_str": "799399672338989057",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 86,
+    "retweeted": false,
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "text": "Cincinnati Zoo\u2019s Fence Between Visitors And Harambe Didn\u2019t Meet Standards https://t.co/Qlpdiv2RTs https://t.co/CqY1y0U0t4",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Tue Dec 18 15:46:37 +0000 2012",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "The most trusted @ username in news. Download the new @BuzzFeedNews App for both iOS and Android: https://t.co/CXhyKkO7jY",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "bit.ly/1FMEuB8",
+              "expanded_url": "http://bit.ly/1FMEuB8",
+              "indices": [
+                98,
+                121
+              ],
+              "url": "https://t.co/CXhyKkO7jY"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "buzzfeed.com/news",
+              "expanded_url": "http://www.buzzfeed.com/news",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/I6ADKX77mj"
+            }
+          ]
+        }
+      },
+      "favourites_count": 1095,
+      "follow_request_sent": false,
+      "followers_count": 592082,
+      "following": false,
+      "friends_count": 4906,
+      "geo_enabled": false,
+      "has_extended_profile": false,
+      "id": 1020058453,
+      "id_str": "1020058453",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 7991,
+      "location": "",
+      "name": "BuzzFeed News",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1020058453/1478675781",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/796353157576138752/H2xr-NkC_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/796353157576138752/H2xr-NkC_normal.jpg",
+      "profile_link_color": "000000",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "BuzzFeedNews",
+      "statuses_count": 87877,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/I6ADKX77mj",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 18:03:31 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/gkHSkRiMih",
+          "expanded_url": "http://twitter.com/Breaking911/status/799312024127807489/photo/1",
+          "id": 799312022605328384,
+          "id_str": "799312022605328384",
+          "indices": [
+            109,
+            132
+          ],
+          "media_url": "http://pbs.twimg.com/media/Cxe6DLQW8AA_XSc.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Cxe6DLQW8AA_XSc.jpg",
+          "sizes": {
+            "large": {
+              "h": 168,
+              "resize": "fit",
+              "w": 299
+            },
+            "medium": {
+              "h": 168,
+              "resize": "fit",
+              "w": 299
+            },
+            "small": {
+              "h": 168,
+              "resize": "fit",
+              "w": 299
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/gkHSkRiMih"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "breaking911.com/breaking-cinci\u2026",
+          "expanded_url": "http://breaking911.com/breaking-cincinnati-zoos-gorilla-barrier-wasnt-compliance-day-harambe-killed/",
+          "indices": [
+            85,
+            108
+          ],
+          "url": "https://t.co/lmJdZCUtO0"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/gkHSkRiMih",
+          "expanded_url": "http://twitter.com/Breaking911/status/799312024127807489/photo/1",
+          "id": 799312022605328384,
+          "id_str": "799312022605328384",
+          "indices": [
+            109,
+            132
+          ],
+          "media_url": "http://pbs.twimg.com/media/Cxe6DLQW8AA_XSc.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Cxe6DLQW8AA_XSc.jpg",
+          "sizes": {
+            "large": {
+              "h": 168,
+              "resize": "fit",
+              "w": 299
+            },
+            "medium": {
+              "h": 168,
+              "resize": "fit",
+              "w": 299
+            },
+            "small": {
+              "h": 168,
+              "resize": "fit",
+              "w": 299
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/gkHSkRiMih"
+        }
+      ]
+    },
+    "favorite_count": 96,
+    "favorited": false,
+    "geo": null,
+    "id": 799312024127807489,
+    "id_str": "799312024127807489",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 124,
+    "retweeted": false,
+    "source": "<a href=\"http://www.ipraxalab.com/wordpress/breaking/\" rel=\"nofollow\">BREAKING NEWS Testing new</a>",
+    "text": "BREAKING: Cincinnati Zoo's Gorilla Barrier Wasn't in Compliance Day Harambe Killed - https://t.co/lmJdZCUtO0 https://t.co/gkHSkRiMih",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Sun Sep 18 16:36:06 +0000 2011",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Break\u2022ing 9\u20221\u20221 (noun): Newly Received Information About an Event That Is Currently Occurring or Developing",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "Breaking911.com",
+              "expanded_url": "http://Breaking911.com",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/RWBI1f2gDw"
+            }
+          ]
+        }
+      },
+      "favourites_count": 1,
+      "follow_request_sent": false,
+      "followers_count": 160308,
+      "following": false,
+      "friends_count": 3,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 375721095,
+      "id_str": "375721095",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 2261,
+      "location": "Visit us at",
+      "name": "Breaking911",
+      "notifications": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000156568660/kBuOAnnE.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000156568660/kBuOAnnE.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/375721095/1436580937",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/619546088995979264/KuG27bBK_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/619546088995979264/KuG27bBK_normal.jpg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "Breaking911",
+      "statuses_count": 54483,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/RWBI1f2gDw",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 18:34:46 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/BHt5UmSGVl",
+          "expanded_url": "http://twitter.com/TB_Times/status/799319889567547393/photo/1",
+          "id": 799319885834637312,
+          "id_str": "799319885834637312",
+          "indices": [
+            103,
+            126
+          ],
+          "media_url": "http://pbs.twimg.com/media/CxfBM4EUUAAqt9m.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CxfBM4EUUAAqt9m.jpg",
+          "sizes": {
+            "large": {
+              "h": 498,
+              "resize": "fit",
+              "w": 422
+            },
+            "medium": {
+              "h": 498,
+              "resize": "fit",
+              "w": 422
+            },
+            "small": {
+              "h": 498,
+              "resize": "fit",
+              "w": 422
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/BHt5UmSGVl"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "dlvr.it/MhBPkd",
+          "expanded_url": "http://dlvr.it/MhBPkd",
+          "indices": [
+            79,
+            102
+          ],
+          "url": "https://t.co/kv6kG6Q5Gc"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/BHt5UmSGVl",
+          "expanded_url": "http://twitter.com/TB_Times/status/799319889567547393/photo/1",
+          "id": 799319885834637312,
+          "id_str": "799319885834637312",
+          "indices": [
+            103,
+            126
+          ],
+          "media_url": "http://pbs.twimg.com/media/CxfBM4EUUAAqt9m.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CxfBM4EUUAAqt9m.jpg",
+          "sizes": {
+            "large": {
+              "h": 498,
+              "resize": "fit",
+              "w": 422
+            },
+            "medium": {
+              "h": 498,
+              "resize": "fit",
+              "w": 422
+            },
+            "small": {
+              "h": 498,
+              "resize": "fit",
+              "w": 422
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/BHt5UmSGVl"
+        }
+      ]
+    },
+    "favorite_count": 95,
+    "favorited": false,
+    "geo": null,
+    "id": 799319889567547393,
+    "id_str": "799319889567547393",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 125,
+    "retweeted": false,
+    "source": "<a href=\"http://dlvr.it\" rel=\"nofollow\">dlvr.it</a>",
+    "text": "Feds: Gorilla exhibit barrier didn't meet U.S. standards when Harambe was shot https://t.co/kv6kG6Q5Gc https://t.co/BHt5UmSGVl",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri Apr 04 17:14:50 +0000 2008",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Tampa Bay Times is Florida's largest and best newspaper. Download the free app: http://t.co/UDKOYHBDk5",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "tbtim.es/timesmobileapp",
+              "expanded_url": "http://tbtim.es/timesmobileapp",
+              "indices": [
+                80,
+                102
+              ],
+              "url": "http://t.co/UDKOYHBDk5"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "tampabay.com",
+              "expanded_url": "http://www.tampabay.com/",
+              "indices": [
+                0,
+                22
+              ],
+              "url": "http://t.co/1SXBCFjAAO"
+            }
+          ]
+        }
+      },
+      "favourites_count": 2936,
+      "follow_request_sent": false,
+      "followers_count": 175062,
+      "following": false,
+      "friends_count": 2098,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 14304462,
+      "id_str": "14304462",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 2235,
+      "location": "St. Petersburg, Florida",
+      "name": "Tampa Bay Times",
+      "notifications": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/790913635/76c4b50b978b8505eea9137ecd4da3b3.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/790913635/76c4b50b978b8505eea9137ecd4da3b3.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/14304462/1399048814",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/762650826775130112/KAi8LaIm_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/762650826775130112/KAi8LaIm_normal.jpg",
+      "profile_link_color": "338C70",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "TB_Times",
+      "statuses_count": 100128,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "http://t.co/1SXBCFjAAO",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 21:21:01 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "apne.ws/2f5culE",
+          "expanded_url": "http://apne.ws/2f5culE",
+          "indices": [
+            112,
+            135
+          ],
+          "url": "https://t.co/XTHB4q7CiG"
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorite_count": 49,
+    "favorited": false,
+    "geo": null,
+    "id": 799361724679737344,
+    "id_str": "799361724679737344",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 79,
+    "retweeted": false,
+    "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+    "text": "Feds: Barrier wasn't up to standards at Cincinnati Zoo exhibit where boy slipped inside and Harambe was killed. https://t.co/XTHB4q7CiG",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Tue Nov 24 20:10:17 +0000 2015",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "@AP news from New England, New York, New Jersey, Pennsylvania and Ohio. Share your news tips securely: https://t.co/O60kOrqxp0",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "bit.ly/2eiAKmx",
+              "expanded_url": "http://bit.ly/2eiAKmx",
+              "indices": [
+                103,
+                126
+              ],
+              "url": "https://t.co/O60kOrqxp0"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "ap.org",
+              "expanded_url": "http://ap.org",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/inmXR0H3mh"
+            }
+          ]
+        }
+      },
+      "favourites_count": 74,
+      "follow_request_sent": false,
+      "followers_count": 2750,
+      "following": false,
+      "friends_count": 247,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 4267082849,
+      "id_str": "4267082849",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 130,
+      "location": "",
+      "name": "AP Eastern U.S.",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/4267082849/1473777998",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/669247136458903552/2JRwgom3_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/669247136458903552/2JRwgom3_normal.png",
+      "profile_link_color": "DD2E44",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "APEastRegion",
+      "statuses_count": 2351,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/inmXR0H3mh",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 20:37:04 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "ti.me/2f8YiuT",
+          "expanded_url": "http://ti.me/2f8YiuT",
+          "indices": [
+            96,
+            119
+          ],
+          "url": "https://t.co/iMZyIO7gXi"
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorite_count": 66,
+    "favorited": false,
+    "geo": null,
+    "id": 799350664035991552,
+    "id_str": "799350664035991552",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 53,
+    "retweeted": false,
+    "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+    "text": "Cincinnati Zoo\u2019s gorilla barrier was outdated and ineffective when Harambe was killed, feds say https://t.co/iMZyIO7gXi",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Apr 03 13:54:30 +0000 2008",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Breaking news and current events from around the globe. Hosted by TIME staff. Tweet questions to our customer service team @TIMEmag_Service.",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "time.com",
+              "expanded_url": "http://www.time.com",
+              "indices": [
+                0,
+                22
+              ],
+              "url": "http://t.co/4aYbUuAeSh"
+            }
+          ]
+        }
+      },
+      "favourites_count": 611,
+      "follow_request_sent": false,
+      "followers_count": 12074517,
+      "following": false,
+      "friends_count": 842,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 14293310,
+      "id_str": "14293310",
+      "is_translation_enabled": true,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 97328,
+      "location": "",
+      "name": "TIME",
+      "notifications": false,
+      "profile_background_color": "CC0000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/735228291/107f1a300a90ee713937234bb3d139c0.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/735228291/107f1a300a90ee713937234bb3d139c0.jpeg",
+      "profile_background_tile": true,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/14293310/1403546591",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1700796190/Picture_24_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1700796190/Picture_24_normal.png",
+      "profile_link_color": "DE3333",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "D9D9D9",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "TIME",
+      "statuses_count": 201275,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "regular",
+      "url": "http://t.co/4aYbUuAeSh",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 23:52:18 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "twitter.com/i/web/status/7\u2026",
+          "expanded_url": "https://twitter.com/i/web/status/799399795601326080",
+          "indices": [
+            112,
+            135
+          ],
+          "url": "https://t.co/HsXKN5w5Hv"
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorite_count": 42,
+    "favorited": false,
+    "geo": null,
+    "id": 799399795601326080,
+    "id_str": "799399795601326080",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 59,
+    "retweeted": false,
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "text": "Federal inspection: On day Harambe was shot and killed, Cincinnati Zoo's gorilla barrier wasn't in compliance.\u2026 https://t.co/HsXKN5w5Hv",
+    "truncated": true,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Wed Sep 12 19:19:22 +0000 2007",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "The latest news and information from the @NBCNightlyNews team. Sign up for The NIGHTLY -- top stories, delivered to your inbox tonight: https://t.co/CR5meAufy7",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "nbcnews.to/1O0HUDS",
+              "expanded_url": "http://nbcnews.to/1O0HUDS",
+              "indices": [
+                136,
+                159
+              ],
+              "url": "https://t.co/CR5meAufy7"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "NBCNightlyNews.com",
+              "expanded_url": "http://NBCNightlyNews.com",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/siVgviF7br"
+            }
+          ]
+        }
+      },
+      "favourites_count": 1235,
+      "follow_request_sent": false,
+      "followers_count": 625653,
+      "following": false,
+      "friends_count": 424,
+      "geo_enabled": false,
+      "has_extended_profile": false,
+      "id": 8839632,
+      "id_str": "8839632",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 9553,
+      "location": "New York",
+      "name": "NBC Nightly News",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/462444957/NN_BG.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/462444957/NN_BG.jpg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/8839632/1477432588",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/785592557170548736/SHaFtQWN_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/785592557170548736/SHaFtQWN_normal.jpg",
+      "profile_link_color": "124578",
+      "profile_sidebar_border_color": "DADADA",
+      "profile_sidebar_fill_color": "EEEEEE",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "NBCNightlyNews",
+      "statuses_count": 70931,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/siVgviF7br",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 18:14:56 +0000 2016",
+    "entities": {
+      "hashtags": [
+        {
+          "indices": [
+            81,
+            89
+          ],
+          "text": "Harambe"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "twitter.com/i/web/status/7\u2026",
+          "expanded_url": "https://twitter.com/i/web/status/799314896865226752",
+          "indices": [
+            100,
+            123
+          ],
+          "url": "https://t.co/DYFqU8n1Rj"
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorite_count": 43,
+    "favorited": false,
+    "geo": null,
+    "id": 799314896865226752,
+    "id_str": "799314896865226752",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 56,
+    "retweeted": false,
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "text": "Feds: Barrier in Cincinnati Zoo's gorilla exhibit didn't meet U.S. standards day #Harambe was shot\u2026 https://t.co/DYFqU8n1Rj",
+    "truncated": true,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Jul 03 02:07:45 +0000 2008",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Columbus news, weather, traffic & sports | Central Ohio's News Leader | #WBNS #10TV #Doppler10",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "10tv.com",
+              "expanded_url": "http://www.10tv.com",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/KrvUsJSH4Y"
+            }
+          ]
+        }
+      },
+      "favourites_count": 595,
+      "follow_request_sent": false,
+      "followers_count": 243695,
+      "following": false,
+      "friends_count": 25065,
+      "geo_enabled": false,
+      "has_extended_profile": false,
+      "id": 15304100,
+      "id_str": "15304100",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 1645,
+      "location": "Columbus, Ohio, USA",
+      "name": "10TV.com",
+      "notifications": false,
+      "profile_background_color": "9AE4E8",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/578943275/gh79b5utk83h9lvlm292.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/578943275/gh79b5utk83h9lvlm292.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/15304100/1471355098",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/744745275084902400/-QG6eLYf_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/744745275084902400/-QG6eLYf_normal.jpg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "87BC44",
+      "profile_sidebar_fill_color": "E0FF92",
+      "profile_text_color": "000000",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "10TV",
+      "statuses_count": 102502,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/KrvUsJSH4Y",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 18:02:10 +0000 2016",
+    "entities": {
+      "hashtags": [
+        {
+          "indices": [
+            51,
+            59
+          ],
+          "text": "Harambe"
+        },
+        {
+          "indices": [
+            94,
+            100
+          ],
+          "text": "abc15"
+        }
+      ],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/uNyfr13yg8",
+          "expanded_url": "http://twitter.com/abc15/status/799311682182860800/photo/1",
+          "id": 799311663144935424,
+          "id_str": "799311663144935424",
+          "indices": [
+            101,
+            124
+          ],
+          "media_url": "http://pbs.twimg.com/media/Cxe5uQKUoAAGEyv.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Cxe5uQKUoAAGEyv.jpg",
+          "sizes": {
+            "large": {
+              "h": 480,
+              "resize": "fit",
+              "w": 640
+            },
+            "medium": {
+              "h": 480,
+              "resize": "fit",
+              "w": 640
+            },
+            "small": {
+              "h": 480,
+              "resize": "fit",
+              "w": 640
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/uNyfr13yg8"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "bit.ly/2eKqYMu",
+          "expanded_url": "http://bit.ly/2eKqYMu",
+          "indices": [
+            70,
+            93
+          ],
+          "url": "https://t.co/AjYM3SLDmq"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/uNyfr13yg8",
+          "expanded_url": "http://twitter.com/abc15/status/799311682182860800/photo/1",
+          "id": 799311663144935424,
+          "id_str": "799311663144935424",
+          "indices": [
+            101,
+            124
+          ],
+          "media_url": "http://pbs.twimg.com/media/Cxe5uQKUoAAGEyv.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Cxe5uQKUoAAGEyv.jpg",
+          "sizes": {
+            "large": {
+              "h": 480,
+              "resize": "fit",
+              "w": 640
+            },
+            "medium": {
+              "h": 480,
+              "resize": "fit",
+              "w": 640
+            },
+            "small": {
+              "h": 480,
+              "resize": "fit",
+              "w": 640
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/uNyfr13yg8"
+        }
+      ]
+    },
+    "favorite_count": 37,
+    "favorited": false,
+    "geo": null,
+    "id": 799311682182860800,
+    "id_str": "799311682182860800",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 42,
+    "retweeted": false,
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "text": "Cincinnati Zoo's barrier wasn't in compliance when #Harambe was shot: https://t.co/AjYM3SLDmq #abc15 https://t.co/uNyfr13yg8",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri Oct 26 21:32:38 +0000 2007",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Your #1 source for #breaking news in Arizona. Join our conversation with #abc15. News tip?  share@abc15.com or call 602-685-6351",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "abc15.com",
+              "expanded_url": "http://www.abc15.com",
+              "indices": [
+                0,
+                22
+              ],
+              "url": "http://t.co/WsSXtWD6Ui"
+            }
+          ]
+        }
+      },
+      "favourites_count": 3589,
+      "follow_request_sent": false,
+      "followers_count": 289531,
+      "following": false,
+      "friends_count": 65372,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 9721292,
+      "id_str": "9721292",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 2166,
+      "location": "Phoenix, AZ",
+      "name": "ABC15 Arizona",
+      "notifications": false,
+      "profile_background_color": "1C1B19",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000082846431/844b51eccaeaa0a711bf6c6bffa56b62.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000082846431/844b51eccaeaa0a711bf6c6bffa56b62.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/9721292/1398200929",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/550984712378806273/GQhFtyB8_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/550984712378806273/GQhFtyB8_normal.jpeg",
+      "profile_link_color": "D8920C",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F2F0ED",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "abc15",
+      "statuses_count": 167712,
+      "time_zone": "Arizona",
+      "translator_type": "none",
+      "url": "http://t.co/WsSXtWD6Ui",
+      "utc_offset": -25200,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 23:30:02 +0000 2016",
+    "entities": {
+      "hashtags": [
+        {
+          "indices": [
+            48,
+            56
+          ],
+          "text": "Harambe"
+        }
+      ],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/ylN454Jywa",
+          "expanded_url": "http://twitter.com/RT_America/status/799394195890835456/photo/1",
+          "id": 799387212534128644,
+          "id_str": "799387212534128644",
+          "indices": [
+            90,
+            113
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/Cxf-bzkWIAQ9PYq.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Cxf-bzkWIAQ9PYq.jpg",
+          "sizes": {
+            "large": {
+              "h": 292,
+              "resize": "fit",
+              "w": 312
+            },
+            "medium": {
+              "h": 292,
+              "resize": "fit",
+              "w": 312
+            },
+            "small": {
+              "h": 292,
+              "resize": "fit",
+              "w": 312
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/ylN454Jywa"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "on.rt.com/7vfd",
+          "expanded_url": "http://on.rt.com/7vfd",
+          "indices": [
+            66,
+            89
+          ],
+          "url": "https://t.co/U9HKBWuon0"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/ylN454Jywa",
+          "expanded_url": "http://twitter.com/RT_America/status/799394195890835456/photo/1",
+          "id": 799387212534128644,
+          "id_str": "799387212534128644",
+          "indices": [
+            90,
+            113
+          ],
+          "media_url": "http://pbs.twimg.com/tweet_video_thumb/Cxf-bzkWIAQ9PYq.jpg",
+          "media_url_https": "https://pbs.twimg.com/tweet_video_thumb/Cxf-bzkWIAQ9PYq.jpg",
+          "sizes": {
+            "large": {
+              "h": 292,
+              "resize": "fit",
+              "w": 312
+            },
+            "medium": {
+              "h": 292,
+              "resize": "fit",
+              "w": 312
+            },
+            "small": {
+              "h": 292,
+              "resize": "fit",
+              "w": 312
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "animated_gif",
+          "url": "https://t.co/ylN454Jywa",
+          "video_info": {
+            "aspect_ratio": [
+              78,
+              73
+            ],
+            "variants": [
+              {
+                "bitrate": 0,
+                "content_type": "video/mp4",
+                "url": "https://pbs.twimg.com/tweet_video/Cxf-bzkWIAQ9PYq.mp4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "favorite_count": 72,
+    "favorited": false,
+    "geo": null,
+    "id": 799394195890835456,
+    "id_str": "799394195890835456",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 44,
+    "retweeted": false,
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "text": "Ohio zoo gorilla exhibit barrier too short when #Harambe was shot https://t.co/U9HKBWuon0 https://t.co/ylN454Jywa",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri Feb 19 20:40:15 +0000 2010",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "A three-time International Emmy nominated broadcaster making the world Question More",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "rt.com/usa",
+              "expanded_url": "http://rt.com/usa",
+              "indices": [
+                0,
+                20
+              ],
+              "url": "http://t.co/Bm48M61F"
+            }
+          ]
+        }
+      },
+      "favourites_count": 82,
+      "follow_request_sent": false,
+      "followers_count": 356538,
+      "following": false,
+      "friends_count": 741,
+      "geo_enabled": false,
+      "has_extended_profile": false,
+      "id": 115754870,
+      "id_str": "115754870",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 5079,
+      "location": "Washington, DC",
+      "name": "RT America",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/578310263633420288/aXXfFfc_.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/578310263633420288/aXXfFfc_.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/115754870/1420600511",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/547577745874501634/b1iXLmbO_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/547577745874501634/b1iXLmbO_normal.png",
+      "profile_link_color": "3D990F",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EBEBEB",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "RT_America",
+      "statuses_count": 86770,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "http://t.co/Bm48M61F",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Nov 18 18:51:14 +0000 2016",
+    "entities": {
+      "hashtags": [
+        {
+          "indices": [
+            0,
+            8
+          ],
+          "text": "Harambe"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "thedo.do/2foTgYT",
+          "expanded_url": "http://thedo.do/2foTgYT",
+          "indices": [
+            51,
+            74
+          ],
+          "url": "https://t.co/Hv6kRGTUyQ"
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorite_count": 59,
+    "favorited": false,
+    "geo": null,
+    "id": 799686419446923266,
+    "id_str": "799686419446923266",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 52,
+    "retweeted": false,
+    "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+    "text": "#Harambe's enclosure didn't meet safety standards. https://t.co/Hv6kRGTUyQ",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Jul 18 22:19:02 +0000 2013",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "For animal people.",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "thedodo.com",
+              "expanded_url": "http://thedodo.com",
+              "indices": [
+                0,
+                22
+              ],
+              "url": "http://t.co/8OI8fYm7h2"
+            }
+          ]
+        }
+      },
+      "favourites_count": 11800,
+      "follow_request_sent": false,
+      "followers_count": 101377,
+      "following": false,
+      "friends_count": 3142,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 1604444052,
+      "id_str": "1604444052",
+      "is_translation_enabled": true,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 1441,
+      "location": "New York, NY",
+      "name": "The Dodo",
+      "notifications": false,
+      "profile_background_color": "A0E6F9",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/458286792815304705/5TLXHXiN.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/458286792815304705/5TLXHXiN.jpeg",
+      "profile_background_tile": true,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1604444052/1478639248",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/775401262028300292/Vzvp_QN5_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/775401262028300292/Vzvp_QN5_normal.jpg",
+      "profile_link_color": "FF9B2A",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "dodo",
+      "statuses_count": 40439,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "http://t.co/8OI8fYm7h2",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 17 23:21:06 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "twitter.com/i/web/status/7\u2026",
+          "expanded_url": "https://twitter.com/i/web/status/799391945764335616",
+          "indices": [
+            117,
+            140
+          ],
+          "url": "https://t.co/QVzHZqpw6f"
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorite_count": 76,
+    "favorited": false,
+    "geo": null,
+    "id": 799391945764335616,
+    "id_str": "799391945764335616",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 42,
+    "retweeted": false,
+    "source": "<a href=\"http://www.socialflow.com\" rel=\"nofollow\">SocialFlow</a>",
+    "text": "After Harambe's death, it became \"apparent\" Cincinnati Zoo's gorilla enclosure\u00a0was \"no longer effective,\" USDA says\u2026 https://t.co/QVzHZqpw6f",
+    "truncated": true,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Sat Apr 04 12:40:32 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "See the whole picture with @ABC News. Join us on Facebook: https://t.co/ewMNZ54axm",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "facebook.com/abcnews",
+              "expanded_url": "https://www.facebook.com/abcnews",
+              "indices": [
+                59,
+                82
+              ],
+              "url": "https://t.co/ewMNZ54axm"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "ABCNews.com",
+              "expanded_url": "http://ABCNews.com",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/v7GWW7ho1l"
+            }
+          ]
+        }
+      },
+      "favourites_count": 466,
+      "follow_request_sent": false,
+      "followers_count": 8016134,
+      "following": false,
+      "friends_count": 799,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 28785486,
+      "id_str": "28785486",
+      "is_translation_enabled": true,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 45416,
+      "location": "New York City / Worldwide",
+      "name": "ABC News",
+      "notifications": false,
+      "profile_background_color": "6E8EB5",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/441965491024719872/pAv-lzCZ.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/441965491024719872/pAv-lzCZ.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/28785486/1478727185",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/658688193651277824/Kv_cNNub_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/658688193651277824/Kv_cNNub_normal.png",
+      "profile_link_color": "336699",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "ABC",
+      "statuses_count": 149996,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "regular",
+      "url": "https://t.co/v7GWW7ho1l",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Nov 18 09:10:13 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/Ij25NRQZS6",
+          "expanded_url": "http://twitter.com/latimes/status/799540200724635648/photo/1",
+          "id": 799540197977452545,
+          "id_str": "799540197977452545",
+          "indices": [
+            91,
+            114
+          ],
+          "media_url": "http://pbs.twimg.com/media/CxiJkuwXcAEAwrQ.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CxiJkuwXcAEAwrQ.jpg",
+          "sizes": {
+            "large": {
+              "h": 394,
+              "resize": "fit",
+              "w": 700
+            },
+            "medium": {
+              "h": 394,
+              "resize": "fit",
+              "w": 700
+            },
+            "small": {
+              "h": 383,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Ij25NRQZS6"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "lat.ms/2fmmwzJ",
+          "expanded_url": "http://lat.ms/2fmmwzJ",
+          "indices": [
+            67,
+            90
+          ],
+          "url": "https://t.co/VVzchzCb7w"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/Ij25NRQZS6",
+          "expanded_url": "http://twitter.com/latimes/status/799540200724635648/photo/1",
+          "id": 799540197977452545,
+          "id_str": "799540197977452545",
+          "indices": [
+            91,
+            114
+          ],
+          "media_url": "http://pbs.twimg.com/media/CxiJkuwXcAEAwrQ.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CxiJkuwXcAEAwrQ.jpg",
+          "sizes": {
+            "large": {
+              "h": 394,
+              "resize": "fit",
+              "w": 700
+            },
+            "medium": {
+              "h": 394,
+              "resize": "fit",
+              "w": 700
+            },
+            "small": {
+              "h": 383,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/Ij25NRQZS6"
+        }
+      ]
+    },
+    "favorite_count": 45,
+    "favorited": false,
+    "geo": null,
+    "id": 799540200724635648,
+    "id_str": "799540200724635648",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 42,
+    "retweeted": false,
+    "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+    "text": "Harambe exhibit at Ohio zoo didn't meet safety standards, feds say https://t.co/VVzchzCb7w https://t.co/Ij25NRQZS6",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Oct 09 11:07:42 +0000 2008",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "News from Los Angeles and the world. Staffed by http://t.co/zb8HyvYyAJ editors.",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "latimes.com",
+              "expanded_url": "http://latimes.com",
+              "indices": [
+                48,
+                70
+              ],
+              "url": "http://t.co/zb8HyvYyAJ"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "latimes.com",
+              "expanded_url": "http://latimes.com/",
+              "indices": [
+                0,
+                22
+              ],
+              "url": "http://t.co/JvbZRDfNzf"
+            }
+          ]
+        }
+      },
+      "favourites_count": 1868,
+      "follow_request_sent": false,
+      "followers_count": 2305683,
+      "following": false,
+      "friends_count": 10714,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 16664681,
+      "id_str": "16664681",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 28228,
+      "location": "Los Angeles, CA",
+      "name": "Los Angeles Times",
+      "notifications": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/596769492/sp4uqn6gr7cwmjefat2j.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/596769492/sp4uqn6gr7cwmjefat2j.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/16664681/1402448809",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/546329819919560704/XMWy2Z50_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/546329819919560704/XMWy2Z50_normal.jpeg",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "615F61",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "latimes",
+      "statuses_count": 152526,
+      "time_zone": "Pacific Time (US & Canada)",
+      "translator_type": "regular",
+      "url": "http://t.co/JvbZRDfNzf",
+      "utc_offset": -28800,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 06:35:00 +0000 2016",
+    "entities": {
+      "hashtags": [
+        {
+          "indices": [
+            115,
+            129
+          ],
+          "text": "ElectionNight"
+        }
+      ],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 9108,
+    "favorited": false,
+    "geo": null,
+    "id": 796239651296215041,
+    "id_str": "796239651296215041",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 9451,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "Over 11,000 people voted for Harambe. Harambe is a dead gorilla. \nThose 11,000 votes would have saved our country. #ElectionNight",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Aug 06 19:23:18 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Freelance Writer. CBS, AXS, Yahoo!, BlastingNews, & etc. I review #Games #Tech #Fashion #Travel. Casual #MTG #Twitch streamer. Inquiry? DavidLeavitt@gmail.com",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "DavidGLeavitt.com",
+              "expanded_url": "http://www.DavidGLeavitt.com",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/5FB1QT1bOh"
+            }
+          ]
+        }
+      },
+      "favourites_count": 511614,
+      "follow_request_sent": false,
+      "followers_count": 46502,
+      "following": false,
+      "friends_count": 471,
+      "geo_enabled": true,
+      "has_extended_profile": true,
+      "id": 63514682,
+      "id_str": "63514682",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 689,
+      "location": "Boston, MA",
+      "name": "David Leavitt",
+      "notifications": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000075112528/5f92bdc1bb4f75c9fdd2644719610073.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000075112528/5f92bdc1bb4f75c9fdd2644719610073.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/63514682/1472340462",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/721363406951948290/wbQGYSZL_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/721363406951948290/wbQGYSZL_normal.jpg",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "F6F6F6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "David_Leavitt",
+      "statuses_count": 33782,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "regular",
+      "url": "https://t.co/5FB1QT1bOh",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 16 23:29:15 +0000 2016",
+    "entities": {
+      "hashtags": [
+        {
+          "indices": [
+            0,
+            8
+          ],
+          "text": "Harambe"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "twitter.com/i/web/status/7\u2026",
+          "expanded_url": "https://twitter.com/i/web/status/799031609865408512",
+          "indices": [
+            121,
+            144
+          ],
+          "url": "https://t.co/cPjpMgrGpG"
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorite_count": 30,
+    "favorited": false,
+    "geo": null,
+    "id": 799031609865408512,
+    "id_str": "799031609865408512",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 38,
+    "retweeted": false,
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "text": "#Harambe, Frank Underwood, Stone Cold Steve Austin &amp; A POTATO all received votes for president in Gwinnett County -\u2026 https://t.co/cPjpMgrGpG",
+    "truncated": true,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Tue Feb 17 15:00:01 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Metro Atlanta and north Georgia's #1 source for breaking news, weather, and traffic coverage you can count on. https://t.co/eNZKwAfuqw",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "Instagram.com/wsbtv",
+              "expanded_url": "http://Instagram.com/wsbtv",
+              "indices": [
+                111,
+                134
+              ],
+              "url": "https://t.co/eNZKwAfuqw"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "2wsb.tv/News2Go",
+              "expanded_url": "http://2wsb.tv/News2Go",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/Bep9V2hmhQ"
+            }
+          ]
+        }
+      },
+      "favourites_count": 5390,
+      "follow_request_sent": false,
+      "followers_count": 667245,
+      "following": false,
+      "friends_count": 2028,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 21094888,
+      "id_str": "21094888",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 2796,
+      "location": "Atlanta, GA",
+      "name": "WSB-TV",
+      "notifications": false,
+      "profile_background_color": "151A7E",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/452884413/Action-News-twitter-background2.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/452884413/Action-News-twitter-background2.jpg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/21094888/1464355344",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/796779402772287488/NmkdfSyZ_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/796779402772287488/NmkdfSyZ_normal.jpg",
+      "profile_link_color": "151A7E",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "A0C5C7",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "wsbtv",
+      "statuses_count": 244828,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/Bep9V2hmhQ",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 05:32:47 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 36137,
+    "favorited": false,
+    "geo": null,
+    "id": 796223990029119488,
+    "id_str": "796223990029119488",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 16065,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "If you voted for Harambe as a joke I hope those 20 likes on Facebook were worth it",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Jun 23 20:48:53 +0000 2011",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "SNAPCHAT: potatowithane | BUSINESS: team@tierpr.com",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "youtu.be/_160e9Us1ZM",
+              "expanded_url": "https://youtu.be/_160e9Us1ZM",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/wPjqUlACDi"
+            }
+          ]
+        }
+      },
+      "favourites_count": 29261,
+      "follow_request_sent": false,
+      "followers_count": 183460,
+      "following": false,
+      "friends_count": 479,
+      "geo_enabled": true,
+      "has_extended_profile": true,
+      "id": 322842111,
+      "id_str": "322842111",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 176,
+      "location": "Los Angeles, CA",
+      "name": "Christine Sydelko",
+      "notifications": false,
+      "profile_background_color": "94D487",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/471770991618560000/a9Itc6KY.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/471770991618560000/a9Itc6KY.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/322842111/1478704789",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/792643183570067456/UgpN8HoY_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/792643183570067456/UgpN8HoY_normal.jpg",
+      "profile_link_color": "89C9FA",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "csydelko",
+      "statuses_count": 14993,
+      "time_zone": "Central Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/wPjqUlACDi",
+      "utc_offset": -21600,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 14:42:20 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 5109,
+    "favorited": false,
+    "geo": null,
+    "id": 796362291038064640,
+    "id_str": "796362291038064640",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 4204,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "Over 16K people voted for Harambe and Hennessy. Let that sink in. 16 THOUSAND PEOPLE VOTED FOR A DEAD GORILLA AND LIQUOR.",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Sat Oct 03 20:36:24 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "@CBSRadio @Playit Host of The @JakeBrownShow, @CBSSportsRadio Digital Manager/Columnist, @sportstalk1240 host. NYM/NYJ/NYK fan, Hofstra alum. IG: jakebrownradio",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "jakeryanbrown.com",
+              "expanded_url": "http://jakeryanbrown.com",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/WIMJ6mPzhD"
+            }
+          ]
+        }
+      },
+      "favourites_count": 4882,
+      "follow_request_sent": false,
+      "followers_count": 2921,
+      "following": false,
+      "friends_count": 1367,
+      "geo_enabled": true,
+      "has_extended_profile": true,
+      "id": 79559564,
+      "id_str": "79559564",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 93,
+      "location": "New York City",
+      "name": "Jake Brown",
+      "notifications": false,
+      "profile_background_color": "EBEBEB",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/609197696977633280/B5xnZEQN.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/609197696977633280/B5xnZEQN.jpg",
+      "profile_background_tile": true,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/79559564/1477274040",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/791849287390990336/7cbzkqZ0_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/791849287390990336/7cbzkqZ0_normal.jpg",
+      "profile_link_color": "990000",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "C0DFEC",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "JakeBrownRadio",
+      "statuses_count": 59047,
+      "time_zone": "Central Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/WIMJ6mPzhD",
+      "utc_offset": -21600,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 06:35:17 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 5463,
+    "favorited": false,
+    "geo": null,
+    "id": 796239719008849920,
+    "id_str": "796239719008849920",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 3063,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "11,000 people voted for Harambe.",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Sep 24 17:45:27 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Twitter friend to over 1,560,000 of the sexiest mofos on Earth. 60% water.",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "instagram.com/zachbraff",
+              "expanded_url": "http://www.instagram.com/zachbraff",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/SY8dNr7Lbz"
+            }
+          ]
+        }
+      },
+      "favourites_count": 6053,
+      "follow_request_sent": false,
+      "followers_count": 1569234,
+      "following": false,
+      "friends_count": 176,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 76997832,
+      "id_str": "76997832",
+      "is_translation_enabled": true,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 7846,
+      "location": "",
+      "name": "Zach Braff",
+      "notifications": false,
+      "profile_background_color": "030A09",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000171830449/Z3HLvQvW.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000171830449/Z3HLvQvW.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/76997832/1475699954",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/588958455370625025/xm8yowKs_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/588958455370625025/xm8yowKs_normal.jpg",
+      "profile_link_color": "4460A6",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "FFFFFF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "zachbraff",
+      "statuses_count": 10226,
+      "time_zone": "Pacific Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/SY8dNr7Lbz",
+      "utc_offset": -28800,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Fri Nov 11 02:12:01 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/TtJAAa3Sr4",
+          "expanded_url": "http://twitter.com/CNN/status/796898243967909888/photo/1",
+          "id": 796898241358884864,
+          "id_str": "796898241358884864",
+          "indices": [
+            74,
+            97
+          ],
+          "media_url": "http://pbs.twimg.com/media/Cw8munZUcAA_7dY.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Cw8munZUcAA_7dY.jpg",
+          "sizes": {
+            "large": {
+              "h": 438,
+              "resize": "fit",
+              "w": 780
+            },
+            "medium": {
+              "h": 438,
+              "resize": "fit",
+              "w": 780
+            },
+            "small": {
+              "h": 382,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/TtJAAa3Sr4"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "cnn.it/2fGs6yn",
+          "expanded_url": "http://cnn.it/2fGs6yn",
+          "indices": [
+            50,
+            73
+          ],
+          "url": "https://t.co/DbMeKawXPT"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/TtJAAa3Sr4",
+          "expanded_url": "http://twitter.com/CNN/status/796898243967909888/photo/1",
+          "id": 796898241358884864,
+          "id_str": "796898241358884864",
+          "indices": [
+            74,
+            97
+          ],
+          "media_url": "http://pbs.twimg.com/media/Cw8munZUcAA_7dY.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Cw8munZUcAA_7dY.jpg",
+          "sizes": {
+            "large": {
+              "h": 438,
+              "resize": "fit",
+              "w": 780
+            },
+            "medium": {
+              "h": 438,
+              "resize": "fit",
+              "w": 780
+            },
+            "small": {
+              "h": 382,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/TtJAAa3Sr4"
+        }
+      ]
+    },
+    "favorite_count": 1221,
+    "favorited": false,
+    "geo": null,
+    "id": 796898243967909888,
+    "id_str": "796898243967909888",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 1081,
+    "retweeted": false,
+    "source": "<a href=\"https://www.sprinklr.com\" rel=\"nofollow\">Sprinklr</a>",
+    "text": "No, Harambe didn't get 11,000 votes for president https://t.co/DbMeKawXPT https://t.co/TtJAAa3Sr4",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri Feb 09 00:35:02 +0000 2007",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "It\u2019s our job to #GoThere and tell the most difficult stories. Come with us!",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "expanded_url": null,
+              "indices": [
+                0,
+                22
+              ],
+              "url": "http://t.co/IaghNW8Xm2"
+            }
+          ]
+        }
+      },
+      "favourites_count": 1434,
+      "follow_request_sent": false,
+      "followers_count": 29571614,
+      "following": false,
+      "friends_count": 1121,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 759251,
+      "id_str": "759251",
+      "is_translation_enabled": true,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 120623,
+      "location": "",
+      "name": "CNN",
+      "notifications": false,
+      "profile_background_color": "323232",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/515228058286952449/zVfUxqPl.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/515228058286952449/zVfUxqPl.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/759251/1478698521",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/508960761826131968/LnvhR8ED_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/508960761826131968/LnvhR8ED_normal.png",
+      "profile_link_color": "004287",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "EEEEEE",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "CNN",
+      "statuses_count": 106397,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "regular",
+      "url": "http://t.co/IaghNW8Xm2",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 05:41:31 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 5495,
+    "favorited": false,
+    "geo": null,
+    "id": 796226189782290432,
+    "id_str": "796226189782290432",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": {
+      "attributes": {},
+      "bounding_box": {
+        "coordinates": [
+          [
+            [
+              -81.507905,
+              28.3882177
+            ],
+            [
+              -81.2276403,
+              28.3882177
+            ],
+            [
+              -81.2276403,
+              28.615139
+            ],
+            [
+              -81.507905,
+              28.615139
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "contained_within": [],
+      "country": "United States",
+      "country_code": "US",
+      "full_name": "Orlando, FL",
+      "id": "55b4f9e5c516e0b6",
+      "name": "Orlando",
+      "place_type": "city",
+      "url": "https://api.twitter.com/1.1/geo/id/55b4f9e5c516e0b6.json"
+    },
+    "retweet_count": 3967,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "So I just found out \nHarambe had 11,000 votes.\n\n11,000 people voted for a dead gorilla.\n\nLet that sink in.",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Sun Oct 30 21:50:46 +0000 2011",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "You make me happy :) Follow Kyle Edwards on Spotify https://t.co/Ha1UH4IYhi https://t.co/6Pd78MbN5F Booking / Remix Mike@KyleEdwards.biz",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "iTunes.com/KyleEdwards",
+              "expanded_url": "http://iTunes.com/KyleEdwards",
+              "indices": [
+                52,
+                75
+              ],
+              "url": "https://t.co/Ha1UH4IYhi"
+            },
+            {
+              "display_url": "Smarturl.it/BlackBeatles",
+              "expanded_url": "http://Smarturl.it/BlackBeatles",
+              "indices": [
+                76,
+                99
+              ],
+              "url": "https://t.co/6Pd78MbN5F"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "Instagram.com/KyleEdwardsOff\u2026",
+              "expanded_url": "http://Instagram.com/KyleEdwardsOfficial",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/5G4NeqzMKG"
+            }
+          ]
+        }
+      },
+      "favourites_count": 101883,
+      "follow_request_sent": false,
+      "followers_count": 1036348,
+      "following": false,
+      "friends_count": 418,
+      "geo_enabled": true,
+      "has_extended_profile": true,
+      "id": 401656531,
+      "id_str": "401656531",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 262,
+      "location": "Orlando, FL",
+      "name": "Kyle Edwards \ud83c\udfb5",
+      "notifications": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": true,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/401656531/1477702572",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/798729357166579713/hYUuvERr_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/798729357166579713/hYUuvERr_normal.jpg",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "KyleEdwards",
+      "statuses_count": 42875,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "regular",
+      "url": "https://t.co/5G4NeqzMKG",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 16 21:03:07 +0000 2016",
+    "entities": {
+      "hashtags": [
+        {
+          "indices": [
+            68,
+            76
+          ],
+          "text": "Harambe"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "twitter.com/i/web/status/7\u2026",
+          "expanded_url": "https://twitter.com/i/web/status/798994831171260416",
+          "indices": [
+            121,
+            144
+          ],
+          "url": "https://t.co/vzXeTueD65"
+        }
+      ],
+      "user_mentions": []
+    },
+    "favorite_count": 27,
+    "favorited": false,
+    "geo": null,
+    "id": 798994831171260416,
+    "id_str": "798994831171260416",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 20,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "text": "Among those receiving write-in votes in Gwinnett Co. for president: #Harambe, Frank Underwood, Stone Cold &amp; a potat\u2026 https://t.co/vzXeTueD65",
+    "truncated": true,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Tue Feb 17 15:00:01 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Metro Atlanta and north Georgia's #1 source for breaking news, weather, and traffic coverage you can count on. https://t.co/eNZKwAfuqw",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "Instagram.com/wsbtv",
+              "expanded_url": "http://Instagram.com/wsbtv",
+              "indices": [
+                111,
+                134
+              ],
+              "url": "https://t.co/eNZKwAfuqw"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "2wsb.tv/News2Go",
+              "expanded_url": "http://2wsb.tv/News2Go",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/Bep9V2hmhQ"
+            }
+          ]
+        }
+      },
+      "favourites_count": 5390,
+      "follow_request_sent": false,
+      "followers_count": 667245,
+      "following": false,
+      "friends_count": 2028,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 21094888,
+      "id_str": "21094888",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 2796,
+      "location": "Atlanta, GA",
+      "name": "WSB-TV",
+      "notifications": false,
+      "profile_background_color": "151A7E",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/452884413/Action-News-twitter-background2.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/452884413/Action-News-twitter-background2.jpg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/21094888/1464355344",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/796779402772287488/NmkdfSyZ_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/796779402772287488/NmkdfSyZ_normal.jpg",
+      "profile_link_color": "151A7E",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "A0C5C7",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "wsbtv",
+      "statuses_count": 244828,
+      "time_zone": "Eastern Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/Bep9V2hmhQ",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 08:37:42 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 2399,
+    "favorited": false,
+    "geo": null,
+    "id": 796270526683643904,
+    "id_str": "796270526683643904",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 2120,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "text": "11,000 Americans voted for Harambe...they woke up, get dressed &amp; voted for a dead animal. Trump is the least of some of your worries",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri May 15 14:07:52 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "Social media executive retweets are automated so turn them off xo",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "Instagram.com/J4CKMULL",
+              "expanded_url": "http://Instagram.com/J4CKMULL",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/RW6kpehddQ"
+            }
+          ]
+        }
+      },
+      "favourites_count": 1102,
+      "follow_request_sent": false,
+      "followers_count": 454682,
+      "following": false,
+      "friends_count": 297939,
+      "geo_enabled": true,
+      "has_extended_profile": true,
+      "id": 40246348,
+      "id_str": "40246348",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 705,
+      "location": "Manchester, England",
+      "name": "Jack Mull",
+      "notifications": false,
+      "profile_background_color": "0099B9",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/478952444248866816/3TJssEkQ.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/478952444248866816/3TJssEkQ.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/40246348/1441654277",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/694094333427990528/iKJ2T0Uh_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/694094333427990528/iKJ2T0Uh_normal.jpg",
+      "profile_link_color": "000000",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "252429",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "J4CKMULL",
+      "statuses_count": 166656,
+      "time_zone": "Europe/London",
+      "translator_type": "regular",
+      "url": "https://t.co/RW6kpehddQ",
+      "utc_offset": 0,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 06:49:28 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 1037,
+    "favorited": false,
+    "geo": null,
+    "id": 796243291956088832,
+    "id_str": "796243291956088832",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 558,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "AT LEAST WE CAN ALL AGREE THAT THE 14,000 PEOPLE WHO VOTED FOR HARAMBE SHOULD BE THE FIRST DEPORTED",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri Jul 06 23:51:00 +0000 2012",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "MGMT: SOPHIE@DECKSTAR.COM /// BOOKING: JOHN@AMONLY.COM /// PROMO: LOUDPVCK@GMAIL.COM",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "loudpvck.com",
+              "expanded_url": "http://www.loudpvck.com/",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/UuORPs0ZVi"
+            }
+          ]
+        }
+      },
+      "favourites_count": 115289,
+      "follow_request_sent": false,
+      "followers_count": 68921,
+      "following": false,
+      "friends_count": 132,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 628830361,
+      "id_str": "628830361",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 190,
+      "location": "LOS ANGELES",
+      "name": "LOUDPVCK",
+      "notifications": false,
+      "profile_background_color": "ABB8C2",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/621037086590636032/FtYAX_o2.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/621037086590636032/FtYAX_o2.jpg",
+      "profile_background_tile": true,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/628830361/1474819299",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/688499027227217920/leGKcMWK_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/688499027227217920/leGKcMWK_normal.jpg",
+      "profile_link_color": "DD2E44",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "LOUDPVCK",
+      "statuses_count": 16652,
+      "time_zone": "Arizona",
+      "translator_type": "none",
+      "url": "https://t.co/UuORPs0ZVi",
+      "utc_offset": -25200,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 16:18:31 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 1853,
+    "favorited": false,
+    "geo": null,
+    "id": 796386494936182784,
+    "id_str": "796386494936182784",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": {
+      "attributes": {},
+      "bounding_box": {
+        "coordinates": [
+          [
+            [
+              -95.823268,
+              29.522325
+            ],
+            [
+              -95.069705,
+              29.522325
+            ],
+            [
+              -95.069705,
+              30.1546646
+            ],
+            [
+              -95.823268,
+              30.1546646
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "contained_within": [],
+      "country": "United States",
+      "country_code": "US",
+      "full_name": "Houston, TX",
+      "id": "1c69a67ad480e1b1",
+      "name": "Houston",
+      "place_type": "city",
+      "url": "https://api.twitter.com/1.1/geo/id/1c69a67ad480e1b1.json"
+    },
+    "retweet_count": 895,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "Who voted for Harambe tho \ud83d\ude02\ud83d\ude02",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Jan 03 08:43:23 +0000 2013",
+      "default_profile": true,
+      "default_profile_image": false,
+      "description": "",
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "favourites_count": 4122,
+      "follow_request_sent": false,
+      "followers_count": 172257,
+      "following": false,
+      "friends_count": 206,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 1057255670,
+      "id_str": "1057255670",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 610,
+      "location": "",
+      "name": "Deandre Hopkins",
+      "notifications": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1057255670/1457992693",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/799534269483859968/KdoGdIFk_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/799534269483859968/KdoGdIFk_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "Nukdabomb",
+      "statuses_count": 2347,
+      "time_zone": null,
+      "translator_type": "none",
+      "url": null,
+      "utc_offset": null,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 14:26:42 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/sxQxr5ogZU",
+          "expanded_url": "https://twitter.com/TheLadBible/status/796358357598740480/photo/1",
+          "id": 796356497387167744,
+          "id_str": "796356497387167744",
+          "indices": [
+            84,
+            107
+          ],
+          "media_url": "http://pbs.twimg.com/media/Cw06A91WIAAJQmT.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Cw06A91WIAAJQmT.jpg",
+          "sizes": {
+            "large": {
+              "h": 572,
+              "resize": "fit",
+              "w": 1119
+            },
+            "medium": {
+              "h": 572,
+              "resize": "fit",
+              "w": 1119
+            },
+            "small": {
+              "h": 348,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/sxQxr5ogZU"
+        }
+      ],
+      "symbols": [],
+      "urls": [
+        {
+          "display_url": "theladbible.com/more/viral-tho\u2026",
+          "expanded_url": "http://www.theladbible.com/more/viral-thousands-of-americans-apparently-voted-for-our-fallen-hero-harambe-20161109",
+          "indices": [
+            60,
+            83
+          ],
+          "url": "https://t.co/6GIeYRbZJN"
+        }
+      ],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/sxQxr5ogZU",
+          "expanded_url": "https://twitter.com/TheLadBible/status/796358357598740480/photo/1",
+          "id": 796356497387167744,
+          "id_str": "796356497387167744",
+          "indices": [
+            84,
+            107
+          ],
+          "media_url": "http://pbs.twimg.com/media/Cw06A91WIAAJQmT.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Cw06A91WIAAJQmT.jpg",
+          "sizes": {
+            "large": {
+              "h": 572,
+              "resize": "fit",
+              "w": 1119
+            },
+            "medium": {
+              "h": 572,
+              "resize": "fit",
+              "w": 1119
+            },
+            "small": {
+              "h": 348,
+              "resize": "fit",
+              "w": 680
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/sxQxr5ogZU"
+        }
+      ]
+    },
+    "favorite_count": 633,
+    "favorited": false,
+    "geo": null,
+    "id": 796358357598740480,
+    "id_str": "796358357598740480",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 326,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "text": "'Thousands' of Americans voted for Harambe in the election. https://t.co/6GIeYRbZJN https://t.co/sxQxr5ogZU",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri Jul 08 00:05:53 +0000 2011",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "TheLADbible.com",
+              "expanded_url": "http://www.TheLADbible.com",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/2cj6VOiL0z"
+            }
+          ]
+        }
+      },
+      "favourites_count": 959,
+      "follow_request_sent": false,
+      "followers_count": 1922071,
+      "following": false,
+      "friends_count": 0,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 331311644,
+      "id_str": "331311644",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 1493,
+      "location": "",
+      "name": "TheLADbible",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000161722210/lKuwe40R.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000161722210/lKuwe40R.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/331311644/1479394105",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/768025664494661633/w8YyoEic_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/768025664494661633/w8YyoEic_normal.jpg",
+      "profile_link_color": "1892F0",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "TheLadBible",
+      "statuses_count": 45714,
+      "time_zone": "Casablanca",
+      "translator_type": "none",
+      "url": "https://t.co/2cj6VOiL0z",
+      "utc_offset": 0,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Thu Nov 10 01:07:41 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 1513,
+    "favorited": false,
+    "geo": null,
+    "id": 796519667397521408,
+    "id_str": "796519667397521408",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 550,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "text": "Everyone is tripping, but 11,000 people didn't take this election serious from the start, and then voted Harambe when the decision got hard.",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri Jun 26 22:44:59 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "entertainer. frontman of @issues. IG: tylercarter4L",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "tylercarter.us",
+              "expanded_url": "http://www.tylercarter.us/",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/5ceAVvgLgz"
+            }
+          ]
+        }
+      },
+      "favourites_count": 1176,
+      "follow_request_sent": false,
+      "followers_count": 220744,
+      "following": false,
+      "friends_count": 305,
+      "geo_enabled": true,
+      "has_extended_profile": true,
+      "id": 51260326,
+      "id_str": "51260326",
+      "is_translation_enabled": true,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 519,
+      "location": " Atlanta/LA",
+      "name": "Tyler Carter",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000047465691/a7de0644c30ed62ee8f6bed69c1ed38a.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000047465691/a7de0644c30ed62ee8f6bed69c1ed38a.jpeg",
+      "profile_background_tile": true,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/51260326/1466778256",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/746348137552420864/RYdnigDu_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/746348137552420864/RYdnigDu_normal.jpg",
+      "profile_link_color": "444444",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "C77BA9",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "TylerCarter4L",
+      "statuses_count": 194,
+      "time_zone": "Quito",
+      "translator_type": "none",
+      "url": "https://t.co/5ceAVvgLgz",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 06:01:28 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "media": [
+        {
+          "display_url": "pic.twitter.com/571Gjf5nUo",
+          "expanded_url": "https://twitter.com/team_empire/status/796231211207315456/photo/1",
+          "id": 796231201812049920,
+          "id_str": "796231201812049920",
+          "indices": [
+            96,
+            119
+          ],
+          "media_url": "http://pbs.twimg.com/media/CwzIDzcW8AAc6QM.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CwzIDzcW8AAc6QM.jpg",
+          "sizes": {
+            "large": {
+              "h": 243,
+              "resize": "fit",
+              "w": 228
+            },
+            "medium": {
+              "h": 243,
+              "resize": "fit",
+              "w": 228
+            },
+            "small": {
+              "h": 243,
+              "resize": "fit",
+              "w": 228
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/571Gjf5nUo"
+        }
+      ],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "display_url": "pic.twitter.com/571Gjf5nUo",
+          "expanded_url": "https://twitter.com/team_empire/status/796231211207315456/photo/1",
+          "id": 796231201812049920,
+          "id_str": "796231201812049920",
+          "indices": [
+            96,
+            119
+          ],
+          "media_url": "http://pbs.twimg.com/media/CwzIDzcW8AAc6QM.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/CwzIDzcW8AAc6QM.jpg",
+          "sizes": {
+            "large": {
+              "h": 243,
+              "resize": "fit",
+              "w": 228
+            },
+            "medium": {
+              "h": 243,
+              "resize": "fit",
+              "w": 228
+            },
+            "small": {
+              "h": 243,
+              "resize": "fit",
+              "w": 228
+            },
+            "thumb": {
+              "h": 150,
+              "resize": "crop",
+              "w": 150
+            }
+          },
+          "type": "photo",
+          "url": "https://t.co/571Gjf5nUo"
+        }
+      ]
+    },
+    "favorite_count": 489,
+    "favorited": false,
+    "geo": null,
+    "id": 796231211207315456,
+    "id_str": "796231211207315456",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "possibly_sensitive": false,
+    "retweet_count": 266,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "Trump wins just by 10789 votes, closest in the history\n\n11000 decided to write Harambe for keks https://t.co/571Gjf5nUo",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Fri Sep 24 10:02:02 +0000 2010",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "I AM THE ONE AND ONLY. Professional E-sports Multigaming Team https://t.co/ksdctUaBCS",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "facebook.com/empireesport",
+              "expanded_url": "http://www.facebook.com/empireesport",
+              "indices": [
+                62,
+                85
+              ],
+              "url": "https://t.co/ksdctUaBCS"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "team.empire.gg",
+              "expanded_url": "http://www.team.empire.gg",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/tXZgoMeqYL"
+            }
+          ]
+        }
+      },
+      "favourites_count": 6105,
+      "follow_request_sent": false,
+      "followers_count": 157469,
+      "following": false,
+      "friends_count": 558,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 194518592,
+      "id_str": "194518592",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 604,
+      "location": "WORLDWIDE ",
+      "name": "Team Empire",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/664849238669553667/HKjFQV3v.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/664849238669553667/HKjFQV3v.png",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/194518592/1479386771",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/776393366045073408/roF1Hf4B_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/776393366045073408/roF1Hf4B_normal.jpg",
+      "profile_link_color": "DD2E44",
+      "profile_sidebar_border_color": "949494",
+      "profile_sidebar_fill_color": "F7F7F7",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "team_empire",
+      "statuses_count": 20475,
+      "time_zone": "Volgograd",
+      "translator_type": "none",
+      "url": "https://t.co/tXZgoMeqYL",
+      "utc_offset": 10800,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 08:19:16 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 265,
+    "favorited": false,
+    "geo": null,
+    "id": 796265887514951680,
+    "id_str": "796265887514951680",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 257,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "and then some of y'all wrote in Hennessy and Harambe......like wtf? whoever wrote that in lost the right to complain about anything.",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Thu Oct 01 02:59:12 +0000 2009",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "hey I'm bahja\u270c\ufe0f MGMT: jullian@theexecutiveclub.us Booking/Promotions bookbahja@gmail.com EP It Gets Better now available https://t.co/ApYfyaNKsP",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "itun.es/us/MWy6-",
+              "expanded_url": "https://itun.es/us/MWy6-",
+              "indices": [
+                121,
+                144
+              ],
+              "url": "https://t.co/ApYfyaNKsP"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "bahjarodriguez.co",
+              "expanded_url": "http://www.bahjarodriguez.co",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/c98tB2ArdL"
+            }
+          ]
+        }
+      },
+      "favourites_count": 9953,
+      "follow_request_sent": false,
+      "followers_count": 409098,
+      "following": false,
+      "friends_count": 2965,
+      "geo_enabled": false,
+      "has_extended_profile": true,
+      "id": 78784175,
+      "id_str": "78784175",
+      "is_translation_enabled": true,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 1309,
+      "location": "wherever the wind blows",
+      "name": "bae.",
+      "notifications": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/680144271/f461a374ac2bb241dc0d173e4b34b668.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/680144271/f461a374ac2bb241dc0d173e4b34b668.jpeg",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/78784175/1466186838",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/751637622913720320/12a0um1A_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/751637622913720320/12a0um1A_normal.jpg",
+      "profile_link_color": "000000",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "A3A1A3",
+      "profile_use_background_image": false,
+      "protected": false,
+      "screen_name": "bahjarodriguez",
+      "statuses_count": 23956,
+      "time_zone": "Quito",
+      "translator_type": "none",
+      "url": "https://t.co/c98tB2ArdL",
+      "utc_offset": -18000,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 05:32:34 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 372,
+    "favorited": false,
+    "geo": null,
+    "id": 796223937747107840,
+    "id_str": "796223937747107840",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 152,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "11,000 people voted for Harambe... the internet has ruined us smh",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Sat Apr 28 04:21:22 +0000 2012",
+      "default_profile": false,
+      "default_profile_image": false,
+      "description": "I make videos and rap sometimes.. Instagram:Purpdrank Snapchat:JPurpdrank MA \u2708\ufe0f LA",
+      "entities": {
+        "description": {
+          "urls": []
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "soundcloud.com/purpdrankmusic",
+              "expanded_url": "http://soundcloud.com/purpdrankmusic",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/TT9X7x7bsn"
+            }
+          ]
+        }
+      },
+      "favourites_count": 6393,
+      "follow_request_sent": false,
+      "followers_count": 230845,
+      "following": false,
+      "friends_count": 246,
+      "geo_enabled": true,
+      "has_extended_profile": true,
+      "id": 565151360,
+      "id_str": "565151360",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 224,
+      "location": "Los Angeles, CA",
+      "name": "Jerry Purpdrank",
+      "notifications": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": true,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/565151360/1472068675",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/767773405709950976/tu94kRFo_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/767773405709950976/tu94kRFo_normal.jpg",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "EEEEEE",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "purpdrank",
+      "statuses_count": 12570,
+      "time_zone": null,
+      "translator_type": "none",
+      "url": "https://t.co/TT9X7x7bsn",
+      "utc_offset": null,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 05:17:39 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 184,
+    "favorited": false,
+    "geo": null,
+    "id": 796220184394493952,
+    "id_str": "796220184394493952",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 41,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "text": "Me: is this happening\nNgoc: It's insane.\nMe: This is happening isn't it\nNgoc: It's insane\nMe:people wrote in Harambe  for prez\nNgoc: insane",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Wed Sep 16 15:23:24 +0000 2009",
+      "default_profile": true,
+      "default_profile_image": false,
+      "description": "Captain of my soul! Arm chair detective...professional snoop.",
+      "entities": {
+        "description": {
+          "urls": []
+        }
+      },
+      "favourites_count": 7072,
+      "follow_request_sent": false,
+      "followers_count": 318892,
+      "following": false,
+      "friends_count": 3583,
+      "geo_enabled": false,
+      "has_extended_profile": false,
+      "id": 74755679,
+      "id_str": "74755679",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 1280,
+      "location": "Anywhere, USA",
+      "name": "octavia spencer",
+      "notifications": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/74755679/1383269786",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/943910472/rocksmall_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/943910472/rocksmall_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "octaviaspencer",
+      "statuses_count": 5861,
+      "time_zone": "Pacific Time (US & Canada)",
+      "translator_type": "none",
+      "url": null,
+      "utc_offset": -28800,
+      "verified": true
+    }
+  },
+  {
+    "contributors": null,
+    "coordinates": null,
+    "created_at": "Wed Nov 09 05:26:06 +0000 2016",
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "urls": [],
+      "user_mentions": []
+    },
+    "favorite_count": 74,
+    "favorited": false,
+    "geo": null,
+    "id": 796222308780122113,
+    "id_str": "796222308780122113",
+    "in_reply_to_screen_name": null,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "is_quote_status": false,
+    "lang": "en",
+    "metadata": {
+      "iso_language_code": "en",
+      "result_type": "popular"
+    },
+    "place": null,
+    "retweet_count": 31,
+    "retweeted": false,
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "text": "I would bet 99% of people who wrote in Harambe were millennials",
+    "truncated": false,
+    "user": {
+      "contributors_enabled": false,
+      "created_at": "Tue Feb 16 06:37:44 +0000 2010",
+      "default_profile": true,
+      "default_profile_image": false,
+      "description": "Former NFL Scout, Bay Area Radio Host. Podcast https://t.co/gZCMoilqz2 @CSNAuthentic, @bleacherreport #NFL1000",
+      "entities": {
+        "description": {
+          "urls": [
+            {
+              "display_url": "vsporto.com/show/the-haber\u2026",
+              "expanded_url": "http://vsporto.com/show/the-haberman-and-middlekauff-podcast/",
+              "indices": [
+                47,
+                70
+              ],
+              "url": "https://t.co/gZCMoilqz2"
+            }
+          ]
+        },
+        "url": {
+          "urls": [
+            {
+              "display_url": "m.facebook.com/Haberkauff/",
+              "expanded_url": "https://m.facebook.com/Haberkauff/",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/vdTlOSxoHH"
+            }
+          ]
+        }
+      },
+      "favourites_count": 9864,
+      "follow_request_sent": false,
+      "followers_count": 17848,
+      "following": false,
+      "friends_count": 1305,
+      "geo_enabled": true,
+      "has_extended_profile": false,
+      "id": 114670121,
+      "id_str": "114670121",
+      "is_translation_enabled": false,
+      "is_translator": false,
+      "lang": "en",
+      "listed_count": 703,
+      "location": "jmiddle75@gmail.com",
+      "name": "John Middlekauff",
+      "notifications": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/114670121/1478818776",
+      "profile_image_url": "http://pbs.twimg.com/profile_images/703422351174545408/bhFQijCJ_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/703422351174545408/bhFQijCJ_normal.jpg",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "protected": false,
+      "screen_name": "JohnMiddlekauff",
+      "statuses_count": 72301,
+      "time_zone": "Central Time (US & Canada)",
+      "translator_type": "none",
+      "url": "https://t.co/vdTlOSxoHH",
+      "utc_offset": -21600,
+      "verified": true
+    }
+  }
+]
