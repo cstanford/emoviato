@@ -1,8 +1,39 @@
-<pre class="text-warning text-xs-center" ng-click="trendController.testParams()">
-███████╗ ███╗   ███╗  ██████╗  ██╗   ██╗ ██╗  █████╗  ████████╗  ██████╗
-██╔════╝ ████╗ ████║ ██╔═══██╗ ██║   ██║ ██║ ██╔══██╗ ╚══██╔══╝ ██╔═══██╗
-█████╗   ██╔████╔██║ ██║   ██║ ██║   ██║ ██║ ███████║    ██║    ██║   ██║
-██╔══╝   ██║╚██╔╝██║ ██║   ██║ ╚██╗ ██╔╝ ██║ ██╔══██║    ██║    ██║   ██║
-███████╗ ██║ ╚═╝ ██║ ╚██████╔╝  ╚████╔╝  ██║ ██║  ██║    ██║    ╚██████╔╝
-╚══════╝ ╚═╝     ╚═╝  ╚═════╝    ╚═══╝   ╚═╝ ╚═╝  ╚═╝    ╚═╝     ╚═════╝
-</pre>
+<div class="container trend-report">
+    <div class="row spacer-row"></div>
+
+    <div class="row">
+        <div class="card-deck-wrapper col-md-4 offset-md-2">
+            <div class="card card-outline-primary trend-card">
+                <img class="card-img-top img-fluid trend-card-image" src="http://www.wkyc.com/img/resize/content.wkyc.com/photo/2016/05/30/harambe_1464603004882_2564895_ver1.0.jpg?preset=534-401" alt="Card image cap">
+                <div class="card-block">
+                    <h4 class="card-title fa fa-lg fa-hashtag trend-card-title">Harambe</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card-outline-primary col-md-6 offset-md-1 top-tweet">
+            <h3 class="card-header">Top Tweet</h3>
+            <p class="card-text">What's the difference b/w everyone and bullets? Everyone misses Harambe. :( </p>
+        </div>
+
+        <div class="card card-outline-primary col-md-6 offset-md-1 top-emoji">
+            <h3 class="card-header">Top Emoji</h3>
+            <h1 class="text-success text-xs-center display-4">&#128514; &#128293; &#128553; </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <highchart id="chart1" config="trendController.pieChartConfig"></highchart>
+        </div>
+        <div class="col-md-6">
+            <highchart id="chart2" config="trendController.columnChartConfig"></highchart>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <highchart id="chart3" config="trendController.histoChartConfig"></highchart>
+        </div>
+    </div>
+
+
+</div>

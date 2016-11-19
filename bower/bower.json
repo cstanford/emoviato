@@ -26,7 +26,8 @@
     "moment-timezone": "~0.4.1",
     "components-font-awesome": "~4.6.3",
     "bootstrap": "v4.0.0-alpha.4",
-    "chartist": "^0.10.1"
+    "highcharts-ng": "^0.0.13",
+    "highcharts": "^5.0.3"
   },
   "resolutions": {
     "angular": "1.5.8"
