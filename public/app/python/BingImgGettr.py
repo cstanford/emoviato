@@ -2,7 +2,7 @@ import urllib.request
 import json
 
 
-def GetTopBingImg(trend):
+def GetTopImg(trend):
     url = ('https://api.cognitive.microsoft.com/bing/v5.0/images/search')
     header = {'Ocp-Apim-Subscription-Key': "af639931f9f44a0fba974b2108fb0770"}
     query_params = {'q' : trend,
@@ -23,4 +23,4 @@ def GetTopBingImg(trend):
 #Usage Example:
 #Input: <string> Trend name
 #Output: <string> Image URL to top photo (provided by Bing)
-#BingImgGettr.GetTopBingImg("Harambe")
+#BingImgGettr.GetTopImg("Harambe")
