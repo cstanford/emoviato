@@ -1,6 +1,6 @@
 import urllib.request
 import json
-def GetTopImage(trend, filepath):
+def GetTopImg(trend):
     client_id = "005560fd996b355"
 
     auth = {'Authorization': 'Client-ID ' + client_id}
@@ -25,9 +25,12 @@ def GetTopImage(trend, filepath):
             if(i["is_album"] == False and i["nsfw"] == False):
                 link_url = i["link"]
                 continue
+    return link_url
 
-    urllib.request.urlretrieve(link_url, filepath)
 #To use, please write the following at the top of your python file:
-#import ImgrGettr
-#Example Usage:
-#ImgrGettr.GetTopImage('harambe', 'path/to/folder/BestPic.jpg')
+#import ImgurImgGettr
+
+#Usage Example:
+#Input: <string> Trend name
+#Output: <string> Image URL to top photo (provided by Imgur)
+#ImgurImgGettr.GetTopImg('Harambe')
