@@ -301,7 +301,7 @@ for trend in trendArray:
 
         trendFile.close()
 
-        #creating json file, because no one wanted just a boring txt file
+        #creating json file, because (Connor 'Big Sexy' Stanford) didn't want a boring txt file
         jsonify = {'maxRetweets' : maxRetweets,
                    'mostPopTweet' : maxRetweetTweet,
                    'tweetCount' : tweetCount,

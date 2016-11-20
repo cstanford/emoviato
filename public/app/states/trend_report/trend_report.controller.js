@@ -7,17 +7,118 @@
 
     function Controller($log, $state, $stateParams, $interval, $timeout, ChartService) {
 
-        this.currentTrendName = $stateParams;
+        this.currentTrendName = $stateParams.currentTrendName;
 
         var trendReportContainer = ChartService.getTrendReportContainer();
         this.trendData = trendReportContainer.trendData;
 
+
+        // this.testOb = {
+        //     "emoji": '\uD83D\uDeE2',
+        //     "count": 5
+        // };
+
+        var emotionContainer = {
+            emotion: [
+                {
+                name: "happy",
+                count: this.trendData.numhappy
+                },
+                {
+                    name: "sad",
+                    count: this.trendData.numSad
+                },
+                {
+                    name: "mad",
+                    count: this.trendData.numMad
+                },
+                {
+                    name: "lit",
+                    count: this.trendData.NumLit
+                },
+                {
+                    name: "funny",
+                    count: this.trendData.numHappy
+                }
+            ]
+        };
+
+        var topEmotionCount = 0;
+        var topEmotionFilter = function (obj) {
+          if(obj.count > topEmotionCount) {
+              topEmotionCount = obj.count;
+              return obj;
+          }
+        };
+
+        var topEmotion = emotionContainer.emotion.filter(topEmotionFilter)[0];
+
         var testLog = function () {
-            console.log('testlog');
-            console.log(this.trendData);
-        }.bind(this);
+            console.log(topEmotion);
+        };
 
         testLog();
+
+        var topTweetHeader = document.getElementById("top-tweet-header");
+        var topEmojiHeader = document.getElementById("top-emoji-header");
+        var setHeaderEmotionColor = function () {
+
+            var headerColor;
+            topEmotion.name = 'happy';
+          switch(topEmotion.name) {
+              case 'lit':
+                  headerColor = '#FF6F08';
+                  break;
+              case 'sad':
+                  headerColor = '#7742f4';
+                  break;
+              case 'mad':
+                  headerColor = '#d9534f';
+                  break;
+              case 'happy':
+                  headerColor = '#FFEF4C';
+                  break;
+              default:
+                  headerColor = '#0275d8';
+                  break;
+          }
+            topTweetHeader.style.backgroundColor = headerColor;
+            topEmojiHeader.style.backgroundColor = headerColor;
+            console.log("switch");
+            console.log(topEmotion);
+        };
+
+        setHeaderEmotionColor();
+
+
+        // Object
+        // maxRetweets
+        //     :
+        //     19355
+        // mostPopTweet
+        //     :
+        //     "Kanye: So many people hate me...↵↵Kanye to Kanye: But not ALL the people hate you...make all the people hate you... https://t.co/qkF0HkKnUe"
+        // numFunny
+        //     :
+        //     0
+        // numLit
+        //     :
+        //     0
+        // numMad
+        //     :
+        //     1
+        // numSad
+        //     :
+        //     0
+        // numhappy
+        //     :
+        //     0
+        // totalEmojis
+        //     :
+        //     1
+        // tweetCount
+        //     :
+        //     57
 
         this.pieChartConfig = {
 
@@ -32,13 +133,25 @@
                         padding: 10,
                         fontWeight: 'bold'
                     }
-                }
             },
-            //The below properties are watched separately for changes.
-
-            //Series object (optional) - a list of series using normal Highcharts series options.
+            plotOptions: {
+                pie: {
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
+                }
+            }
+            },
             series: [{
-                data: [10, 15, 12, 8, 7]
+                type: 'pie',
+                data: [
+                    ['Happy', this.trendData.numhappy],
+                    ['Sad', this.trendData.numSad],
+                    ['Mad', this.trendData.numMad],
+                    ['Lit', this.trendData.numLit],
+                    ['Funny', this.trendData.numFunny]
+                ]
             }],
             //Title configuration (optional)
             title: {
@@ -81,12 +194,14 @@
             //The below properties are watched separately for changes.
 
             //Series object (optional) - a list of series using normal Highcharts series options.
+            //This is where each emoji will go.
             series: [{
+                name: '\u0001F601',
                 data: [10, 15, 12, 8, 7]
             }],
             //Title configuration (optional)
             title: {
-                text: ''
+                text: 'Distribution of Emoji'
             },
             //Boolean to control showing loading status on chart (optional)
             //Could be a string if you want to show specific loading text.
@@ -95,7 +210,7 @@
             //properties currentMin and currentMax provided 2-way binding to the chart's maximum and minimum
             xAxis: {
                 currentMin: 0,
-                currentMax: 20,
+                currentMax: 27,
                 title: {text: 'values'}
             },
             //Whether to use Highstocks instead of Highcharts (optional). Defaults to false.
