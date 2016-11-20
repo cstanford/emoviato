@@ -1,0 +1,39 @@
+{
+  "tweetCount": 409,
+  "totalEmojis": 0,
+  "mostPopTweet": "RT @JRominLA: 'Rent: But Not to Those People' #MikePenceMusicals #NameAPenceMuscial",
+  "maxRetweets": 510,
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 0
+    },
+    {
+      "name": "lit",
+      "count": 0
+    },
+    {
+      "name": "sad",
+      "count": 0
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 0
+    }
+  ],
+  "img": "http://i2.mirror.co.uk/incoming/article8075004.ece/ALTERNATES/s615b/Harambe.jpg",
+  "emojis": [
+    {
+      "char": "\ud83c\udf89",
+      "count": 1
+    },
+    {
+      "char": "\u2714",
+      "count": 1
+    }
+  ]
+}

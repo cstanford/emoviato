@@ -1,0 +1,111 @@
+{
+  "tweetCount": 430,
+  "totalEmojis": 12,
+  "mostPopTweet": "RT @SportsCenter: Texas (No. 11) is ranked for the 1st time under Charlie Strong after taking down No. 10 Notre Dame in Week 1. https://t.c\u2026",
+  "maxRetweets": 5167,
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 0
+    },
+    {
+      "name": "lit",
+      "count": 3
+    },
+    {
+      "name": "sad",
+      "count": 0
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 9
+    }
+  ],
+  "img": "http://www.bing.com/cr?IG=718690F91B1447B2BF64CB8DC9750900&CID=1E27F66889756805054EFFBB884469A4&rd=1&h=p5Y0kUX2sxzvRwY_cvwKCfO52Agq6g8UbJIGO_EMIC8&v=1&r=http%3a%2f%2ffunnyfact.com%2fwp-content%2fuploads%2f2011%2f01%2fnotre-dame.jpg&p=DevEx,5008.1",
+  "emojis": [
+    {
+      "char": "\ud83d\udccd",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude30",
+      "count": 3
+    },
+    {
+      "char": "\u2618",
+      "count": 4
+    },
+    {
+      "char": "\ud83c\udf89",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\udd28",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udcaa",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udd25",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udd5e",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udfc8",
+      "count": 37
+    },
+    {
+      "char": "\ud83d\ude2d",
+      "count": 3
+    },
+    {
+      "char": "\u26bd",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udcfa",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude33",
+      "count": 3
+    },
+    {
+      "char": "\u2744",
+      "count": 1
+    },
+    {
+      "char": "\ud83e\udd83",
+      "count": 67
+    },
+    {
+      "char": "\ud83d\udca5",
+      "count": 15
+    },
+    {
+      "char": "\ud83d\ude11",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udcfb",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udcbb",
+      "count": 1
+    }
+  ]
+}
