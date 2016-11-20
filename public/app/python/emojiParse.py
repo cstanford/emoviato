@@ -288,7 +288,6 @@ def emojiParser(trend, jsonData, destDir):
 		# json.dump(jsonify, outputJson, indent=2)
 
 
-
 	# this is the first time we've seen this trend, so we must make a new trend file for it
 	# else:
 	#print("file does not exist, creating a new file to store data")
@@ -298,7 +297,7 @@ def emojiParser(trend, jsonData, destDir):
 
 	# trendFile.close()
 
-	#creating json file, because no one wanted just a boring txt file
+	#creating json file, because (Connor 'Big Sexy' Stanford) didn't want a boring txt file
 	topimg = BingImgGettr.GetTopImg(trend)
 	jsonify = {'maxRetweets' : maxRetweets,
 			   'mostPopTweet' : maxRetweetTweet,
