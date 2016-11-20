@@ -64,7 +64,6 @@
         var setHeaderEmotionColor = function () {
 
             var headerColor;
-            topEmotion.name = 'happy';
           switch(topEmotion.name) {
               case 'lit':
                   headerColor = '#FF6F08';
