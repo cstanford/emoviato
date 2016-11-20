@@ -24,11 +24,11 @@ for trend in top5trends:
 	trendname.replace('#', "")
 	trendname.rstrip
 	trendTweetJson = emojiParse.getTweetsFromTrends(api, trendname,"popular")
-	# trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"recent")
-	# trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
-	# trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
-	# trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
-	
+	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"recent")
+	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+
 	emojiParse.emojiParser(trendname, trendTweetJson, destDir)
 	#output all tweets
 	with open(trendname + ".json",'w') as outfile:

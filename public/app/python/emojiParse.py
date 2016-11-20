@@ -12,10 +12,10 @@ def getTopTrends(api, destDir):
 	trends = api.trends_place(2458833) #New Orleans search
 	with open("trends.json",'w') as outfile:
 		json.dump(trends, outfile, indent = 2)
-	
+
 	top5 = []
 	top5json = []
-	
+
 	for trend in trends[0]["trends"]:
 		volume = trend["tweet_volume"]
 		if volume != None:
@@ -29,7 +29,7 @@ def getTopTrends(api, destDir):
 	jsonFilename = "topTrends.json"
 	destination = os.path.join(destDir, jsonFilename)
 	outputJson = open(destination, "w")
-	
+
 	for trend in trends[0]["trends"]:
 		if trend["tweet_volume"] in top5:
 			text = trend["name"]
@@ -37,7 +37,7 @@ def getTopTrends(api, destDir):
 			topimg = BingImgGettr.GetTopImg(text)
 			top5json.append({"trendName" : text, "img" : topimg})
 	json.dump(top5json, outputJson, indent = 2)
-		
+
 	return top5json
 
 
@@ -300,7 +300,7 @@ def emojiParser(trend, jsonData, destDir):
 	# trendFile.close()
 
 	#creating json file, because no one wanted just a boring txt file
-	topimg = BingImgGettr.GetTopImg(text)
+	topimg = BingImgGettr.GetTopImg(trend)
 	jsonify = {'maxRetweets' : maxRetweets,
 			   'mostPopTweet' : maxRetweetTweet,
 			   'tweetCount' : tweetCount,
@@ -312,11 +312,11 @@ def emojiParser(trend, jsonData, destDir):
 			   'numFunny' : numFunny,
 			   'img' : topimg
 			   }
-	
-	count = EmojiCounter(jsonData)
-	
-	jsonify.update(count)
-	
+
+	count = EmojiCounter.emojiCounter(jsonData)
+
+	jsonify["emojis"] = count;
+
 	jsonFilename = trend+".json"
 	destination = os.path.join(destDir, jsonFilename)
 	outputJson = open(destination, "w")
