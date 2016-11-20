@@ -1,55 +1,51 @@
 {
-  "tweetCount": 424,
-  "totalEmojis": 15,
-  "mostPopTweet": "RT @SportsCenter: Texas (No. 11) is ranked for the 1st time under Charlie Strong after taking down No. 10 Notre Dame in Week 1. https://t.c\u2026",
-  "maxRetweets": 5167,
+  "maxRetweets": 3315,
   "emotions": [
     {
-      "name": "happy",
-      "count": 0
+      "count": 0,
+      "name": "happy"
     },
     {
-      "name": "lit",
-      "count": 0
+      "count": 0,
+      "name": "lit"
     },
     {
-      "name": "sad",
-      "count": 6
+      "count": 5,
+      "name": "sad"
     },
     {
-      "name": "mad",
-      "count": 0
+      "count": 0,
+      "name": "mad"
     },
     {
-      "name": "funny",
-      "count": 9
+      "count": 0,
+      "name": "funny"
     }
   ],
-  "img": "http://www.bing.com/cr?IG=F68B9826BE2F4ADCBA30235C3D8DE515&CID=162D302C5E646605086139FF5F556740&rd=1&h=wa64-JJ1-ccg5Cep_Ypp-42Crw8TxB2JaB7Xt1gupgw&v=1&r=http%3a%2f%2fimages.hngn.com%2fdata%2fimages%2ffull%2f164951%2ftexas-head-coach-charlie-strong.jpg%3fw%3d650&p=DevEx,5008.1",
   "emojis": [
     {
-      "char": "\u2639",
-      "count": 3
+      "count": 1,
+      "char": "\u263a"
     },
     {
-      "char": "\ud83d\ude10",
-      "count": 1
+      "count": 3,
+      "char": "\u2639"
     },
     {
-      "char": "\ud83d\ude02",
-      "count": 9
+      "count": 3,
+      "char": "\ud83c\udffe"
     },
     {
-      "char": "\ud83d\ude2a",
-      "count": 1
+      "count": 5,
+      "char": "\ud83d\ude14"
     },
     {
-      "char": "\ud83d\ude25",
-      "count": 4
-    },
-    {
-      "char": "\ud83d\ude14",
-      "count": 6
+      "count": 3,
+      "char": "\u270c"
     }
-  ]
+  ],
+  "tweetCount": 423,
+  "mostPopTweet": "BREAKING: Texas @Longhorn_FB has fired head coach Charlie Strong. #SorryCharlie https://t.co/beFzh8mUJk",
+  "totalEmojis": 5,
+  "img": "http://www.bing.com/cr?IG=4EF145CBBC6547559FE6CEC78D4CF7AE&CID=1B8E0CB1BE1167B91E860562BF2066C8&rd=1&h=wa64-JJ1-ccg5Cep_Ypp-42Crw8TxB2JaB7Xt1gupgw&v=1&r=http%3a%2f%2fimages.hngn.com%2fdata%2fimages%2ffull%2f164951%2ftexas-head-coach-charlie-strong.jpg%3fw%3d650&p=DevEx,5008.1"
 }

@@ -177,10 +177,10 @@
             //Whether to use Highstocks instead of Highcharts (optional). Defaults to false.
             useHighStocks: false,
             //size (optional) if left out the chart will default to size of the div or something sensible.
-            size: {
-                width: 400,
-                height: 300
-            }
+            // size: {
+            //     width: 400,
+            //     height: 300
+            // }
         };
 
 
@@ -229,11 +229,6 @@
             },
             //Whether to use Highstocks instead of Highcharts (optional). Defaults to false.
             useHighStocks: false,
-            //size (optional) if left out the chart will default to size of the div or something sensible.
-            size: {
-                width: 400,
-                height: 300
-            }
         };
 
         var isInverted = false;
