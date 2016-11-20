@@ -9,7 +9,7 @@ import EmojiCounter
 ##########################################################################
 def getTopTrends(api, destDir):
 
-	trends = api.trends_place(2458833) #New Orleans search
+	trends = api.trends_place(23424977) #United States: 23424977 New Orleans: 2458833
 
 	top5 = []
 	top5json = []
