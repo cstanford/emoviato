@@ -1,0 +1,123 @@
+{
+  "tweetCount": 447,
+  "img": "http://www.bing.com/cr?IG=852165CB60BC4F01A14C42741D66F59F&CID=2CD5A23C2EDD60E53002ABEF2FEC61D4&rd=1&h=CC7XswU_1uGz6A7bABYC1yEGVURrveRDGFJMNJszCbk&v=1&r=http%3a%2f%2f2.bp.blogspot.com%2f-x9qAX51fkvE%2fUKP3YknCzFI%2fAAAAAAAAAIo%2f0Go7iR6Do5c%2fs1600%2fwwe_survivor_series_2012_official_poster_hd_by_windows8osx-d5ji8fr.jpg&p=DevEx,5008.1",
+  "maxRetweets": 2406,
+  "mostPopTweet": "We almost had @Goldberg vs. @BrockLesnar six days early, as @HeymanHustle mocked Goldberg's son. #GoldbergVsBrock\u2026 https://t.co/IheObilRhX",
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 0
+    },
+    {
+      "name": "lit",
+      "count": 51
+    },
+    {
+      "name": "sad",
+      "count": 3
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 0
+    }
+  ],
+  "totalEmojis": 228,
+  "emojis": [
+    {
+      "char": "\ud83d\ude23",
+      "count": 9
+    },
+    {
+      "char": "\u270a",
+      "count": 9
+    },
+    {
+      "char": "\ud83d\udd39",
+      "count": 12
+    },
+    {
+      "char": "\ud83d\udcaa",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udc85",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\udc40",
+      "count": 10
+    },
+    {
+      "char": "\ud83c\udffc",
+      "count": 12
+    },
+    {
+      "char": "\ud83d\ude08",
+      "count": 12
+    },
+    {
+      "char": "\ud83d\udc51",
+      "count": 4
+    },
+    {
+      "char": "\ud83d\ude0d",
+      "count": 8
+    },
+    {
+      "char": "\u2764",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\ude4c",
+      "count": 15
+    },
+    {
+      "char": "\ud83e\udd17",
+      "count": 12
+    },
+    {
+      "char": "\ud83d\ude09",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udd25",
+      "count": 51
+    },
+    {
+      "char": "\ud83d\ude29",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udd37",
+      "count": 12
+    },
+    {
+      "char": "\ud83d\udd35",
+      "count": 14
+    },
+    {
+      "char": "\ud83d\udc99",
+      "count": 15
+    },
+    {
+      "char": "\ud83d\ude07",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude18",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc4c",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\udd34",
+      "count": 2
+    }
+  ]
+}

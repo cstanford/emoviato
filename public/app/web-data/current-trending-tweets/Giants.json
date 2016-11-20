@@ -1,0 +1,147 @@
+{
+  "tweetCount": 460,
+  "img": "http://www.bing.com/cr?IG=680A4FF6213C43C6A8653FC142C7A1CD&CID=04DF5EBB51D262C7265F576850E3633E&rd=1&h=PeLMZF_k4tcmszwTtotoTQ_VyWqnHSF5VqhyvDsvYiQ&v=1&r=http%3a%2f%2fisportsweb.com%2fwp-content%2fuploads%2f2015%2f09%2fnyg.png&p=DevEx,5008.1",
+  "maxRetweets": 4676,
+  "mostPopTweet": "GIANTS WIN!\n\nOdell Beckham Jr. leads NYG to their first 4-game win streak since 2013. https://t.co/JyQO8SWWBb",
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 0
+    },
+    {
+      "name": "lit",
+      "count": 3
+    },
+    {
+      "name": "sad",
+      "count": 0
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 14
+    }
+  ],
+  "totalEmojis": 111,
+  "emojis": [
+    {
+      "char": "\ud83d\udcf0",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udf80",
+      "count": 6
+    },
+    {
+      "char": "\ud83c\udf81",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udd11",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udca7",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude2d",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc74",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udc4a",
+      "count": 3
+    },
+    {
+      "char": "\ud83c\udffb",
+      "count": 7
+    },
+    {
+      "char": "\ud83c\udfb6",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude08",
+      "count": 6
+    },
+    {
+      "char": "\ud83c\udfc0",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude4c",
+      "count": 4
+    },
+    {
+      "char": "\ud83c\udfc8",
+      "count": 20
+    },
+    {
+      "char": "\ud83c\udf89",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udf88",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude4b",
+      "count": 3
+    },
+    {
+      "char": "\ud83c\udf82",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc4f",
+      "count": 15
+    },
+    {
+      "char": "\ud83d\ude31",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc4c",
+      "count": 1
+    },
+    {
+      "char": "\u27a1",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc95",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udd25",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 13
+    },
+    {
+      "char": "\u2705",
+      "count": 3
+    },
+    {
+      "char": "\ud83c\udfc6",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udffd",
+      "count": 3
+    },
+    {
+      "char": "\u2606",
+      "count": 1
+    }
+  ]
+}

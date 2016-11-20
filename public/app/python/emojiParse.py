@@ -4,6 +4,7 @@ import os.path
 import tweepy
 import BingImgGettr
 import EmojiCounter
+import re
 
 #getting all trends, returns json object with top 5 trends.
 ##########################################################################
@@ -31,10 +32,12 @@ def getTopTrends(api, destDir):
 	for trend in trends[0]["trends"]:
 		if trend["tweet_volume"] in top5:
 			text = trend["name"]
+			text = text.replace('#', '')
+			filename = re.sub(r'\W+', '', text)
 			print(text)
 			topimg = BingImgGettr.GetTopImg(text)
 			text = text.encode('utf-16', 'surrogatepass').decode('utf-16')
-			top5json.append({"trendName" : text, "img" : topimg})
+			top5json.append({"trendName" : text, "img" : topimg, "fileName" : filename})
 	json.dump(top5json, outputJson, indent = 2)
 
 	return top5json
@@ -79,7 +82,7 @@ def getTweetsFromTrends(api, trendName, search_type):
 # except OSError:
 	# pass # directory already exists
 
-def emojiParser(trend, jsonData, destDir):
+def emojiParser(trend, jsonData, destDir, filename):
 	# trendArray = getJsonTopTrends()
 
 	# for trend in trendArray:
@@ -302,7 +305,6 @@ def emojiParser(trend, jsonData, destDir):
 	jsonify = {'maxRetweets' : maxRetweets,
 			   'mostPopTweet' : maxRetweetTweet,
 			   'tweetCount' : tweetCount,
-			   'totalEmojis' : totalEmojis,
 			   'emotions' : [
 			   		{'name': 'happy', 'count' : numHappy},
 					{'name': 'lit', 'count' : numLit},
@@ -313,11 +315,12 @@ def emojiParser(trend, jsonData, destDir):
 			   'img' : topimg
 			   }
 
-	count = EmojiCounter.emojiCounter(jsonData)
+	emoji_data, total_emoji_count = EmojiCounter.emojiCounter(jsonData)
 
-	jsonify["emojis"] = count;
+	jsonify["emojis"] = emoji_data;
+	jsonify["totalEmojis"] = total_emoji_count
 
-	jsonFilename = trend+".json"
+	jsonFilename = filename+".json"
 	destination = os.path.join(destDir, jsonFilename)
 	outputJson = open(destination, "w")
 

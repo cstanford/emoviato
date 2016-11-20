@@ -2,6 +2,7 @@ import emojiParse
 import json
 import tweepy
 import os.path
+import re
 
 #authentification
 auth = tweepy.OAuthHandler('WAmc6nksqtBkRXkYHDzGTkNC2', 'rHbTMCkMjZU3Ru4pPrh1GFbPrcGfVyFfUXNOqqueN9cOuMdylv')
@@ -21,12 +22,10 @@ top5trends = emojiParse.getTopTrends(api, destDir)
 trendPath = os.path.join(destDir, 'current-trending-tweets')
 for trend in top5trends:
 	trendname = trend["trendName"]
-	trendname.replace('#', "")
-	trendname.rstrip
 	trendTweetJson = emojiParse.getTweetsFromTrends(api, trendname,"popular")
 	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"recent")
 	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
 	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
 	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
 
-	emojiParse.emojiParser(trendname, trendTweetJson, trendPath)
+	emojiParse.emojiParser(trendname, trendTweetJson, trendPath, trend["fileName"])
