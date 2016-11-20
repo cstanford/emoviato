@@ -1,0 +1,55 @@
+{
+  "tweetCount": 424,
+  "totalEmojis": 15,
+  "mostPopTweet": "RT @SportsCenter: Texas (No. 11) is ranked for the 1st time under Charlie Strong after taking down No. 10 Notre Dame in Week 1. https://t.c\u2026",
+  "maxRetweets": 5167,
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 0
+    },
+    {
+      "name": "lit",
+      "count": 0
+    },
+    {
+      "name": "sad",
+      "count": 6
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 9
+    }
+  ],
+  "img": "http://www.bing.com/cr?IG=F68B9826BE2F4ADCBA30235C3D8DE515&CID=162D302C5E646605086139FF5F556740&rd=1&h=wa64-JJ1-ccg5Cep_Ypp-42Crw8TxB2JaB7Xt1gupgw&v=1&r=http%3a%2f%2fimages.hngn.com%2fdata%2fimages%2ffull%2f164951%2ftexas-head-coach-charlie-strong.jpg%3fw%3d650&p=DevEx,5008.1",
+  "emojis": [
+    {
+      "char": "\u2639",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude10",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 9
+    },
+    {
+      "char": "\ud83d\ude2a",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude25",
+      "count": 4
+    },
+    {
+      "char": "\ud83d\ude14",
+      "count": 6
+    }
+  ]
+}

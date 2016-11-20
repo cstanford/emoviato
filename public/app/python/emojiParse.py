@@ -10,8 +10,6 @@ import EmojiCounter
 def getTopTrends(api, destDir):
 
 	trends = api.trends_place(2458833) #New Orleans search
-	with open("trends.json",'w') as outfile:
-		json.dump(trends, outfile, indent = 2)
 
 	top5 = []
 	top5json = []
@@ -33,8 +31,9 @@ def getTopTrends(api, destDir):
 	for trend in trends[0]["trends"]:
 		if trend["tweet_volume"] in top5:
 			text = trend["name"]
-			text = text.encode('utf-16', 'surrogatepass').decode('utf-16')
+			print(text)
 			topimg = BingImgGettr.GetTopImg(text)
+			text = text.encode('utf-16', 'surrogatepass').decode('utf-16')
 			top5json.append({"trendName" : text, "img" : topimg})
 	json.dump(top5json, outputJson, indent = 2)
 
@@ -90,7 +89,7 @@ def emojiParser(trend, jsonData, destDir):
 
 		#jsonData = open(os.path.join(destDir, trend + ".json"), 'r')
 
-	savedTweets = open(trend + "Tweets", "w")
+	#savedTweets = open(trend + "Tweets", "w")
 
 	#lists of emojis we will count
 	happyEmojis = [ u'\U0001F601',
@@ -131,7 +130,7 @@ def emojiParser(trend, jsonData, destDir):
 	def parseString(emojiString):
 
 		emojiString = emojiString.encode('utf-16', 'surrogatepass').decode('utf-16')
-		savedTweets.write(emojiString + "\n")
+		#savedTweets.write(emojiString + "\n")
 
 		#count for single tweet
 		numHappy = 0
@@ -182,7 +181,7 @@ def emojiParser(trend, jsonData, destDir):
 
 		tweetCount += 1
 
-		savedTweets.write("tweet number: %d \n" % tweetCount)
+		#savedTweets.write("tweet number: %d \n" % tweetCount)
 		text = tweets["text"]
 		res = parseString(text)
 
@@ -195,8 +194,8 @@ def emojiParser(trend, jsonData, destDir):
 
 
 		tweetLocation = tweets["user"]["location"]
-		savedTweets.write("retweet count: %d \n" % retweetCount)
-		savedTweets.write("location: %s \n\n" % tweetLocation)
+		#savedTweets.write("retweet count: %d \n" % retweetCount)
+		#savedTweets.write("location: %s \n\n" % tweetLocation)
 
 		numHappy += res[0]
 		numLit += res[1]
@@ -304,11 +303,13 @@ def emojiParser(trend, jsonData, destDir):
 			   'mostPopTweet' : maxRetweetTweet,
 			   'tweetCount' : tweetCount,
 			   'totalEmojis' : totalEmojis,
-			   'numhappy' : numHappy,
-			   'numLit' : numLit,
-			   'numSad' : numSad,
-			   'numMad' : numMad,
-			   'numFunny' : numFunny,
+			   'emotions' : [
+			   		{'name': 'happy', 'count' : numHappy},
+					{'name': 'lit', 'count' : numLit},
+					{'name': 'sad', 'count' : numSad},
+					{'name': 'mad', 'count' : numMad},
+					{'name': 'funny', 'count' : numFunny}
+			   ],
 			   'img' : topimg
 			   }
 

@@ -1,0 +1,35 @@
+{
+  "tweetCount": 347,
+  "totalEmojis": 3,
+  "mostPopTweet": "I knew what you done last summer  #GrammaticallyIncorrectFilms",
+  "maxRetweets": 163,
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 0
+    },
+    {
+      "name": "lit",
+      "count": 0
+    },
+    {
+      "name": "sad",
+      "count": 0
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 3
+    }
+  ],
+  "img": "https://www.bing.com/cr?IG=97A1402598E849E597BDB5CD15872A76&CID=24F753A905A86BA41C125A7A04996A5B&rd=1&h=8hcF0SZ4-bxZN7ZOXtbECZYKYtvVKik8DR1LCio28U8&v=1&r=https%3a%2f%2fwww.phactual.com%2fwp-content%2fuploads%2f2015%2f03%2fwish-i-was-here-poster.jpg&p=DevEx,5008.1",
+  "emojis": [
+    {
+      "char": "\ud83d\ude02",
+      "count": 3
+    }
+  ]
+}

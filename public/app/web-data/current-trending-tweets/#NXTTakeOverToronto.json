@@ -1,0 +1,99 @@
+{
+  "tweetCount": 427,
+  "totalEmojis": 10,
+  "mostPopTweet": "Backstage at #NXTTakeOverToronto.This is how a GM representing the @WWE should dress.Not like those scruffy tramps\u2026 https://t.co/QKBm67LwwL",
+  "maxRetweets": 881,
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 0
+    },
+    {
+      "name": "lit",
+      "count": 9
+    },
+    {
+      "name": "sad",
+      "count": 0
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 1
+    }
+  ],
+  "img": "http://www.bing.com/cr?IG=8BDF3588736C430A81AD94DDA1291F22&CID=08092748BB3065B529ED2E9BBA01642C&rd=1&h=yhIFwHg99A--4lUBwUMBBuFNg6aQKs9CkK1SWskbb9c&v=1&r=http%3a%2f%2fcdn.fansided.com%2fwp-content%2fblogs.dir%2f87%2ffiles%2f2016%2f11%2fNXT-TakeOver-Toronto.jpg&p=DevEx,5008.1",
+  "emojis": [
+    {
+      "char": "\ud83d\ude2b",
+      "count": 4
+    },
+    {
+      "char": "\ud83d\udd25",
+      "count": 9
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 1
+    },
+    {
+      "char": "\u2714",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udffc",
+      "count": 4
+    },
+    {
+      "char": "\ud83d\udd2e",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udf3a",
+      "count": 3
+    },
+    {
+      "char": "\ud83c\udffb",
+      "count": 4
+    },
+    {
+      "char": "\ud83d\ude30",
+      "count": 8
+    },
+    {
+      "char": "\ud83d\ude0d",
+      "count": 12
+    },
+    {
+      "char": "\ud83d\udc4c",
+      "count": 4
+    },
+    {
+      "char": "\ud83d\udc8b",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\ude4c",
+      "count": 15
+    },
+    {
+      "char": "\ud83d\udcaa",
+      "count": 6
+    },
+    {
+      "char": "\u2728",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude0e",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude0f",
+      "count": 3
+    }
+  ]
+}
