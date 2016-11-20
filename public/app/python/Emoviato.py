@@ -10,7 +10,7 @@ api = tweepy.API(auth)
 
 #getting the main folder path we are working in
 currentDir = os.path.dirname(os.path.abspath(__file__))
-destDir = os.path.join(currentDir, 'currentTrendTweets')
+destDir = os.path.join(currentDir, 'generatedFiles')
 try:
     os.makedirs(destDir)
 except OSError:
@@ -24,9 +24,12 @@ for trend in top5trends:
 	trendname.replace('#', "")
 	trendname.rstrip
 	trendTweetJson = emojiParse.getTweetsFromTrends(api, trendname,"popular")
-	# trendTweetJson[0].append(getTweetsFromTrend(api, trendName,"recent")
-	# trendTweetJson[0].append(getTweetsFromTrend(api, trendName,"mixed")
-	# trendTweetJson[0].append(getTweetsFromTrend(api, trendName,"mixed")
-	# trendTweetJson[0].append(getTweetsFromTrend(api, trendName,"mixed")
+	# trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"recent")
+	# trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+	# trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+	# trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+	
+	emojiParse.emojiParser(trendname, trendTweetJson, destDir)
+	#output all tweets
 	with open(trendname + ".json",'w') as outfile:
 		json.dump(trendTweetJson,outfile,indent = 2)
