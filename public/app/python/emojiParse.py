@@ -2,10 +2,12 @@
 import json
 import os.path
 import tweepy
+import BingImgGettr
+import EmojiCounter
 
 #getting all trends, returns json object with top 5 trends.
 ##########################################################################
-def getTopTrends(api):
+def getTopTrends(api, destDir):
 
 	trends = api.trends_place(2458833) #New Orleans search
 	with open("trends.json",'w') as outfile:
@@ -23,14 +25,18 @@ def getTopTrends(api):
 					top5[0] = volume
 			else:
 				top5.append(trend["tweet_volume"])
-			
-	with open("topTrends.json", encoding = 'utf-16', mode = 'w') as outfile:
-		for trend in trends[0]["trends"]:
-			if trend["tweet_volume"] in top5:
-				text = trend["name"]
-				text = text.encode('utf-16', 'surrogatepass').decode('utf-16')
-				top5json.append({"trendName" : text})
-		json.dump(top5json, outfile, indent = 2)
+
+	jsonFilename = "topTrends.json"
+	destination = os.path.join(destDir, jsonFilename)
+	outputJson = open(destination, "w")
+	
+	for trend in trends[0]["trends"]:
+		if trend["tweet_volume"] in top5:
+			text = trend["name"]
+			text = text.encode('utf-16', 'surrogatepass').decode('utf-16')
+			topimg = BingImgGettr.GetTopImg(text)
+			top5json.append({"trendName" : text, "img" : topimg})
+	json.dump(top5json, outputJson, indent = 2)
 		
 	return top5json
 
@@ -294,6 +300,7 @@ def emojiParser(trend, jsonData, destDir):
 	# trendFile.close()
 
 	#creating json file, because no one wanted just a boring txt file
+	topimg = BingImgGettr.GetTopImg(text)
 	jsonify = {'maxRetweets' : maxRetweets,
 			   'mostPopTweet' : maxRetweetTweet,
 			   'tweetCount' : tweetCount,
@@ -302,10 +309,15 @@ def emojiParser(trend, jsonData, destDir):
 			   'numLit' : numLit,
 			   'numSad' : numSad,
 			   'numMad' : numMad,
-			   'numFunny' : numFunny
+			   'numFunny' : numFunny,
+			   'img' : topimg
 			   }
-
-	jsonFilename = trend+"JsonParsed"
+	
+	count = EmojiCounter(jsonData)
+	
+	jsonify.update(count)
+	
+	jsonFilename = trend+".json"
 	destination = os.path.join(destDir, jsonFilename)
 	outputJson = open(destination, "w")
 

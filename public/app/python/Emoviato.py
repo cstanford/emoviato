@@ -17,7 +17,7 @@ except OSError:
     pass # directory already exists
 
 #get top 5 trends in json object held in variable
-top5trends = emojiParse.getTopTrends(api)
+top5trends = emojiParse.getTopTrends(api, destDir)
 
 for trend in top5trends:
 	trendname = trend["trendName"]
