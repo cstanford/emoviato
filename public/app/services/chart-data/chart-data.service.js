@@ -39,6 +39,8 @@
 
             return $http.get(requestString).then(function (response) {
                 trendReportContainer.trendData = response.data;
+                $log.debug("service: getTrendInfo()");
+                $log.debug(response.data);
                 return response;
             });
         };

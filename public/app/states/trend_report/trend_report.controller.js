@@ -13,52 +13,12 @@
         this.trendData = trendReportContainer.trendData;
 
 
-        // this.testOb = {
-        //     "emoji": '\uD83D\uDeE2',
-        //     "count": 5
-        // };
+        // finds emotion with highest count
+        var alias = this;
+        var topEmotionCount = Math.max.apply(Math,alias.trendData.emotions.map(function(o){return o.count;}));
+        var topEmotion = alias.trendData.emotions.find(function(o){ return o.count == topEmotionCount; });
 
-        var emotionContainer = {
-            emotion: [
-                {
-                name: "happy",
-                count: this.trendData.numhappy
-                },
-                {
-                    name: "sad",
-                    count: this.trendData.numSad
-                },
-                {
-                    name: "mad",
-                    count: this.trendData.numMad
-                },
-                {
-                    name: "lit",
-                    count: this.trendData.NumLit
-                },
-                {
-                    name: "funny",
-                    count: this.trendData.numHappy
-                }
-            ]
-        };
-
-        var topEmotionCount = 0;
-        var topEmotionFilter = function (obj) {
-          if(obj.count > topEmotionCount) {
-              topEmotionCount = obj.count;
-              return obj;
-          }
-        };
-
-        var topEmotion = emotionContainer.emotion.filter(topEmotionFilter)[0];
-
-        var testLog = function () {
-            console.log(topEmotion);
-        };
-
-        testLog();
-
+        // sets page headers according to emotion
         var topTweetHeader = document.getElementById("top-tweet-header");
         var topEmojiHeader = document.getElementById("top-emoji-header");
         var setHeaderEmotionColor = function () {
@@ -83,42 +43,26 @@
           }
             topTweetHeader.style.backgroundColor = headerColor;
             topEmojiHeader.style.backgroundColor = headerColor;
-            console.log("switch");
-            console.log(topEmotion);
         };
-
         setHeaderEmotionColor();
 
 
-        // Object
-        // maxRetweets
-        //     :
-        //     19355
-        // mostPopTweet
-        //     :
-        //     "Kanye: So many people hate me...↵↵Kanye to Kanye: But not ALL the people hate you...make all the people hate you... https://t.co/qkF0HkKnUe"
-        // numFunny
-        //     :
-        //     0
-        // numLit
-        //     :
-        //     0
-        // numMad
-        //     :
-        //     1
-        // numSad
-        //     :
-        //     0
-        // numhappy
-        //     :
-        //     0
-        // totalEmojis
-        //     :
-        //     1
-        // tweetCount
-        //     :
-        //     57
+        var divisor = alias.trendData.totalEmojis;
+        var getPercentage = function (num) {
+            return Number(((num / divisor) * 100).toFixed(2));
+        };
+        // Cant do this in the chart config :(
+        var percentageHappy = getPercentage(this.trendData.emotions[0].count);
+        var percentageLit = getPercentage(this.trendData.emotions[1].count);
+        var percentageSad = getPercentage(this.trendData.emotions[2].count);
+        var percentageMad = getPercentage(this.trendData.emotions[3].count);
+        var percentageFunny = getPercentage(this.trendData.emotions[4].count);
 
+        var litEmoji = '\ud83d\udd25';
+        var madEmoji = '\ud83d\ude21';
+        var sadEmoji = '\uD83D\uDE14';
+        var funnyEmoji = '\uD83D\uDE02';
+        var happyEmoji = '\uD83D\uDE04';
         this.pieChartConfig = {
 
             options: {
@@ -128,29 +72,65 @@
                     type: 'pie'
                 },
                 tooltip: {
-                    style: {
-                        padding: 10,
-                        fontWeight: 'bold'
-                    }
-            },
-            plotOptions: {
-                pie: {
-                    dataLabels: {
-                        enabled: false
+                    shared: true,
+                    formatter: function()
+                    {
+                        var value = this;
+                        var string = '<div>';
+                        string += '<p>' + value.point.series.name + '</p>';
+                        string += '<strong>' + value.point.legend + ':</strong> ';
+                        string += '<span>' + value.point.y + ' %' + '</span>';
+                        string += '</li>';
+                        string += '</div>';
+                        return string;
                     },
-                    showInLegend: true
-                }
-            }
+                    useHTML: true
+                },
+                plotOptions: {
+                    pie: {
+                        dataLabels: {
+                            enabled: true
+                        },
+                        showInLegend: true
+                    }
+                },
+                legend: {
+                    labelFormatter: function () {
+                        var opAlias = this;
+                        console.log(opAlias);
+                        return '<h2>' + opAlias.legend + '</h2>'
+                    }
+                },
             },
             series: [{
+                name: 'Emotion',
                 type: 'pie',
-                data: [
-                    ['Happy', this.trendData.numhappy],
-                    ['Sad', this.trendData.numSad],
-                    ['Mad', this.trendData.numMad],
-                    ['Lit', this.trendData.numLit],
-                    ['Funny', this.trendData.numFunny]
-                ]
+                data: [ {
+                    name: happyEmoji,
+                    y: percentageHappy,
+                    drilldown: 'Happy',
+                    legend: 'Happy'
+                }, {
+                    name: sadEmoji,
+                    y: percentageSad,
+                    drilldown: 'Sad',
+                    legend: 'Sad'
+                }, {
+                    name: madEmoji,
+                    y: percentageMad,
+                    drilldown: 'Mad',
+                    legend: 'Mad'
+                }, {
+                    name: litEmoji,
+                    y: percentageLit,
+                    drilldown: litEmoji,
+                    legend: 'Lit'
+                }, {
+                    name: funnyEmoji,
+                    y: percentageFunny,
+                    drilldown: 'Funny',
+                    legend: 'Funny'
+                }]
             }],
             //Title configuration (optional)
             title: {
@@ -360,6 +340,13 @@
                 }
             }]
         };
+
+        var testLog = function () {
+            console.log("topEmotion");
+            console.log('');
+
+        }.bind(this);
+        testLog();
 
 
     }
