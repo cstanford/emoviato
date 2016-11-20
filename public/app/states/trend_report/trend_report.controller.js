@@ -134,30 +134,30 @@
                 name: 'Emotion',
                 type: 'pie',
                 data: [ {
-                    name: happyEmoji,
-                    y: percentageHappy,
-                    drilldown: 'Happy',
-                    legend: 'Happy'
-                }, {
-                    name: sadEmoji,
-                    y: percentageSad,
-                    drilldown: 'Sad',
-                    legend: 'Sad'
+                    name: funnyEmoji,
+                    y: percentageFunny,
+                    drilldown: 'Funny',
+                    legend: 'Funny'
                 }, {
                     name: madEmoji,
                     y: percentageMad,
                     drilldown: 'Mad',
                     legend: 'Mad'
                 }, {
+                    name: happyEmoji,
+                    y: percentageHappy,
+                    drilldown: 'Happy',
+                    legend: 'Happy'
+                }, {
                     name: litEmoji,
                     y: percentageLit,
                     drilldown: litEmoji,
                     legend: 'Lit'
                 }, {
-                    name: funnyEmoji,
-                    y: percentageFunny,
-                    drilldown: 'Funny',
-                    legend: 'Funny'
+                    name: sadEmoji,
+                    y: percentageSad,
+                    drilldown: 'Sad',
+                    legend: 'Sad'
                 }]
             }],
             //Title configuration (optional)
