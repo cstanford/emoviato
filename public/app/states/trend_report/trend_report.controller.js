@@ -12,11 +12,39 @@
         var trendReportContainer = ChartService.getTrendReportContainer();
         this.trendData = trendReportContainer.trendData;
 
-
         // finds emotion with highest count
         var alias = this;
         var topEmotionCount = Math.max.apply(Math,alias.trendData.emotions.map(function(o){return o.count;}));
         var topEmotion = alias.trendData.emotions.find(function(o){ return o.count == topEmotionCount; });
+
+
+
+        var getTop5Emoji = function(arr, prop, n) {
+            // clone before sorting, to preserve the original array
+            var clone = arr.slice(0);
+
+            // sort descending
+            clone.sort(function(x, y) {
+                if (x[prop] == y[prop]) return 0;
+                else if (parseInt(x[prop]) < parseInt(y[prop])) return 1;
+                else return -1;
+            });
+
+            return clone.slice(0, n || 1);
+        };
+
+        var top5Emoji = getTop5Emoji(alias.trendData.emojis, "count", 5);
+        var getTop5EmojiString = function() {
+            var result = '';
+            for(var i = 0; i < 5; i++) {
+                result += top5Emoji[i].char;
+                result += ' ';
+            }
+            return result;
+        };
+
+        this.top5EmojiString = getTop5EmojiString();
+
 
         // sets page headers according to emotion
         var topTweetHeader = document.getElementById("top-tweet-header");
@@ -29,7 +57,7 @@
                   headerColor = '#FF6F08';
                   break;
               case 'sad':
-                  headerColor = '#7742f4';
+                  headerColor = '#8085e9';
                   break;
               case 'mad':
                   headerColor = '#d9534f';
@@ -63,6 +91,7 @@
         var sadEmoji = '\uD83D\uDE14';
         var funnyEmoji = '\uD83D\uDE02';
         var happyEmoji = '\uD83D\uDE04';
+
         this.pieChartConfig = {
 
             options: {
@@ -97,8 +126,7 @@
                 legend: {
                     labelFormatter: function () {
                         var opAlias = this;
-                        console.log(opAlias);
-                        return '<h2>' + opAlias.legend + '</h2>'
+                        return '<h2>' + opAlias.legend + '</h2>';
                     }
                 },
             },
@@ -155,13 +183,18 @@
             }
         };
 
+
+        var maxXAxisLen = alias.trendData.emojis.length;
+        var colCategories = alias.trendData.emojis.map(function (o) {return o.char;});
+        var colData = alias.trendData.emojis.map(function (o) { return o.count;});
+
         this.columnChartConfig = {
 
             options: {
                 //This is the Main Highcharts chart config. Any Highchart options are valid here.
                 //will be overriden by values specified below.
                 chart: {
-                    type: 'column'
+                    inverted: false,
                 },
                 tooltip: {
                     style: {
@@ -170,13 +203,14 @@
                     }
                 }
             },
-            //The below properties are watched separately for changes.
-
             //Series object (optional) - a list of series using normal Highcharts series options.
             //This is where each emoji will go.
             series: [{
-                name: '\u0001F601',
-                data: [10, 15, 12, 8, 7]
+                type: 'column',
+                name: 'Count',
+                colorByPoint: true,
+                data: colData,
+                showInLegend: false
             }],
             //Title configuration (optional)
             title: {
@@ -188,9 +222,10 @@
             //Configuration for the xAxis (optional). Currently only one x axis can be dynamically controlled.
             //properties currentMin and currentMax provided 2-way binding to the chart's maximum and minimum
             xAxis: {
-                currentMin: 0,
-                currentMax: 27,
-                title: {text: 'values'}
+                categories: colCategories
+            },
+            yAxis: {
+                title: {text: 'Emojis counted'}
             },
             //Whether to use Highstocks instead of Highcharts (optional). Defaults to false.
             useHighStocks: false,
@@ -198,6 +233,21 @@
             size: {
                 width: 400,
                 height: 300
+            }
+        };
+
+        var isInverted = false;
+        this.buttonText = 'Invert Chart';
+        this.invertColumnChart = function () {
+            if(isInverted) {
+                isInverted = false;
+                this.buttonText = 'Invert Chart';
+                this.columnChartConfig.options.chart.inverted = false;
+            }
+            else {
+                isInverted = true;
+                this.buttonText = 'Invert-Invert Chart';
+                this.columnChartConfig.options.chart.inverted = true;
             }
         };
 
@@ -343,7 +393,7 @@
 
         var testLog = function () {
             console.log("topEmotion");
-            console.log('');
+            console.log(this.top5EmojiString);
 
         }.bind(this);
         testLog();

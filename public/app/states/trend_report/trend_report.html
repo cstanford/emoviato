@@ -18,8 +18,7 @@
 
         <div class="card card-outline-primary col-md-6 offset-md-1 top-emoji">
             <h3 class="card-header" id="top-emoji-header">Top Emoji</h3>
-            <!--&#128514; &#128293; &#128553;-->
-            <h1 class="text-success text-xs-center display-4" ng-bind-html="trendController.testEmoji"></h1>
+            <h1 class="text-success text-xs-center display-4" ng-bind="trendController.top5EmojiString"></h1>
         </div>
     </div>
     <div class="row">
@@ -28,6 +27,7 @@
         </div>
         <div class="col-md-6">
             <highchart id="column-chart" config="trendController.columnChartConfig"></highchart>
+            <div class="row"> <button class="btn text-xs-center" ng-click="trendController.invertColumnChart()" ng-bind="trendController.buttonText"></button></div>
         </div>
     </div>
     <div class="row">

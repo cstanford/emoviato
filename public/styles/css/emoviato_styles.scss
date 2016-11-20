@@ -59,9 +59,15 @@ $border-radius: 4px;
   margin: 10px;
 }
 
-.highcharts-label {
+.highcharts-data-label {
   text {
     font-size: 25px !important;
+  }
+}
+
+.highcharts-xaxis-labels {
+  text {
+    font-size: 18px !important;
   }
 }
 
