@@ -29,6 +29,7 @@ $border-radius: 4px;
 /* Global styles */
 .content {
   position: relative;
+  background-color: #fdfdfd;
   }
 /* end Global Sytles */
 
@@ -102,6 +103,7 @@ $border-radius: 4px;
 .trend-report {
 
   box-shadow: $emoviato-shadow;
+  background-color: #fff;
 
   #current-trend-header {
     margin-bottom: 0;
