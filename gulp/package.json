@@ -30,7 +30,5 @@
   },
   "dependencies": {
     "angular": "^1.5.8",
-    "angular-chartist.js": "^4.2.2",
-    "chartist": "^0.10.1"
   }
 }

@@ -1,0 +1,47 @@
+{
+  "emojis": [
+    {
+      "count": 2,
+      "char": "\ud83d\ude03"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc4b"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc4a"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udd25"
+    }
+  ],
+  "totalEmojis": 8,
+  "emotions": [
+    {
+      "count": 2,
+      "name": "happy"
+    },
+    {
+      "count": 2,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 0,
+      "name": "funny"
+    }
+  ],
+  "mostPopTweet": "#HolidayDinnerIn3Words Hillary For Prison",
+  "img": "http://www.bing.com/cr?IG=A7EF6E9789AA4129A9208F3CEF0C9E3D&CID=03E49464E015605036E19DB0E124619E&rd=1&h=V8Gej4rdh8Qu19hsHEoovkMJvPNrEjghUV2K4gmCbRI&v=1&r=http%3a%2f%2ftrialsinfood.files.wordpress.com%2f2011%2f12%2fxmas-dinner-picture3.png%3fw%3d870&p=DevEx,5008.1",
+  "maxRetweets": 87,
+  "tweetCount": 22
+}

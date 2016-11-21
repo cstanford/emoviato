@@ -212,93 +212,51 @@ def emojiParser(trend, jsonData, destDir, filename):
 
 	totalEmojis = numHappy + numLit + numSad + numMad + numFunny
 
-	if (totalEmojis > 0):
-		percentHappy = numHappy / totalEmojis
-		percentLit = numLit / totalEmojis
-		percentSad = numSad / totalEmojis
-		percentMad = numMad / totalEmojis
-		percentFunny = numFunny / totalEmojis
-	else:
-		percentHappy = 0
-		percentLit = 0
-		percentSad = 0
-		percentMad = 0
-		percentFunny = 0
+	jsonFilename = filename+".json"
+	destination = os.path.join(destDir, jsonFilename)
+
+	emoji_data, total_emoji_count = EmojiCounter.emojiCounter(jsonData)
 
 	#we have seen this trend before, so get data from old file to create new file
-	# if (os.path.isfile(os.path.join(destDir, trend + "Trend"))):
+	if (os.path.isfile(destination)):
+		trendFile = open(destination, "r")
 
-		# print("file already exists!")
-		# trendFile = open(os.path.join(destDir, trend + "Trend"), "r")
+		trend_file_obj = json.load(trendFile)
 
-		# #reading line by line info from file
-		# oldTopTweet = str(trendFile.readline())
-		# print("oldTopTweet: ", oldTopTweet)
+		tweetCount += trend_file_obj["tweetCount"]
 
-		# oldMaxRetweetCount = int(trendFile.readline())
-		# print("oldMaxRetweetCount: ", oldMaxRetweetCount)
+		for emotion in trend_file_obj["emotions"]:
+			if(emotion["name"] == "happy"):
+				numHappy += emotion["count"]
+			elif(emotion["name"] == "lit"):
+				numLit += emotion["count"]
+			elif(emotion["name"] == "sad"):
+				numSad += emotion["count"]
+			elif(emotion["name"] == "mad"):
+				numMad += emotion["count"]
+			elif(emotion["name"] == "funny"):
+				numFunny += emotion["count"]
 
-		# oldNumTweets = int(trendFile.readline())
-		# print("oldNumTweets: ", oldNumTweets)
+		if(trend_file_obj["maxRetweets"] > maxRetweets):
+			maxRetweets = trend_file_obj["maxRetweets"]
+			maxRetweetTweet = trend_file_obj["mostPopTweet"]
 
-		# oldTotalEmojiCount = int(trendFile.readline())
-		# print("oldTotalEmojiCount: ", oldTotalEmojiCount)
+		emoji_map = {}
+		for entry in emoji_data:
+			emoji_map[entry["char"]] = entry["count"]
 
-		# oldNumHappy = int(trendFile.readline())
-		# print("oldNumHappy: ", oldNumHappy)
+		for entry in trend_file_obj["emojis"]:
+			if(entry["char"] in emoji_map):
+				emoji_map[entry["char"]] += entry["count"]
+			else:
+				emoji_map[entry["char"]] = entry["count"]
+		emoji_data = []
+		for key, char in emoji_map.items():
+			entry = {"count": emoji_map[key], "char": key}
+			emoji_data.append(entry)
+		total_emoji_count += trend_file_obj["totalEmojis"]
+		trendFile.close()
 
-		# oldNumLit = int(trendFile.readline())
-		# print("oldNumLit: ", oldNumLit)
-
-		# oldNumSad = int(trendFile.readline())
-		# print("oldNumSad: ", oldNumSad)
-
-		# oldNumMad = int(trendFile.readline())
-		# print("oldNumMad: ", oldNumMad)
-
-		# oldNumFunny = int(trendFile.readline())
-		# print("oldNumFunny: ", oldNumFunny)
-
-		# trendFile.close()
-
-		# trendFile = open("emojiTrend", "w")
-
-		# totalEmojis = totalEmojis + oldTotalEmojiCount
-		# tweetCount = tweetCount + oldNumTweets
-		# numHappy = numHappy + oldNumHappy
-		# numLit = numLit + oldNumLit
-		# numSad = numSad + oldNumSad
-		# numMad = numMad + oldNumMad
-		# numFunny = numFunny + oldNumFunny
-
-		# trendFile.write("%s \n%d \n%d \n%d \n%d \n%d \n%d \n%d \n%d \n" % (
-			# maxRetweetTweet, maxRetweets, tweetCount, totalEmojis, numHappy, numLit, numSad, numMad, numFunny))
-
-		# trendFile.close()
-
-		# jsonify = {'maxRetweets' : maxRetweets,
-				   # 'mostPopTweet' : maxRetweetTweet,
-				   # 'tweetCount' : tweetCount,
-				   # 'totalEmojis' : totalEmojis,
-				   # 'numhappy' : numHappy,
-				   # 'numLit' : numLit,
-				   # 'numSad' : numSad,
-				   # 'numMad' : numMad,
-				   # 'numFunny' : numFunny
-					# }
-
-		# outputJson = open("testJsonOut", "w")
-		# json.dump(jsonify, outputJson, indent=2)
-
-
-	# this is the first time we've seen this trend, so we must make a new trend file for it
-	# else:
-	#print("file does not exist, creating a new file to store data")
-	# trendFile = open(os.path.join(destDir, trend + "Trend"), "w")
-	# trendFile.write("%s \n%d \n%d \n%d \n%d \n%d \n%d \n%d \n%d \n" % (
-		# maxRetweetTweet, maxRetweets, tweetCount, totalEmojis, numHappy, numLit, numSad, numMad, numFunny))
-
-	# trendFile.close()
 
 	#creating json file, because (Connor 'Big Sexy' Stanford) didn't want a boring txt file
 	topimg = BingImgGettr.GetTopImg(trend)
@@ -312,28 +270,11 @@ def emojiParser(trend, jsonData, destDir, filename):
 					{'name': 'mad', 'count' : numMad},
 					{'name': 'funny', 'count' : numFunny}
 			   ],
+			   'emojis' : emoji_data,
+			   'totalEmojis' : total_emoji_count,
 			   'img' : topimg
 			   }
 
-	emoji_data, total_emoji_count = EmojiCounter.emojiCounter(jsonData)
-
-	jsonify["emojis"] = emoji_data;
-	jsonify["totalEmojis"] = total_emoji_count
-
-	jsonFilename = filename+".json"
-	destination = os.path.join(destDir, jsonFilename)
 	outputJson = open(destination, "w")
 
 	json.dump(jsonify, outputJson, indent=2)
-
-	######### end old else
-
-	# general output to console
-	# print("Total tweets parsed: {}.".format(tweetCount))
-	# print("Most retweets: ", maxRetweets)
-	# print("Most retweeted tweet: ", maxRetweetTweet)
-	# print("Total number of emojis: ", totalEmojis)
-	# print("numHappy: %d, numLit: %d, numSad: %d, numMad: %d, numFunny: %d" % (numHappy, numLit, numSad, numMad, numFunny))
-
-
-	#trendFile.close()

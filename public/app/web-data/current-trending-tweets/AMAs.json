@@ -1,0 +1,135 @@
+{
+  "emojis": [
+    {
+      "count": 4,
+      "char": "\ud83d\ude4c"
+    },
+    {
+      "count": 4,
+      "char": "\ud83d\udc9c"
+    },
+    {
+      "count": 4,
+      "char": "\ud83d\udd25"
+    },
+    {
+      "count": 8,
+      "char": "\u26a1"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\ude40"
+    },
+    {
+      "count": 8,
+      "char": "\ud83d\udcaa"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc6f"
+    },
+    {
+      "count": 4,
+      "char": "\ud83d\ude0d"
+    },
+    {
+      "count": 4,
+      "char": "\u2728"
+    },
+    {
+      "count": 8,
+      "char": "\ud83d\udca5"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\udc98"
+    },
+    {
+      "count": 6,
+      "char": "\u2764"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udfd9"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udfa8"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udf89"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\ude0a"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\ude31"
+    },
+    {
+      "count": 2,
+      "char": "\u2601"
+    },
+    {
+      "count": 2,
+      "char": "\u2661"
+    },
+    {
+      "count": 4,
+      "char": "\ud83c\udffd"
+    },
+    {
+      "count": 4,
+      "char": "\ud83c\udf99"
+    },
+    {
+      "count": 4,
+      "char": "\u27a1"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udcde"
+    },
+    {
+      "count": 2,
+      "char": "\ud83e\udd16"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc4c"
+    },
+    {
+      "count": 4,
+      "char": "\ud83d\udc95"
+    }
+  ],
+  "totalEmojis": 96,
+  "emotions": [
+    {
+      "count": 2,
+      "name": "happy"
+    },
+    {
+      "count": 4,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 0,
+      "name": "funny"
+    }
+  ],
+  "mostPopTweet": "Every RT is a vote \ud83d\udc4c\ud83c\udffd\n\n#AMAs New Artist of the Year @zaynmalik https://t.co/dCq8BkojEJ",
+  "img": "http://www.bing.com/cr?IG=EDA3D0717D604FBEB9BCBF29D0F1DC95&CID=32DC934F09626B92053F9A9B08536A10&rd=1&h=8uNSPsLi49XCxmpLL_o1JHUjJ7Aw9eVHViZ3ie8iH7I&v=1&r=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f03%2fAmazon-Logo-PNG.png&p=DevEx,5008.1",
+  "maxRetweets": 63974,
+  "tweetCount": 104
+}
