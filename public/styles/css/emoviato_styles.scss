@@ -31,6 +31,12 @@ $border-radius: 4px;
   position: relative;
   background-color: #fdfdfd;
   }
+
+  #trend-background {
+    background-color: #fdfdfd;
+    margin-left: -100%;
+    margin-right: -100%;
+  }
 /* end Global Sytles */
 
 .home-view {
@@ -112,6 +118,7 @@ $border-radius: 4px;
 
   .home-btn {
     min-width: 100%;
+    font-size: 30px;
   }
 
   .card-img-top {

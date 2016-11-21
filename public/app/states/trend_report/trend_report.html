@@ -1,3 +1,4 @@
+<div id="trend-background">
 <div class="container trend-report">
     <div class="row text-xs-center">
         <div class="card-deck-wrapper col-xs-12 col-md-5 pull-right">
@@ -24,11 +25,11 @@
             <highchart id="pie-chart" config="trendController.pieChartConfig"></highchart>
         </div>
         <div class="col-md-6">
-           <h6 class="fa fa-twitter fa-4x big-text"> processed: {{trendController.trendData.tweetCount}}</h6>
+           <h4 class="fa fa-twitter fa-4x big-text"> processed: {{trendController.trendData.tweetCount}}</h4>
             <div class="spacer-row"></div>
-            <h6 class="fa fa-hashtag fa-4x big-text"> emoji: {{trendController.trendData.totalEmojis}}</h6>
+            <h4 class="fa fa-hashtag fa-4x big-text"> emoji: {{trendController.trendData.totalEmojis}}</h4>
             <div class="spacer-row"></div>
-            <h6 class="fa fa-users fa-4x big-text"> emoviato: {{'\uD83D\uDCAF'}}</h6>
+            <h4 class="fa fa-users fa-4x big-text"> emoviato: {{'\uD83D\uDCAF'}}</h4>
         </div>
     </div>
     <div class="spacer-row"></div>
@@ -41,4 +42,5 @@
     </div>
     <div class="footer-spacer"></div>
 
+</div>
 </div>

@@ -53,6 +53,7 @@
 
 
         // sets page headers according to emotion
+        var content = document.getElementById("trend-background");
         var currentTrendHeader = document.getElementById("current-trend-header");
         var topTweetHeader = document.getElementById("top-tweet-header");
         var topEmojiHeader = document.getElementById("top-emoji-header");
@@ -61,22 +62,23 @@
             var headerColor;
           switch(topEmotion.name) {
               case 'lit':
-                  headerColor = '#F38630';
+                  headerColor = '#FF9800';
                   break;
               case 'sad':
-                  headerColor = '#8085e9';
+                  headerColor = '#3F51B5';
                   break;
               case 'mad':
-                  headerColor = '#bf2f2f';
+                  headerColor = '#D32F2F';
                   break;
               case 'happy':
-                  headerColor = '#FFEF4C';
+                  headerColor = '#FFEB3B';
                   break;
               default:
-                  headerColor = '#a4efff';
+                  headerColor = '#03A9F4';
                   break;
           }
-            currentTrendHeader.style.backgroundColor = headerColor;
+            content.style.backgroundColor = headerColor;
+            currentTrendHeader.style.backgroundColor = '#fff';
             topTweetHeader.style.backgroundColor = headerColor;
             topEmojiHeader.style.backgroundColor = headerColor;
         };
