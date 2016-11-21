@@ -307,7 +307,8 @@ def emojiParser(trend, jsonData, destDir, filename):
 			   ],
 			   'emojis' : emoji_data,
 			   'totalEmojis' : total_emoji_count,
-			   'img' : topimg
+			   'img' : topimg,
+			   'trendName' : trend
 			   }
 
 	outputJson = open(destination, "w")
