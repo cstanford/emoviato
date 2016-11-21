@@ -102,31 +102,66 @@ def emojiParser(trend, jsonData, destDir, filename):
 					u'\U0001F60C',
 					u'\U0001F642',
 					u'\U0001F643',
-					u'\U0001F638']
+					u'\U0001F638',
+					u'\U0001F63B',
+					u'\U000263A',
+					u'\U0001F608',
+					u'\U0001F600',
+					u'\U0001F607',
+					u'\U0001F60E'
+					]
 
 	litEmojis = [
 					u'\U0001F44D', #thumbs up
-					u'\U0001F525'] #fire
+					u'\U0001F525',
+					u'\U0002728',
+					u'\U00026A1',
+					u'\U0001F31F',
+					u'\U0001F320',
+					u'\U0001F389',
+					u'\U0001F38A',
+					u'\U0001F4A3',
+					u'\U0001F4A5',
+					u'\U0001F4AB',
+					u'\U0001F4AF',
+					u'\U0001F44C'
+					]
 
 	sadEmojis = [ u'\U0001F614',
 				  u'\U0001F61E',
 				  u'\U0001F629',
 				  u'\U0001F63F',
 				  u'\U0001F641',
-				  u'\U0001F644']
+				  u'\U0001F644',
+				  u'\U0001F62D',
+				  u'\U0001F63F',
+				  u'\U0001F610',
+				  u'\U0001F615',
+				  u'\U0001F61F',
+				  u'\U0001F626',
+				  u'\U0001F627'
+				  ]
 
 	madEmojis = [ u'\U0001F620',
 				  u'\U0001F621',
 				  u'\U0001F624',
-				  u'\U0001F63E']
+				  u'\U0001F63E',
+				  u'\U0001F624',
+				  u'\U0001F620',
+				  u'\U0001F44A',
+				  u'\U0001F47F',
+				  u'\U0001F62C',
+				  u'\U0001F611',
+				  u'\U0001F611'
+				  ]
 
 	funnyEmojis = [ u'\U0001F602',
 					u'\U0001F604',
 					u'\U0001F605',
 					u'\U0001F606',
 					u'\U0001F61D',
-					u'\U0001F62D',
-					u'\U0001F639']
+					u'\U0001F639',
+					u'\U0001f4A9]
 
 
 	#function that counts emojis in a single tweet
