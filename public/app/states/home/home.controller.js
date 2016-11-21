@@ -34,7 +34,7 @@
       ];
 
         this.goToTrendReport = function($index) {
-          $state.go('app.trend_report', {currentTrendName: this.topTrends[$index].trendName});
+          $state.go('app.trend_report', {currentTrendName: this.topTrends[$index].fileName});
         };
 
 
