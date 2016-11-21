@@ -23,9 +23,9 @@ trendPath = os.path.join(destDir, 'current-trending-tweets')
 for trend in top5trends:
 	trendname = trend["trendName"]
 	trendTweetJson = emojiParse.getTweetsFromTrends(api, trendname,"popular")
-	#trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"recent")
-	#trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
-	#trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
-	#trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"recent")
+	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
+	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
 
 	emojiParse.emojiParser(trendname, trendTweetJson, trendPath, trend["fileName"])

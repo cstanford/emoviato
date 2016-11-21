@@ -1,0 +1,124 @@
+{
+  "tweetCount": 429,
+  "img": "http://www.bing.com/cr?IG=BB54F8C137B8496E87A5A826B8C8F06C&CID=0736910595476D41187A98D194766C99&rd=1&h=DLa5jotBg7DMtqTO3dU9OIpIv5XgZ9MhPbWzM-KqqvA&v=1&r=http%3a%2f%2fcdn3.hiphopsince1987.com%2fwp-content%2fuploads%2f2014%2f11%2fNFL-Thanksgiving-2014.jpg&p=DevEx,5008.1",
+  "emotions": [
+    {
+      "count": 1,
+      "name": "happy"
+    },
+    {
+      "count": 6,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 12,
+      "name": "funny"
+    }
+  ],
+  "emojis": [
+    {
+      "count": 1,
+      "char": "\ud83d\udca8"
+    },
+    {
+      "count": 12,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc4c"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude2e"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc99"
+    },
+    {
+      "count": 4,
+      "char": "\u27a1"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude4c"
+    },
+    {
+      "count": 4,
+      "char": "\ud83c\udfc8"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udd11"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udcfb"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude2f"
+    },
+    {
+      "count": 3,
+      "char": "\ud83c\udffe"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude03"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udcfa"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udfc3"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc4f"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude33"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udcaa"
+    },
+    {
+      "count": 54,
+      "char": "\ud83d\ude31"
+    },
+    {
+      "count": 4,
+      "char": "\ud83d\udc9a"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udcf0"
+    },
+    {
+      "count": 3,
+      "char": "\ud83e\udd14"
+    },
+    {
+      "count": 3,
+      "char": "\ud83c\udfc9"
+    }
+  ],
+  "mostPopTweet": "#TOUCHDOWN Seahawks! Doug Baldwin to Russell Wilson! #GetTricky\n\n#PHIvsSEA #ProBowlVote https://t.co/xOfK0q7EAd",
+  "trendName": "PHIvsSEA",
+  "totalEmojis": 111,
+  "maxRetweets": 2934
+}

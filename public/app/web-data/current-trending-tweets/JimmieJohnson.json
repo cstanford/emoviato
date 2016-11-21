@@ -1,0 +1,108 @@
+{
+  "tweetCount": 440,
+  "img": "http://www.bing.com/cr?IG=3E5BB85AF67A487AA856763C865E7689&CID=13C4CB2028E16E6F06B8C2F429D06F26&rd=1&h=9YBllkQW3IaGFc9C-RNTjJvIqDkw_9wSVgFluUFn0Xs&v=1&r=http%3a%2f%2fa.fssta.com%2fcontent%2fdam%2ffsdigital%2ffscom%2fnascar%2fimages%2f2016%2f05%2f05%2f050616-NASCAR-Jimmie-Johnson.vresize.1200.675.high.14.jpg&p=DevEx,5008.1",
+  "emotions": [
+    {
+      "count": 0,
+      "name": "happy"
+    },
+    {
+      "count": 28,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 1,
+      "name": "mad"
+    },
+    {
+      "count": 0,
+      "name": "funny"
+    }
+  ],
+  "emojis": [
+    {
+      "count": 1,
+      "char": "\ud83d\udc49"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udd76"
+    },
+    {
+      "count": 21,
+      "char": "\ud83c\udffb"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc10"
+    },
+    {
+      "count": 24,
+      "char": "\ud83c\udfc6"
+    },
+    {
+      "count": 1,
+      "char": "\u26be"
+    },
+    {
+      "count": 11,
+      "char": "\ud83c\udffc"
+    },
+    {
+      "count": 24,
+      "char": "\ud83d\udc4f"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udf96"
+    },
+    {
+      "count": 1,
+      "char": "\u2744"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udcaa"
+    },
+    {
+      "count": 9,
+      "char": "\ud83d\udc81"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc4a"
+    },
+    {
+      "count": 17,
+      "char": "\ud83c\udfc1"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc4b"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udcf0"
+    },
+    {
+      "count": 4,
+      "char": "\ud83d\udc4d"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc51"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc6f"
+    }
+  ],
+  "mostPopTweet": "#se7en https://t.co/29x7vcZEPY",
+  "trendName": "Jimmie Johnson",
+  "totalEmojis": 129,
+  "maxRetweets": 1108
+}

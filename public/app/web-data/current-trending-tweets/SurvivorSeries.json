@@ -1,62 +1,21 @@
 {
-  "emojis": [
-    {
-      "count": 2,
-      "char": "\ud83c\udffd"
-    },
-    {
-      "count": 2,
-      "char": "\ud83d\udc7f"
-    },
-    {
-      "count": 2,
-      "char": "\ud83d\ude4b"
-    },
-    {
-      "count": 2,
-      "char": "\ud83d\udcaa"
-    },
-    {
-      "count": 2,
-      "char": "\ud83c\udffc"
-    },
-    {
-      "count": 6,
-      "char": "\ud83e\udd17"
-    },
-    {
-      "count": 2,
-      "char": "\ud83d\ude08"
-    },
-    {
-      "count": 2,
-      "char": "\ud83d\udc51"
-    },
-    {
-      "count": 2,
-      "char": "\ud83d\udc8b"
-    },
-    {
-      "count": 3,
-      "char": "\ud83d\ude0d"
-    }
-  ],
-  "totalEmojis": 25,
+  "tweetCount": 446,
+  "img": "http://www.bing.com/cr?IG=7279F292B37849EA9E6812369E5824AB&CID=0A30CF49C1FD67A537F4C69DC0CC6688&rd=1&h=CC7XswU_1uGz6A7bABYC1yEGVURrveRDGFJMNJszCbk&v=1&r=http%3a%2f%2f2.bp.blogspot.com%2f-x9qAX51fkvE%2fUKP3YknCzFI%2fAAAAAAAAAIo%2f0Go7iR6Do5c%2fs1600%2fwwe_survivor_series_2012_official_poster_hd_by_windows8osx-d5ji8fr.jpg&p=DevEx,5008.1",
   "emotions": [
     {
-      "count": 0,
+      "count": 13,
       "name": "happy"
     },
     {
-      "count": 0,
+      "count": 12,
       "name": "lit"
     },
     {
-      "count": 0,
+      "count": 1,
       "name": "sad"
     },
     {
-      "count": 0,
+      "count": 3,
       "name": "mad"
     },
     {
@@ -64,8 +23,90 @@
       "name": "funny"
     }
   ],
+  "emojis": [
+    {
+      "count": 1,
+      "char": "\ud83d\ude14"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc7f"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udd37"
+    },
+    {
+      "count": 9,
+      "char": "\ud83d\ude0d"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude18"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude0e"
+    },
+    {
+      "count": 12,
+      "char": "\ud83e\udd17"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udd25"
+    },
+    {
+      "count": 5,
+      "char": "\ud83c\udffc"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc4d"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc96"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\udc8b"
+    },
+    {
+      "count": 11,
+      "char": "\ud83d\udcaa"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udfcb"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude08"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\ude4c"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude4b"
+    },
+    {
+      "count": 1,
+      "char": "\u2640"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc51"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc41"
+    }
+  ],
   "mostPopTweet": "HIGHEST RECOMMENDATION!\n@WWE @WWEgames @BrockLesnar vs @Goldberg #WWE2K17 #SurvivorSeries https://t.co/22zJHz51CK",
-  "img": "http://www.bing.com/cr?IG=9305C177AA714E13B46AE57FD5F20EF3&CID=341CD5DAB39B68722BA2DC0EB2AA6966&rd=1&h=CC7XswU_1uGz6A7bABYC1yEGVURrveRDGFJMNJszCbk&v=1&r=http%3a%2f%2f2.bp.blogspot.com%2f-x9qAX51fkvE%2fUKP3YknCzFI%2fAAAAAAAAAIo%2f0Go7iR6Do5c%2fs1600%2fwwe_survivor_series_2012_official_poster_hd_by_windows8osx-d5ji8fr.jpg&p=DevEx,5008.1",
-  "maxRetweets": 2056,
-  "tweetCount": 92
+  "trendName": "SurvivorSeries",
+  "totalEmojis": 78,
+  "maxRetweets": 2056
 }
