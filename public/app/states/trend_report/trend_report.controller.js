@@ -6,7 +6,7 @@
     Controller.$inject = ['$log', '$state', '$stateParams', '$interval', '$timeout','ChartService'];
 
     function Controller($log, $state, $stateParams, $interval, $timeout, ChartService) {
-        
+
         var trendReportContainer = ChartService.getTrendReportContainer();
         this.trendData = trendReportContainer.trendData;
         this.currentTrendName = this.trendData.trendName;
