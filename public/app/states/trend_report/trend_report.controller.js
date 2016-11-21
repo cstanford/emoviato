@@ -6,11 +6,11 @@
     Controller.$inject = ['$log', '$state', '$stateParams', '$interval', '$timeout','ChartService'];
 
     function Controller($log, $state, $stateParams, $interval, $timeout, ChartService) {
-
-        this.currentTrendName = $stateParams.currentTrendName;
-
+        
         var trendReportContainer = ChartService.getTrendReportContainer();
         this.trendData = trendReportContainer.trendData;
+        this.currentTrendName = this.trendData.trendName;
+
 
         // finds emotion with highest count
         var alias = this;
@@ -36,9 +36,15 @@
         var top5Emoji = getTop5Emoji(alias.trendData.emojis, "count", 5);
         var getTop5EmojiString = function() {
             var result = '';
-            for(var i = 0; i < 5; i++) {
+            for(var i = 0; i < alias.trendData.emojis.length; i++) {
+                if(i === 5) {
+                    break;
+                }
                 result += top5Emoji[i].char;
                 result += ' ';
+            }
+            if(result === ''){
+                result = alias.trendData.trendName + ' isn\'t dank enough!';
             }
             return result;
         };
@@ -387,8 +393,8 @@
         };
 
         var testLog = function () {
-            console.log("topEmotion");
-            console.log(this.top5EmojiString);
+            console.log("trendData");
+            console.log(this.trendData);
 
         }.bind(this);
         testLog();
