@@ -80,7 +80,7 @@ $border-radius: 4px;
 }
 
 .spacer-row {
-  margin: 50px;
+  margin: 45px;
 }
 
 .footer-spacer {
@@ -101,6 +101,13 @@ $border-radius: 4px;
 
 .trend-report {
 
+  box-shadow: $emoviato-shadow;
+
+  #current-trend-header {
+    margin-bottom: 0;
+    min-width: 100%;
+  }
+
   .home-btn {
     min-width: 100%;
   }
@@ -111,15 +118,36 @@ $border-radius: 4px;
 
   .card {
     padding: 0%;
-    box-shadow: $emoviato-shadow;
+    //box-shadow: $emoviato-shadow;
+  }
+
+  .card-block {
+    padding: 0;
+  }
+
+  .card-img-top {
+    border-radius: 0;
   }
 
   .card-text {
     padding: 3%;
   }
 
+  .top-tweet {
+    margin-top: 45px;
+  }
+
   .top-emoji {
     margin-top: 20px;
+  }
+
+  .trend-card {
+    margin-left: 45px;
+    margin-top: 45px;
+  }
+
+  .big-text {
+    margin-left: 40px;
   }
 
 
