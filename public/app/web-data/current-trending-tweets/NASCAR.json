@@ -1,34 +1,13 @@
 {
-  "emojis": [
-    {
-      "count": 2,
-      "char": "\ud83c\udf89"
-    },
-    {
-      "count": 2,
-      "char": "\ud83c\udfc6"
-    },
-    {
-      "count": 2,
-      "char": "\u2764"
-    },
-    {
-      "count": 2,
-      "char": "\ud83d\udcaf"
-    },
-    {
-      "count": 2,
-      "char": "\ud83c\udfc1"
-    }
-  ],
-  "totalEmojis": 10,
+  "tweetCount": 462,
+  "img": "http://www.bing.com/cr?IG=4768D86B113744219D946D91584D4072&CID=04BD6EC4BDCF694E01E86710BCFE68EE&rd=1&h=i5pmYaPQOA2Nha5LqgdNqv2jXqtnmdec1ogtADCqTkM&v=1&r=http%3a%2f%2fstatic.nascar.com%2fcontent%2fdam%2fnascar%2farticles%2f2016%2f2%2f11%2fmain%2fDaytona-cars-lined-up.jpg&p=DevEx,5008.1",
   "emotions": [
     {
       "count": 0,
       "name": "happy"
     },
     {
-      "count": 0,
+      "count": 4,
       "name": "lit"
     },
     {
@@ -36,7 +15,7 @@
       "name": "sad"
     },
     {
-      "count": 0,
+      "count": 3,
       "name": "mad"
     },
     {
@@ -44,8 +23,46 @@
       "name": "funny"
     }
   ],
+  "emojis": [
+    {
+      "count": 3,
+      "char": "\ud83d\ude21"
+    },
+    {
+      "count": 24,
+      "char": "\ud83d\ude33"
+    },
+    {
+      "count": 1,
+      "char": "\u2764"
+    },
+    {
+      "count": 3,
+      "char": "\ud83c\udf89"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude4a"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udfc1"
+    },
+    {
+      "count": 30,
+      "char": "\ud83c\udfc6"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude0f"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udcaf"
+    }
+  ],
   "mostPopTweet": "Retweet to congratulate @JimmieJohnson on his SEVENTH championship!\n\n#se7en #TheChase https://t.co/k9DM04Kimh",
-  "img": "http://www.bing.com/cr?IG=290743B03A6149C29AFB1C7943006F0C&CID=1D09BAB3F83367BE36E6B367F90266B3&rd=1&h=i5pmYaPQOA2Nha5LqgdNqv2jXqtnmdec1ogtADCqTkM&v=1&r=http%3a%2f%2fstatic.nascar.com%2fcontent%2fdam%2fnascar%2farticles%2f2016%2f2%2f11%2fmain%2fDaytona-cars-lined-up.jpg&p=DevEx,5008.1",
-  "maxRetweets": 2596,
-  "tweetCount": 124
+  "trendName": "NASCAR",
+  "totalEmojis": 68,
+  "maxRetweets": 3105
 }
