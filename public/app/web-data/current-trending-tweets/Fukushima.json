@@ -1,0 +1,68 @@
+{
+  "maxRetweets": 6353,
+  "img": "https://www.bing.com/cr?IG=03271F0FE4E2459BA921DDF69E6F27F6&CID=1EC6739C4898684D0C517A4849A9690C&rd=1&h=o4pwe_zwcH9EVCi1kcgURf0QGeQq1B_22Fg2xdi4Cw4&v=1&r=https%3a%2f%2flygsbtd.files.wordpress.com%2f2013%2f08%2ffukushima_nuclear_2-other.jpg&p=DevEx,5008.1",
+  "emotions": [
+    {
+      "count": 0,
+      "name": "happy"
+    },
+    {
+      "count": 3,
+      "name": "lit"
+    },
+    {
+      "count": 14,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 0,
+      "name": "funny"
+    }
+  ],
+  "trendName": "Fukushima",
+  "mostPopTweet": "BREAKING: Magnitude 7.3 earthquake strikes off Fukushima in Japan, tsunami warning issued.",
+  "totalEmojis": 27,
+  "emojis": [
+    {
+      "char": "\ud83d\ude22",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udd34",
+      "count": 4
+    },
+    {
+      "char": "\ud83c\udffc",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude32",
+      "count": 2
+    },
+    {
+      "char": "\u2764",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude2d",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\ude25",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude14",
+      "count": 8
+    },
+    {
+      "char": "\ud83d\ude4c",
+      "count": 3
+    }
+  ],
+  "tweetCount": 445
+}

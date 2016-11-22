@@ -1,0 +1,44 @@
+{
+  "totalEmojis": 45,
+  "mostPopTweet": "BREAKING: Pope Francis will allow Catholic priests the power to forgive abortion https://t.co/ZJCpCqr5zw",
+  "maxRetweets": 2409,
+  "tweetCount": 446,
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 15
+    },
+    {
+      "name": "lit",
+      "count": 15
+    },
+    {
+      "name": "sad",
+      "count": 0
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 0
+    }
+  ],
+  "emojis": [
+    {
+      "char": "\u270c",
+      "count": 15
+    },
+    {
+      "char": "\u262e",
+      "count": 15
+    },
+    {
+      "char": "\ud83d\ude0e",
+      "count": 15
+    }
+  ],
+  "trendName": "Pope Francis",
+  "img": "http://www.bing.com/cr?IG=89DBE647091846B7B35457798ECC63E3&CID=37E2641CB4AD6423154D6DC8B59C6541&rd=1&h=VKwj-CQXAHLXJJoHUlO1spkCvZ0t8r5Cny1oNgEaUtE&v=1&r=http%3a%2f%2fimages.mid-day.com%2fimages%2f2016%2fjun%2f5Pope-Francis-1.jpg&p=DevEx,5008.1"
+}

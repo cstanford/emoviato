@@ -1,0 +1,140 @@
+{
+  "trendName": "1MillionGifs",
+  "mostPopTweet": "Oh damn ya got me right after brushing my teeth! \nLET THE WILD GIF RUMPUS START \n#1MillionGifs \nThank you I love yo\u2026 https://t.co/8JLwIWGy4y",
+  "emotions": [
+    {
+      "count": 1,
+      "name": "happy"
+    },
+    {
+      "count": 47,
+      "name": "lit"
+    },
+    {
+      "count": 1,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 2,
+      "name": "funny"
+    }
+  ],
+  "tweetCount": 320,
+  "maxRetweets": 1024,
+  "img": "http://nerdist.com/wp-content/uploads/2014/12/Dr.-Evil.jpg",
+  "totalEmojis": 114,
+  "emojis": [
+    {
+      "count": 4,
+      "char": "\u2661"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc9b"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude09"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udf8a"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude48"
+    },
+    {
+      "count": 10,
+      "char": "\u2764"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udfb5"
+    },
+    {
+      "count": 22,
+      "char": "\ud83d\ude4c"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc4c"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc99"
+    },
+    {
+      "count": 1,
+      "char": "\u279c"
+    },
+    {
+      "count": 8,
+      "char": "\ud83d\udc4d"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc9c"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude1e"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc9a"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude0a"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udfb6"
+    },
+    {
+      "count": 22,
+      "char": "\ud83c\udffe"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udf08"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udff3"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc4b"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udffc"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udf88"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc95"
+    },
+    {
+      "count": 13,
+      "char": "\ud83c\udf89"
+    },
+    {
+      "count": 8,
+      "char": "\u2729"
+    }
+  ]
+}
