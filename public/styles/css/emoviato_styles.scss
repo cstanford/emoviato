@@ -41,11 +41,15 @@ $border-radius: 4px;
 
 .home-view {
 
+  .jumbotron {
+    padding-top: 37px;
+  }
+
   .emoviato-heading {
     background-color: $bs-active-color;
-    padding-bottom: 100px;
-    margin-left: -20px; // Removes default padding from Bootstrap
-    margin-right: -20px;
+    padding-bottom: 25px;
+    margin-left: -100%; // Removes default padding from Bootstrap
+    margin-right: -100%;
   }
 
   .emoviato-ascii {
@@ -54,7 +58,7 @@ $border-radius: 4px;
 
   .card-deck {
     table-layout: auto; // Enables min-width of trend-card.
-    margin-top: 80px;
+    margin-top: 60px;
   }
 
   .trend-card {
@@ -72,7 +76,7 @@ $border-radius: 4px;
       padding: 0;
 
       img {
-        max-height: 360px;
+        max-height: 256px;
         max-width: 256px;
 
       }
