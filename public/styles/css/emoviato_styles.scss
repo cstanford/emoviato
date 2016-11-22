@@ -15,6 +15,12 @@ $bs-danger-color: #d9534f;
 $bs-active-color: #025aa5;
 $border-radius: 4px;
 
+$funny-color: #03A9F4;
+$mad-color: #d32f2f;
+$happy-color: #FFEB3B;
+$lit-color: #FF9800;
+$sad-color: #3551B5;
+
 @mixin no-highlight {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -163,5 +169,54 @@ $border-radius: 4px;
     margin-left: 45px;
   }
 
+  // Funny pie slice
+  .highcharts-color-0 {
+    fill: $funny-color;
+    stroke: $funny-color;
+  }
+
+  // mad pie slice
+  .highcharts-color-1 {
+    fill: $mad-color;
+    stroke: $mad-color;
+  }
+
+  // happy pie slice
+  .highcharts-color-2 {
+    fill: $happy-color;
+    stroke: $happy-color;
+  }
+
+  // lit pie slice
+  .highcharts-color-3 {
+    fill: $lit-color;
+    stroke: $lit-color;
+  }
+
+  // sad pie slice
+  .highcharts-color-4 {
+    fill: $sad-color;
+    stroke: $sad-color;
+  }
+
+  .highcharts-data-label-connector.highcharts-color-0 {
+    fill: none;
+  }
+
+  .highcharts-data-label-connector.highcharts-color-1 {
+    fill: none;
+  }
+
+  .highcharts-data-label-connector.highcharts-color-2 {
+    fill: none;
+  }
+
+  .highcharts-data-label-connector.highcharts-color-3 {
+    fill: none;
+  }
+
+  .highcharts-data-label-connector.highcharts-color-4 {
+    fill: none;
+  }
 
 }

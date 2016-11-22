@@ -109,7 +109,8 @@
                 //will be overriden by values specified below.
                 chart: {
                     type: 'pie'
-                },
+                }, // funny mad happy lit sad
+                colors: ['#03A9F4', '#D32F2F', '#FFEB3B', '#FF9800', '#3F51B5'],
                 tooltip: {
                     shared: true,
                     formatter: function()
