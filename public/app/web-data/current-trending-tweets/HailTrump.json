@@ -1,0 +1,60 @@
+{
+  "tweetCount": 426,
+  "img": "https://www.bing.com/cr?IG=18FDBE9F51E541FC8A16497037505C9D&CID=0BDAA498DF7E6920396AAD4DDE4F68DA&rd=1&h=JOkMv8mibu5qGlj_0OsdyBpWSAyY9ycEbK3_ns4QpeU&v=1&r=https%3a%2f%2fi.imgflip.com%2fwvu4e.jpg&p=DevEx,5008.1",
+  "trendName": "Hail Trump",
+  "emotions": [
+    {
+      "count": 0,
+      "name": "happy"
+    },
+    {
+      "count": 6,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 4,
+      "name": "funny"
+    }
+  ],
+  "totalEmojis": 25,
+  "maxRetweets": 5167,
+  "emojis": [
+    {
+      "count": 4,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc37"
+    },
+    {
+      "count": 6,
+      "char": "\ud83c\udffb"
+    },
+    {
+      "count": 1,
+      "char": "\ud83e\udd14"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udd2b"
+    },
+    {
+      "count": 6,
+      "char": "\u2764"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\udc4d"
+    }
+  ],
+  "mostPopTweet": "This is real. VERY REAL. \n\nAlt-Right Neo Nazis loved by Trump's Chief Strategist say \"Hail Trump\" w/ Nazi Salute.\u2026 https://t.co/KkDwYpDkX4"
+}

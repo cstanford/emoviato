@@ -1,0 +1,72 @@
+{
+  "tweetCount": 431,
+  "emojis": [
+    {
+      "count": 3,
+      "char": "\ud83d\ude2d"
+    },
+    {
+      "count": 14,
+      "char": "\ud83d\ude31"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude33"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udd25"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc80"
+    },
+    {
+      "count": 9,
+      "char": "\ud83d\udca5"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 26,
+      "char": "\u26a1"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude26"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc49"
+    }
+  ],
+  "emotions": [
+    {
+      "count": 3,
+      "name": "happy"
+    },
+    {
+      "count": 36,
+      "name": "lit"
+    },
+    {
+      "count": 6,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 1,
+      "name": "funny"
+    }
+  ],
+  "trendName": "Cars 3",
+  "maxRetweets": 2108,
+  "img": "http://www.bing.com/cr?IG=0207847243AF4B17BC6F101A9E61C303&CID=2549464734A36EA32ABA4F9335926F56&rd=1&h=JBTDrsDteEhyN4p-xdLEDeV6xlBgHtKfoDoc1XufFpk&v=1&r=http%3a%2f%2fwww.rexwallpapers.com%2fimages%2fwallpapers%2fmovie%2fcars%2fcars_3.jpg&p=DevEx,5008.1",
+  "totalEmojis": 62,
+  "mostPopTweet": "RT @Lifeldeas: 3 cars \ud83d\ude26\ud83d\udc80 https://t.co/E1dceOHnD1"
+}

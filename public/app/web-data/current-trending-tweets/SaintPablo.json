@@ -1,0 +1,72 @@
+{
+  "totalEmojis": 42,
+  "mostPopTweet": "RT @bay_cay12: 20 minutes into the Saint Pablo concert and Kanye ended it.. https://t.co/bCMz3d9e3e",
+  "maxRetweets": 3490,
+  "tweetCount": 426,
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 1
+    },
+    {
+      "name": "lit",
+      "count": 1
+    },
+    {
+      "name": "sad",
+      "count": 7
+    },
+    {
+      "name": "mad",
+      "count": 7
+    },
+    {
+      "name": "funny",
+      "count": 9
+    }
+  ],
+  "emojis": [
+    {
+      "char": "\ud83d\udcf7",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udd0c",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude21",
+      "count": 7
+    },
+    {
+      "char": "\ud83e\udd14",
+      "count": 4
+    },
+    {
+      "char": "\ud83d\ude12",
+      "count": 9
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 9
+    },
+    {
+      "char": "\u26a1",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude1e",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\ude2d",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude43",
+      "count": 1
+    }
+  ],
+  "trendName": "Saint Pablo",
+  "img": "https://www.bing.com/cr?IG=2AB5F71334904C19BAECC6E71879DF18&CID=1F2E4E7629AD6AF1063747A2289C6B75&rd=1&h=2QnseiqX36vXkNuTvXsuzwvrBLZ3jV094YJHaNs7vZY&v=1&r=https%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fen%2fthumb%2fc%2fcc%2fSaint_Pablo.jpg%2f230px-Saint_Pablo.jpg&p=DevEx,5008.1"
+}

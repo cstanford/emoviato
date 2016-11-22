@@ -1,0 +1,111 @@
+{
+  "maxRetweets": 5864,
+  "emotions": [
+    {
+      "count": 3,
+      "name": "happy"
+    },
+    {
+      "count": 3,
+      "name": "lit"
+    },
+    {
+      "count": 9,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 67,
+      "name": "funny"
+    }
+  ],
+  "totalEmojis": 82,
+  "mostPopTweet": "Evil has a new face! #2Point0 #3Diwali2017 #2Point0FLLaunch https://t.co/k33uwU6eg2",
+  "emojis": [
+    {
+      "count": 6,
+      "char": "\ud83d\ude07"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc49"
+    },
+    {
+      "count": 67,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\ude09"
+    },
+    {
+      "count": 15,
+      "char": "\ud83c\udf89"
+    },
+    {
+      "count": 34,
+      "char": "\ud83d\ude0e"
+    },
+    {
+      "count": 10,
+      "char": "\ud83d\ude18"
+    },
+    {
+      "count": 3,
+      "char": "\ud83e\udd18"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc4d"
+    },
+    {
+      "count": 1,
+      "char": "\ud83e\udd17"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude08"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc4a"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude0a"
+    },
+    {
+      "count": 5,
+      "char": "\ud83c\udffb"
+    },
+    {
+      "count": 22,
+      "char": "\ud83d\ude0d"
+    },
+    {
+      "count": 9,
+      "char": "\ud83d\ude29"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude4c"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\ude4b"
+    },
+    {
+      "count": 8,
+      "char": "\u2764"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc4c"
+    }
+  ],
+  "img": "https://www.bing.com/cr?IG=2069B87AB0AD4EC0AAD5AF11EE3F04F0&CID=1FDA87E05CE4637E24E48E335DD56277&rd=1&h=lVFJB6AxZXb6ZdB5zPqShb54zOs3TERJzbjfLBWLef0&v=1&r=https%3a%2f%2fpbs.twimg.com%2fmedia%2fCxtnBulUsAA7LMg.jpg%3amedium&p=DevEx,5008.1",
+  "tweetCount": 414
+}

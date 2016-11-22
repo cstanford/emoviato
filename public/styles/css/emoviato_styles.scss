@@ -27,16 +27,21 @@ $border-radius: 4px;
 
 
 /* Global styles */
+
+.header {
+  position: fixed;
+  zoom: 2;
+  margin-left: 100%;
+  margin-right: 100%;
+  background-color: $bs-primary-color;
+  padding-bottom: $header-height;
+}
 .content {
   position: relative;
   background-color: #fdfdfd;
   }
 
-  #trend-background {
-    background-color: #fdfdfd;
-    margin-left: -100%;
-    margin-right: -100%;
-  }
+
 /* end Global Sytles */
 
 .home-view {
@@ -114,6 +119,12 @@ $border-radius: 4px;
 
   box-shadow: $emoviato-shadow;
   background-color: #fff;
+
+  #trend-background {
+    background-color: #fdfdfd;
+    margin-left: -100%;
+    margin-right: -100%;
+  }
 
   #current-trend-header {
     margin-bottom: 0;

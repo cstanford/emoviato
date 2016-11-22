@@ -1,0 +1,212 @@
+{
+  "tweetCount": 401,
+  "totalEmojis": 537,
+  "emojis": [
+    {
+      "char": "\ud83d\ude2d",
+      "count": 73
+    },
+    {
+      "char": "\ud83d\udc7b",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udc84",
+      "count": 5
+    },
+    {
+      "char": "\ud83c\udf81",
+      "count": 7
+    },
+    {
+      "char": "\ud83d\udc4d",
+      "count": 10
+    },
+    {
+      "char": "\ud83c\udf96",
+      "count": 10
+    },
+    {
+      "char": "\ud83d\ude22",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\ude0d",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude1d",
+      "count": 13
+    },
+    {
+      "char": "\ud83d\ude19",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc8b",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\udcad",
+      "count": 8
+    },
+    {
+      "char": "\ud83c\udffc",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc96",
+      "count": 6
+    },
+    {
+      "char": "\ud83c\udf8a",
+      "count": 13
+    },
+    {
+      "char": "\ud83c\udfc6",
+      "count": 26
+    },
+    {
+      "char": "\ud83d\udc93",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\ude09",
+      "count": 12
+    },
+    {
+      "char": "\ud83c\udf25",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 55
+    },
+    {
+      "char": "\ud83d\udc95",
+      "count": 25
+    },
+    {
+      "char": "\ud83c\udf86",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udcb8",
+      "count": 5
+    },
+    {
+      "char": "\ud83d\udc30",
+      "count": 5
+    },
+    {
+      "char": "\ud83d\udc98",
+      "count": 7
+    },
+    {
+      "char": "\ud83d\ude04",
+      "count": 3
+    },
+    {
+      "char": "\ud83c\udf78",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udd25",
+      "count": 14
+    },
+    {
+      "char": "\ud83c\udf40",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude1a",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udc4f",
+      "count": 7
+    },
+    {
+      "char": "\ud83d\udc51",
+      "count": 8
+    },
+    {
+      "char": "\ud83d\udc9e",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udc36",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udc90",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc9a",
+      "count": 10
+    },
+    {
+      "char": "\ud83c\udf87",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udffb",
+      "count": 7
+    },
+    {
+      "char": "\ud83c\udf89",
+      "count": 81
+    },
+    {
+      "char": "\ud83c\udfc5",
+      "count": 10
+    },
+    {
+      "char": "\ud83d\ude18",
+      "count": 23
+    },
+    {
+      "char": "\ud83d\ude01",
+      "count": 9
+    },
+    {
+      "char": "\ud83d\udcaa",
+      "count": 2
+    },
+    {
+      "char": "\u2764",
+      "count": 42
+    },
+    {
+      "char": "\ud83d\ude46",
+      "count": 5
+    }
+  ],
+  "mostPopTweet": "#BAP Takes 1st Win For \"Skydive\" On \"The Show\"\nhttps://t.co/27jVkrtu1d #SKYDIVE1stwin https://t.co/qi31Iw49FV",
+  "trendName": "SKYDIVE1stwin",
+  "maxRetweets": 2482,
+  "img": "http://www.bing.com/cr?IG=7BF657AF0FAC4A7483764B438F3507B7&CID=1FD88C5A00946FD73CAC858F01A56E88&rd=1&h=c7tGCu_7KpQGQwNliTvmCi_ahD18h8iRG4z8GSMvdRw&v=1&r=http%3a%2f%2fwww.athomemagazine.co.uk%2fwp-content%2fthemes%2fgoodnews4%2fframework%2fscripts%2ftimthumb.php%3fsrc%3dhttp%3a%2f%2fwww.athomemagazine.co.uk%2fwp-content%2fuploads%2f2013%2f05%2fgoskydive_tandem_parachutists.jpg%26h%3d340%26w%3d636%26zc%3d1&p=DevEx,5008.1",
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 12
+    },
+    {
+      "name": "lit",
+      "count": 130
+    },
+    {
+      "name": "sad",
+      "count": 75
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 71
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "maxRetweets": 1925,
+  "tweetCount": 876,
+  "img": "http://www.bing.com/cr?IG=A9E3EDAA1CF340358736D5366B3F7BF9&CID=305E747FFCF86D752CF97DABFDC96C5F&rd=1&h=Lbp2xLs-k_fplrl8pqMirf8iZF2vy9lq6e98sGbYkOw&v=1&r=http%3a%2f%2furbanmecca.net%2fnews%2fwp-content%2fuploads%2fInsecure-HBO-trailer.jpg&p=DevEx,5008.1",
+  "totalEmojis": 603,
+  "trendName": "InsecureHBO",
+  "emotions": [
+    {
+      "count": 14,
+      "name": "happy"
+    },
+    {
+      "count": 60,
+      "name": "lit"
+    },
+    {
+      "count": 89,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 145,
+      "name": "funny"
+    }
+  ],
+  "emojis": [
+    {
+      "count": 6,
+      "char": "\ud83d\ude0f"
+    },
+    {
+      "count": 1,
+      "char": "\ud83e\udd14"
+    },
+    {
+      "count": 31,
+      "char": "\ud83d\ude29"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude1e"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udffc"
+    },
+    {
+      "count": 140,
+      "char": "\ud83c\udffe"
+    },
+    {
+      "count": 42,
+      "char": "\ud83d\ude2d"
+    },
+    {
+      "count": 3,
+      "char": "\u266b"
+    },
+    {
+      "count": 12,
+      "char": "\ud83d\udc40"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\ude0a"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude0d"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\udc9c"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude33"
+    },
+    {
+      "count": 8,
+      "char": "\ud83d\udc4b"
+    },
+    {
+      "count": 145,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude43"
+    },
+    {
+      "count": 4,
+      "char": "\ud83d\ude2b"
+    },
+    {
+      "count": 11,
+      "char": "\ud83d\ude22"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\udc57"
+    },
+    {
+      "count": 4,
+      "char": "\ud83d\udc8b"
+    },
+    {
+      "count": 40,
+      "char": "\ud83d\ude4c"
+    },
+    {
+      "count": 6,
+      "char": "\u2764"
+    },
+    {
+      "count": 7,
+      "char": "\ud83d\udc4f"
+    },
+    {
+      "count": 110,
+      "char": "\ud83d\udc49"
+    },
+    {
+      "count": 13,
+      "char": "\u2728"
+    }
+  ],
+  "mostPopTweet": "Excited AF.\n\n#InsecureHBO, from creator @IssaRae, will return to @HBO for a second season. https://t.co/kbcHAFOYzk"
+}

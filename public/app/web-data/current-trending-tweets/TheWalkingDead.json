@@ -1,0 +1,148 @@
+{
+  "maxRetweets": 5801,
+  "totalEmojis": 196,
+  "img": "http://www.bing.com/cr?IG=150342DAE84D478F8E0FF13D8A9E281D&CID=1488AB566B116EA324D8A2826A206F19&rd=1&h=eosIhhfhv43BfaqVLQhIEFhHIP42k9ertpnPGTpDHTc&v=1&r=http%3a%2f%2fimages4.fanpop.com%2fimage%2fphotos%2f16900000%2fThe-Walking-Dead-the-walking-dead-16919291-1200-960.jpg&p=DevEx,5008.1",
+  "tweetCount": 448,
+  "emojis": [
+    {
+      "count": 7,
+      "char": "\ud83c\udffc"
+    },
+    {
+      "count": 3,
+      "char": "\u2615"
+    },
+    {
+      "count": 5,
+      "char": "\ud83d\udc94"
+    },
+    {
+      "count": 7,
+      "char": "\ud83d\ude2d"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude42"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude21"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc38"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude44"
+    },
+    {
+      "count": 1,
+      "char": "\u2661"
+    },
+    {
+      "count": 1,
+      "char": "\ud83e\udd18"
+    },
+    {
+      "count": 8,
+      "char": "\ud83d\udc4a"
+    },
+    {
+      "count": 5,
+      "char": "\ud83c\udffb"
+    },
+    {
+      "count": 36,
+      "char": "\ud83d\udd25"
+    },
+    {
+      "count": 19,
+      "char": "\ud83d\udc95"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude04"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udca8"
+    },
+    {
+      "count": 42,
+      "char": "\ud83d\udcaa"
+    },
+    {
+      "count": 4,
+      "char": "\ud83e\udd17"
+    },
+    {
+      "count": 1,
+      "char": "\ud83e\udd14"
+    },
+    {
+      "count": 2,
+      "char": "\ud83c\udfb6"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude4a"
+    },
+    {
+      "count": 7,
+      "char": "\ud83d\ude0d"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\udc4f"
+    },
+    {
+      "count": 18,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 2,
+      "char": "\ud83d\ude4c"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc47"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude2b"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude48"
+    },
+    {
+      "count": 5,
+      "char": "\ud83d\udc9a"
+    }
+  ],
+  "mostPopTweet": "RT &amp; follow @OriginalFunko for the chance to win an SDCC 2016 exclusive Burning Walker Pop! #TheWalkingDead https://t.co/sgGDyKfJZ1",
+  "emotions": [
+    {
+      "count": 11,
+      "name": "happy"
+    },
+    {
+      "count": 39,
+      "name": "lit"
+    },
+    {
+      "count": 13,
+      "name": "sad"
+    },
+    {
+      "count": 9,
+      "name": "mad"
+    },
+    {
+      "count": 22,
+      "name": "funny"
+    }
+  ],
+  "trendName": "TheWalkingDead"
+}

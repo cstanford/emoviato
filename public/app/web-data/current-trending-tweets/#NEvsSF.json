@@ -1,0 +1,131 @@
+{
+  "totalEmojis": 7,
+  "img": "http://www.bing.com/cr?IG=B7B5A730F6A849FFBBA6789C31F07B98&CID=0380367D9AA462D62D213FAE9B95635C&rd=1&h=Sji6k5yPknNJZOHV7JxDwgp43uxMwFKasjm7uU7cxKI&v=1&r=http%3a%2f%2fpbs.twimg.com%2fext_tw_video_thumb%2f799330888475615232%2fpu%2fimg%2fF6ej3sy_E291_q1A.jpg&p=DevEx,5008.1",
+  "emotions": [
+    {
+      "count": 1,
+      "name": "happy"
+    },
+    {
+      "count": 0,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 6,
+      "name": "funny"
+    }
+  ],
+  "maxRetweets": 1647,
+  "tweetCount": 433,
+  "emojis": [
+    {
+      "char": "\ud83c\udffb",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udc4f",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udfff",
+      "count": 10
+    },
+    {
+      "char": "\ud83d\udcbb",
+      "count": 75
+    },
+    {
+      "char": "\ud83d\udc40",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\ude01",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udcdd",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udfa5",
+      "count": 1
+    },
+    {
+      "char": "\u2764",
+      "count": 15
+    },
+    {
+      "char": "\ud83d\udcf7",
+      "count": 2
+    },
+    {
+      "char": "\u27a1",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\ude4c",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udc4a",
+      "count": 5
+    },
+    {
+      "char": "\ud83c\udf89",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\udcfa",
+      "count": 75
+    },
+    {
+      "char": "\ud83d\udcf1",
+      "count": 75
+    },
+    {
+      "char": "\ud83c\udfc3",
+      "count": 2
+    },
+    {
+      "char": "\ud83c\udfc8",
+      "count": 38
+    },
+    {
+      "char": "\ud83c\udffc",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udc49",
+      "count": 75
+    },
+    {
+      "char": "\ud83d\ude05",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udcaa",
+      "count": 10
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 4
+    },
+    {
+      "char": "\u2661",
+      "count": 9
+    },
+    {
+      "char": "\ud83c\udffd",
+      "count": 2
+    }
+  ],
+  "mostPopTweet": "Game Day in the Bay. \n\n#NEvsSF https://t.co/urOaOeiz64"
+}

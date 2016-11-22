@@ -1,0 +1,52 @@
+{
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 3
+    },
+    {
+      "name": "lit",
+      "count": 4
+    },
+    {
+      "name": "sad",
+      "count": 0
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 0
+    }
+  ],
+  "emojis": [
+    {
+      "count": 12,
+      "char": "\ud83d\udcf7"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udfc6"
+    },
+    {
+      "count": 4,
+      "char": "\u26a1"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude01"
+    },
+    {
+      "count": 18,
+      "char": "\u2708"
+    }
+  ],
+  "tweetCount": 854,
+  "maxRetweets": 2762,
+  "totalEmojis": 38,
+  "trendName": "Bruce Arena",
+  "mostPopTweet": ".@ussoccer President @SunilGulati has named Bruce Arena as the new head coach of the #USMNT:\u2026 https://t.co/FfgmSYaYUM",
+  "img": "http://www.bing.com/cr?IG=91041B9741AC4078B78DDB4ADCD09CE7&CID=2444107A0A406DF812A119AF0B716C35&rd=1&h=t3Z-tI5ZdDlFM6d1Ps_4B2PMBJJZvHZ4SgFbT3Ladpo&v=1&r=http%3a%2f%2fwww4.pictures.zimbio.com%2fgi%2fBruce%2bArena%2bManchester%2bCity%2bLos%2bAngeles%2bGalaxy%2bZ29fthF09ptl.jpg&p=DevEx,5008.1"
+}

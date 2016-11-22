@@ -1,0 +1,68 @@
+{
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 5
+    },
+    {
+      "name": "lit",
+      "count": 216
+    },
+    {
+      "name": "sad",
+      "count": 11
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 7
+    }
+  ],
+  "emojis": [
+    {
+      "count": 3,
+      "char": "\ud83d\ude10"
+    },
+    {
+      "count": 5,
+      "char": "\ud83d\ude2d"
+    },
+    {
+      "count": 4,
+      "char": "\u263a"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 216,
+      "char": "\u2728"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude1d"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude41"
+    },
+    {
+      "count": 1,
+      "char": "\ud83d\ude42"
+    },
+    {
+      "count": 1,
+      "char": "\u2764"
+    }
+  ],
+  "tweetCount": 415,
+  "maxRetweets": 2551,
+  "totalEmojis": 240,
+  "trendName": "DatingIsHardBecause",
+  "mostPopTweet": "RT @vjavierrrr: #datingishardbecause there's always one person who gets more attached than the other and ends up getting hurt the most.",
+  "img": "http://www.bing.com/cr?IG=66507C6E903A4E248056E24A9EDB2F0C&CID=2AA806EF47846D581B330F3A46B56C6C&rd=1&h=zMMfpiICbZASHZAL_Cf7KCfL0NBWlUP1XP0n5UKv3a8&v=1&r=http%3a%2f%2fd236bkdxj385sg.cloudfront.net%2fwp-content%2fuploads%2f2016%2f11%2fBaggage.png&p=DevEx,5008.1"
+}
