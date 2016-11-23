@@ -14,3 +14,4 @@ public/app/python/savedTweets
 .idea/
 public/app/python/generatedFiles
 __pycache__/
+public/app/web-data/*

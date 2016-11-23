@@ -1,12 +1,88 @@
 {
+  "img": "http://www.bing.com/cr?IG=52505B40D554496F9BC0DA44BCB2CCD6&CID=338514B9102F6DF5253A1D6C111E6CF9&rd=1&h=PmpOsyKy-kUnlhkP7AyGlQc0ArUvEjzfMGjZRHiMPiY&v=1&r=http%3a%2f%2fwww.pride.com%2fsites%2fwww.pride.com%2ffiles%2f2016%2f11%2f18%2ffamily-feature.jpg&p=DevEx,5008.1",
+  "maxRetweets": 1321,
+  "emojis": [
+    {
+      "char": "\ud83d\udde3",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udc9b",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udc9c",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udc47",
+      "count": 10
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 15
+    },
+    {
+      "char": "\ud83d\udca3",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udd34",
+      "count": 10
+    },
+    {
+      "char": "\ud83c\udffb",
+      "count": 10
+    },
+    {
+      "char": "\ud83d\udc99",
+      "count": 2
+    },
+    {
+      "char": "\ud83e\udd83",
+      "count": 6
+    },
+    {
+      "char": "\u2764",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udc96",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\ude21",
+      "count": 2
+    },
+    {
+      "char": "\ud83c\udf57",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude01",
+      "count": 11
+    },
+    {
+      "char": "\ud83d\ude09",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udc9a",
+      "count": 2
+    }
+  ],
+  "trendName": "TrumpYourThanksgiving",
+  "tweetCount": 416,
+  "totalEmojis": 83,
+  "mostPopTweet": "RT @Tinge_O_Ginge: #TrumpYourThanksgiving  The wishbone tradition is rigged, believe me.  It's a disas- I WON...  The wishbone tradition is\u2026",
   "emotions": [
     {
       "name": "happy",
-      "count": 0
+      "count": 11
     },
     {
       "name": "lit",
-      "count": 0
+      "count": 3
     },
     {
       "name": "sad",
@@ -14,63 +90,11 @@
     },
     {
       "name": "mad",
-      "count": 1
+      "count": 2
     },
     {
       "name": "funny",
-      "count": 12
+      "count": 15
     }
-  ],
-  "emojis": [
-    {
-      "count": 1,
-      "char": "\ud83d\ude21"
-    },
-    {
-      "count": 1,
-      "char": "\ud83d\udc99"
-    },
-    {
-      "count": 5,
-      "char": "\ud83e\udd83"
-    },
-    {
-      "count": 1,
-      "char": "\ud83d\ude09"
-    },
-    {
-      "count": 1,
-      "char": "\ud83d\udc9b"
-    },
-    {
-      "count": 12,
-      "char": "\ud83d\ude02"
-    },
-    {
-      "count": 1,
-      "char": "\ud83d\udc9c"
-    },
-    {
-      "count": 1,
-      "char": "\ud83c\udf57"
-    },
-    {
-      "count": 1,
-      "char": "\ud83d\udc9a"
-    },
-    {
-      "count": 1,
-      "char": "\u2764"
-    },
-    {
-      "count": 1,
-      "char": "\ud83d\udc96"
-    }
-  ],
-  "tweetCount": 208,
-  "maxRetweets": 732,
-  "totalEmojis": 26,
-  "trendName": "TrumpYourThanksgiving",
-  "mostPopTweet": "RT @Tinge_O_Ginge: #TrumpYourThanksgiving  The wishbone tradition is rigged, believe me.  It's a disas- I WON...  The wishbone tradition is\u2026",
-  "img": "http://www.bing.com/cr?IG=2FC9751205C148D2B3121EEE29D1F7DD&CID=23EB2E8E8934638D1479275B880562DC&rd=1&h=L15aHrukQRd2lg_QftBooolpQj40BCXj9t74urnOd8U&v=1&r=http%3a%2f%2fcdn.popdust.com%2fwp-content%2fuploads%2f2015%2f10%2fDonald-Trump-Becomes-Your-Drunk-Uncle-At-Thanksgiving_2015-10-29_02-57-56.jpg&p=DevEx,5008.1"
+  ]
 }
