@@ -34,18 +34,20 @@ $sad-color: #3551B5;
 
 /* Global styles */
 
-.header {
-  position: fixed;
-  zoom: 2;
-  margin-left: 100%;
-  margin-right: 100%;
-  background-color: $bs-primary-color;
-  padding-bottom: $header-height;
+.container-fluid {
+  padding: 0;
+  margin: 0;
 }
+
 .content {
   position: relative;
   background-color: #fdfdfd;
   }
+
+
+#trend-background {
+  background-color: #fdfdfd;
+}
 
 
 /* end Global Sytles */
@@ -59,21 +61,30 @@ $sad-color: #3551B5;
   .emoviato-heading {
     background-color: $bs-active-color;
     padding-bottom: 25px;
-    margin-left: -100%; // Removes default padding from Bootstrap
-    margin-right: -100%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 45px;
   }
 
   .emoviato-ascii {
     overflow: hidden;
   }
 
-  .card-deck {
-    table-layout: auto; // Enables min-width of trend-card.
-    margin-top: 60px;
+  .card-deck-wrapper {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+
+  .card-block {
+    padding: 0;
+  }
+
+  .card-header {
+    margin-bottom: 0;
+    min-width: 100%;
   }
 
   .trend-card {
-    margin: 0;
     margin-bottom: 23px;
     box-shadow: $emoviato-shadow;
 
@@ -82,21 +93,6 @@ $sad-color: #3551B5;
       min-height: 100%;
     }
 
-    .card-block {
-
-      padding: 0;
-
-      img {
-        max-height: 256px;
-        max-width: 256px;
-
-      }
-    }
-
-    .card-header {
-      margin-bottom: 0;
-      min-width: 100%;
-    }
   }
 
 }
@@ -125,12 +121,6 @@ $sad-color: #3551B5;
 
   box-shadow: $emoviato-shadow;
   background-color: #fff;
-
-  #trend-background {
-    background-color: #fdfdfd;
-    margin-left: -100%;
-    margin-right: -100%;
-  }
 
   #current-trend-header {
     margin-bottom: 0;

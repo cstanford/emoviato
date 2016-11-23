@@ -1,5 +1,4 @@
 <div class="home-view">
-
   <div class="jumbotron jumbotron-fluid emoviato-heading">
     <div class="container">
       <pre class="text-warning text-xs-center emoviato-ascii">
@@ -13,13 +12,14 @@
         <h1 class="text-success text-xs-center display-4">&#128514; &#128293; &#128553; </h1>
     </div>
   </div>
-  <div class="card-deck">
-    <div class="card card-outline-primary trend-card" ng-repeat="trend in homeController.topTrends" ng-click="homeController.goToTrendReport($index)">
-      <h4 class="card-header fa fa-lg fa-hashtag trend-card-title" ng-bind="trend.trendName"></h4>
-      <div class="card-block">
-        <img class="card-img-botttom img-fluid trend-card-image" src="{{trend.img}}" alt="Card image cap">
+  <div class="card-deck-wrapper">
+      <div class="card-deck">
+      <div class="card card-outline-primary trend-card" ng-repeat="trend in homeController.topTrends" ng-click="homeController.goToTrendReport($index)">
+        <span class="card-header fa fa-lg fa-hashtag trend-card-title" ng-bind="trend.trendName"></span>
+        <div class="card-block">
+          <img class="card-img-botttom img-fluid trend-card-image" src="{{trend.img}}" alt="Card image cap">
+        </div>
       </div>
-    </div>
+     </div>
   </div>
-
 </div>
