@@ -1,0 +1,87 @@
+{
+  "maxRetweets": 576,
+  "emotions": [
+    {
+      "count": 0,
+      "name": "happy"
+    },
+    {
+      "count": 0,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 0,
+      "name": "funny"
+    }
+  ],
+  "totalEmojis": 0,
+  "mostPopTweet": "RT @MervinMaldonado: #VenezuelaIndestructible Pueblo en pie de Lucha que Trabaja en la Construcci\u00f3n de la Patria Socialista @NicolasMaduro\u2026",
+  "emojis": [
+    {
+      "count": 1,
+      "char": "\ud83c\udf9e"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\udc9a"
+    },
+    {
+      "count": 1,
+      "char": "\u2764"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\udc99"
+    },
+    {
+      "count": 6,
+      "char": "\u270a"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\udc9c"
+    },
+    {
+      "count": 7,
+      "char": "\ud83d\udcf8"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udfa4"
+    },
+    {
+      "count": 6,
+      "char": "\ud83d\udc9b"
+    },
+    {
+      "count": 3,
+      "char": "\u270c"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc96"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\ude18"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc97"
+    },
+    {
+      "count": 1,
+      "char": "\ud83c\udfa7"
+    }
+  ],
+  "img": "http://www.bing.com/cr?IG=E1855234862D4A9A8DD90D151FA58A5A&CID=27AF8107CB0C66470D7888D4CA3D67B5&rd=1&h=sgFLLlEkrsUNWdY2S3UiCD7pIDMs_PBLlA3mojcX_X4&v=1&r=http%3a%2f%2fwww.correodelorinoco.gob.ve%2fwp-content%2fuploads%2f2016%2f11%2fVenezuela-Indestructible.jpg&p=DevEx,5008.1",
+  "tweetCount": 415
+}

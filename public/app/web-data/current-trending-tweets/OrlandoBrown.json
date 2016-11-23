@@ -1,0 +1,68 @@
+{
+  "img": "http://www.bing.com/cr?IG=33619222B2AE4B53A91A74421DC24A94&CID=3C7905ED39B563453DA00C383884626D&rd=1&h=p8xjZJmcjUtTVEL_GONKq6413SctviIzd6trn2gPLw0&v=1&r=http%3a%2f%2fimages.hngn.com%2fdata%2fimages%2ffull%2f201363%2forlando-brown.jpg%3fw%3d650&p=DevEx,5008.1",
+  "maxRetweets": 42022,
+  "emojis": [
+    {
+      "char": "\ud83d\ude2d",
+      "count": 195
+    },
+    {
+      "char": "\ud83c\udf1a",
+      "count": 194
+    },
+    {
+      "char": "\ud83d\udd25",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udcf2",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude29",
+      "count": 5
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 256
+    },
+    {
+      "char": "\ud83d\udc80",
+      "count": 63
+    },
+    {
+      "char": "\ud83d\udcb8",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude10",
+      "count": 2
+    }
+  ],
+  "trendName": "Orlando Brown",
+  "tweetCount": 828,
+  "totalEmojis": 718,
+  "mostPopTweet": "RT @JaiAnthony: The day Orlando Brown reached his breaking point \ud83c\udf1a\ud83d\ude2d https://t.co/R0kc32e6BM",
+  "emotions": [
+    {
+      "name": "happy",
+      "count": 0
+    },
+    {
+      "name": "lit",
+      "count": 2
+    },
+    {
+      "name": "sad",
+      "count": 202
+    },
+    {
+      "name": "mad",
+      "count": 0
+    },
+    {
+      "name": "funny",
+      "count": 256
+    }
+  ]
+}

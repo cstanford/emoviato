@@ -11,7 +11,7 @@ api = tweepy.API(auth)
 
 #getting the main folder path we are working in
 currentDir = os.path.dirname(os.path.abspath(__file__))
-destDir = os.path.join(currentDir, '../web-data')
+destDir = os.path.join(currentDir, '../public/app/web-data')
 try:
     os.makedirs(destDir)
 except OSError:

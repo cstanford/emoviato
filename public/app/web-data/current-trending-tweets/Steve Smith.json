@@ -1,0 +1,95 @@
+{
+  "totalEmojis": 34,
+  "img": "http://www.bing.com/cr?IG=72E6005571F04F0ABBA2AB3A6FBC3D25&CID=076FF146BFAB6ABA068EF895BE9A6B96&rd=1&h=I9cU1hNrSHHKubJ_rCR97u33dVUOw1kM9D_tBBqG2Og&v=1&r=http%3a%2f%2fwww.cricket.com.au%2f%7e%2fmedia%2fPlayers%2fMen%2fInternational%2fAustralia%2fSteve-Smith-Test-Away-2016.ashx&p=DevEx,5008.1",
+  "emotions": [
+    {
+      "count": 0,
+      "name": "happy"
+    },
+    {
+      "count": 0,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 34,
+      "name": "funny"
+    }
+  ],
+  "maxRetweets": 6393,
+  "tweetCount": 432,
+  "emojis": [
+    {
+      "char": "\ud83d\ude2d",
+      "count": 15
+    },
+    {
+      "char": "\ud83d\ude2e",
+      "count": 6
+    },
+    {
+      "char": "\ud83d\udcc4",
+      "count": 2
+    },
+    {
+      "char": "\ud83d\udc4f",
+      "count": 690
+    },
+    {
+      "char": "\ud83d\udc10",
+      "count": 9
+    },
+    {
+      "char": "\ud83d\udc40",
+      "count": 22
+    },
+    {
+      "char": "\u26a0",
+      "count": 3
+    },
+    {
+      "char": "\u279c",
+      "count": 1
+    },
+    {
+      "char": "\u266b",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\udcaa",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude09",
+      "count": 1
+    },
+    {
+      "char": "\ud83d\ude08",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\ude02",
+      "count": 19
+    },
+    {
+      "char": "\ud83d\ude34",
+      "count": 1
+    },
+    {
+      "char": "\ud83c\udffe",
+      "count": 3
+    },
+    {
+      "char": "\ud83d\udde3",
+      "count": 1
+    }
+  ],
+  "mostPopTweet": "Steve Smith Sr. wants to make it clear he doesn't enjoy watching kickers warmup... \ud83d\ude02\ud83d\ude02\ud83d\ude02 https://t.co/jknrLyQB9Z"
+}

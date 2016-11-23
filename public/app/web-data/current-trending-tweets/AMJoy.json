@@ -1,0 +1,43 @@
+{
+  "maxRetweets": 7096,
+  "emotions": [
+    {
+      "count": 0,
+      "name": "happy"
+    },
+    {
+      "count": 0,
+      "name": "lit"
+    },
+    {
+      "count": 0,
+      "name": "sad"
+    },
+    {
+      "count": 0,
+      "name": "mad"
+    },
+    {
+      "count": 3,
+      "name": "funny"
+    }
+  ],
+  "totalEmojis": 3,
+  "mostPopTweet": "Some say the media is in large part to blame for #DonaldTrump's win. Retweet to agree, like to disagree #AMJoy https://t.co/N7kNtHwC8Y",
+  "emojis": [
+    {
+      "count": 3,
+      "char": "\ud83d\ude02"
+    },
+    {
+      "count": 9,
+      "char": "\u2705"
+    },
+    {
+      "count": 3,
+      "char": "\ud83d\udc4f"
+    }
+  ],
+  "img": "http://www.bing.com/cr?IG=F5DE183ABCC346DBA6579AB03D41346E&CID=2BA905B254156EFB02930C6155246F34&rd=1&h=ugxZbFVbMskF-GKdE21smtbeOAQvGcFl9r0BbpyHeP4&v=1&r=http%3a%2f%2fwww.amjoy.com%2fEN%2fUploadFiles%2fProducts%2fProducts-2598-0.jpg&p=DevEx,5008.1",
+  "tweetCount": 453
+}
