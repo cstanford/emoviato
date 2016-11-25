@@ -9,7 +9,7 @@ const extend = require('node.extend');
  */
 module.exports = function(overrides) {
 
-    overrides = (overrides) ? overrides : {};
+    overrides = (overrides) ? overrides: {};
 
     return extend(true, {
         /**
@@ -37,9 +37,9 @@ module.exports = function(overrides) {
             '../public'
         ],
         /**
-         * The url/request limit size.
-         * The Express default is 1mb.
-         */
+        * The url/request limit size.
+        * The Express default is 1mb.
+        */
         requestSizeLimit: '10mb',
         /**
          * Express routers/REST endpoints.
@@ -55,10 +55,12 @@ module.exports = function(overrides) {
                 }
             }
         },
-        filters: {},
-        modules: {},
-        servers: {}
-
+        filters: {
+        },
+        modules: {
+        },
+        servers: {
+        }
 
     }, overrides);
 
