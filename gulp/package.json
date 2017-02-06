@@ -29,6 +29,6 @@
     "q": "^1.4.1"
   },
   "dependencies": {
-    "angular": "^1.5.8",
+    "angular": "^1.5.8"
   }
 }
