@@ -20,6 +20,7 @@ $mad-color: #d32f2f;
 $happy-color: #FFEB3B;
 $lit-color: #FF9800;
 $sad-color: #3551B5;
+$uncategorized-color: #78909C;
 
 @mixin no-highlight {
   -webkit-touch-callout: none;
@@ -200,6 +201,12 @@ $sad-color: #3551B5;
     stroke: $sad-color;
   }
 
+  // uncategorized pie slice
+  .highcharts-color-5 {
+    fill: $uncategorized-color;
+    stroke: $uncategorized-color;
+  }
+
   .highcharts-data-label-connector.highcharts-color-0 {
     fill: none;
   }
@@ -217,6 +224,10 @@ $sad-color: #3551B5;
   }
 
   .highcharts-data-label-connector.highcharts-color-4 {
+    fill: none;
+  }
+
+  .highcharts-data-label-connector.highcharts-color-5 {
     fill: none;
   }
 

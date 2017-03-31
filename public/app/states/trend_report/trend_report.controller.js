@@ -84,8 +84,10 @@
         };
         setHeaderEmotionColor();
 
+        // Total num of emojis that we have mapped to an emotion
+        var totalCategorizedEmojiCount = alias.trendData.emotions.reduce(function(acc, o) { return acc + o.count; }, 0);
 
-        var divisor = alias.trendData.totalEmojis;
+        var divisor = totalCategorizedEmojiCount;
         var getPercentage = function (num) {
             return Number(((num / divisor) * 100).toFixed(2));
         };
@@ -95,12 +97,14 @@
         var percentageSad = getPercentage(this.trendData.emotions[2].count);
         var percentageMad = getPercentage(this.trendData.emotions[3].count);
         var percentageFunny = getPercentage(this.trendData.emotions[4].count);
+        var percentageUncategorized = getPercentage(alias.trendData.totalEmojis - totalCategorizedEmojiCount);
 
         var litEmoji = '\ud83d\udd25';
         var madEmoji = '\ud83d\ude21';
         var sadEmoji = '\uD83D\uDE14';
         var funnyEmoji = '\uD83D\uDE02';
         var happyEmoji = '\uD83D\uDE04';
+        var uncategorizedEmoji = '\u2049\uFE0F';
 
         this.pieChartConfig = {
 
@@ -109,8 +113,8 @@
                 //will be overriden by values specified below.
                 chart: {
                     type: 'pie'
-                }, // funny mad happy lit sad
-                colors: ['#03A9F4', '#D32F2F', '#FFEB3B', '#FF9800', '#3F51B5'],
+                }, // funny mad happy lit sad uncategorized
+                colors: ['#03A9F4', '#D32F2F', '#FFEB3B', '#FF9800', '#3F51B5', '#78909C'],
                 tooltip: {
                     shared: true,
                     formatter: function()
@@ -169,7 +173,14 @@
                     y: percentageSad,
                     drilldown: 'Sad',
                     legend: 'Sad'
-                }]
+                }
+                // , {
+                // 	name: uncategorizedEmoji,
+                // 	y: percentageUncategorized,
+                // 	drilldown: uncategorizedEmoji,
+                // 	legend: 'Uncategorized'
+                // }
+                ]
             }],
             //Title configuration (optional)
             title: {
