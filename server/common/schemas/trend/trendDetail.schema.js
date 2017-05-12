@@ -9,6 +9,10 @@
         count: { type: 'Number' }
     }, {strict: true});
 
+    /**
+     * @property char:  the unicode character sequence.
+     *                  example: "\ud83d\udc4d"
+     */
     let TrendEmomiSchema = new Schema({
         char: { type: 'String' },
         count: { type: 'Number' }
