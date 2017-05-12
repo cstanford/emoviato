@@ -52,7 +52,13 @@ module.exports = function(overrides) {
                 router: 'apis/test/test-router',
                 opts: {
                     data: 'api/test Mock: You can send in configuration to router here.'
-                }
+                },
+                '/api/trend': {
+                    enabled: true,
+                    router: 'apis/trend/trend-router',
+                    opts: {
+                    }
+                },
             }
         },
         filters: {
