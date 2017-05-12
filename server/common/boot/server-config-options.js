@@ -60,6 +60,16 @@ module.exports = function(overrides) {
         modules: {
         },
         servers: {
+            mongo: {
+                databases: {
+                    'emoviatodb': {
+                        name: 'emoviatodb',
+                        enabled: true,
+                        host: 'localhost',
+                        port: 10100
+                    }
+                }
+            }
         }
 
     }, overrides);

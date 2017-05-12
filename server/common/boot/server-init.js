@@ -44,11 +44,25 @@
                     }
                 });
 
+                this.initDatabaseConnections().then(function(){
+                    this.finalize(appConfigurations);
+                }.bind(this));
+
                 this.finalize(appConfigurations);
 
                 return appConfigurations;
             },
             //Methods below are alphebetized for readability
+            initDatabaseConnections: function(){
+                const mongoWrapper = require(path.join(nconf.get('paths:serverDir'),'common','modules','mongodb-api-wrapper','mongo-api-wrapper'))(nconf.get('servers:mongo:databases'));
+
+                let promises = [];
+
+                //connect to mongo, redis
+                promises.push(mongoWrapper.initDatabases());
+
+                return Q.all(promises);
+            },
 
             /**
             * Initializes the filters found in the server-config-options module
