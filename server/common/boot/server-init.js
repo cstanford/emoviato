@@ -48,8 +48,6 @@
                     this.finalize(appConfigurations);
                 }.bind(this));
 
-                this.finalize(appConfigurations);
-
                 return appConfigurations;
             },
             //Methods below are alphebetized for readability
@@ -58,7 +56,7 @@
 
                 let promises = [];
 
-                //connect to mongo, redis
+                //connect to mongo
                 promises.push(mongoWrapper.initDatabases());
 
                 return Q.all(promises);
@@ -112,7 +110,7 @@
             */
             initRouter: function(app, routers, serverRoot) {
                 /**
-                 * Set all routes to allow AJAX requests. This is necessary so that the drm-ui can request
+                 * Set all routes to allow AJAX requests. This is necessary so that the emoviato-ui can request
                  * resources on servers that are not itself.
                  */
                 app.use((req, res, next) => {

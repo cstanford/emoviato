@@ -32,7 +32,7 @@
         let getTopTrending = (req,res) => {
             console.log('Attempting to get top trends.');
             TopTrending.find().then((docs) => {
-                TrendSuccessResponse(res,'Notes retrieved successfully', docs);
+                TrendSuccessResponse(res, 'Top trends retrieved successfully', docs);
             });
         };
 

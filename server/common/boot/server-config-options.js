@@ -1,6 +1,6 @@
 const extend = require('node.extend');
 /**
- * Provides the default server configuration for the drm-ui server.
+ * Provides the default server configuration for the emoviato-ui server.
  * If you are a developer who wishes to extend this configuration for another server, providing
  * a modified default configuration, you should pass in an overrides object which will be deep-extended.
  *
@@ -52,14 +52,14 @@ module.exports = function(overrides) {
                 router: 'apis/test/test-router',
                 opts: {
                     data: 'api/test Mock: You can send in configuration to router here.'
-                },
-                '/api/trend': {
-                    enabled: true,
-                    router: 'apis/trend/trend-router',
-                    opts: {
-                    }
-                },
-            }
+                }
+            },
+            '/api/trend': {
+                enabled: true,
+                router: 'apis/trend/trend-router',
+                opts: {
+                }
+            },
         },
         filters: {
         },
