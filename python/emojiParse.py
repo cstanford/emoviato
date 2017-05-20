@@ -15,7 +15,7 @@ def getTopTrends(api, destDir):
 	top5 = []
 	top5json = []
 
-	for trend in trends[0]["trends"]:
+	for trend in trends:
 		volume = trend["tweet_volume"]
 		if volume != None:
 			if len(top5) == 5:
