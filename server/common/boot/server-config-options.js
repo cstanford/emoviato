@@ -64,19 +64,20 @@ module.exports = function(overrides) {
         filters: {
         },
         modules: {
-        },
-        servers: {
-            mongo: {
-                databases: {
-                    'emoviatodb': {
-                        name: 'emoviatodb',
-                        enabled: true,
-                        host: 'localhost',
-                        port: 10100
-                    }
-                }
-            }
         }
+        // ,
+        // servers: {
+        //     mongo: {
+        //         databases: {
+        //             'emoviatodb': {
+        //                 name: 'emoviatodb',
+        //                 enabled: false,
+        //                 host: 'localhost',
+        //                 port: 10100
+        //             }
+        //         }
+        //     }
+        // }
 
     }, overrides);
 

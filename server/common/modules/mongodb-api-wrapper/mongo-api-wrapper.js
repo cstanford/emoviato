@@ -5,7 +5,7 @@
  */
 
 const mongoose = require('mongoose');
-const Q = require('Q');
+const Q = require('q');
 
 module.exports = function(dbConfigs){
     let disconnect = function(dbName){
