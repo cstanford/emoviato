@@ -7,6 +7,7 @@ A web app that maps the range of twitter user's emotions associated with the top
  * [Bower] - a package manager for the web
  * [Gulp] - the streaming build system
  * [Sass] - syntactically awesome style sheets
+ * [MongoDB] - you know what it is. 
 
 ### Installation
 Install the dependencies and devDependencies
@@ -44,6 +45,8 @@ $ node server.js
 To begin fetching your own data you will need two more dependancies:
  * [Python3]
  * [Tweepy] - a python twitter api
+ * [Pymongo] - a python mongodb driver
+> Note: emoviatodb is set to run on port 10100 - it is suggested that you edit your mongod.cfg file accordingly. 
 
 Run the python scripts:
 ```sh
@@ -71,5 +74,7 @@ Once the python script is finished, navigate back to localhost:11000 and check o
 [Sass]: <http://sass-lang.com/>
 [Python3]: <https://www.python.org/download/releases/3.0/>
 [Tweepy]: <https://github.com/tweepy/tweepy>
+[Pymongo]: <https://api.mongodb.com/python/current/installation.html>
+[MongoDB]: <https://www.mongodb.com/download-center?filter=enterprise?jmp=nav#enterprise>
 
 
