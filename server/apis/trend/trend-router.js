@@ -17,10 +17,9 @@
             res.status(200).send({
                 response: 200,
                 message: message,
-                notes: docs
+                trends: docs
             });
         };
-
 
         /* let TrendFailedResponse = (res, message) => {
             res.status(400).send({

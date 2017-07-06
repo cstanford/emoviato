@@ -24,7 +24,7 @@ def updateTopTrends(tweepyApi):
     for trend in top_trending_list:
 
         # Fetch and add an image to the trend object.
-        trend['bing_img'] = imageManager.GetTopImg(trend['name'])
+        trend['img_url'] = imageManager.GetTopImg(trend['name'])
 
         # If an existing trend is still trending when we update,
         # preserve the original datetime_retrieved.
