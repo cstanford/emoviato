@@ -50,6 +50,7 @@ def updateTopTrends(tweepyApi):
     mongo.topTrending.delete_many({})
     mongo.topTrending.insert(top_trending_list)
 
+
 # Returns emoviatodb.topTrending
 def getTopTrends():
 
@@ -59,11 +60,20 @@ def getTopTrends():
 
     # We can't simply return results because mongo.find() returns
     # a cursor, not an array.
-    outdated_top_trending_list = []
+    trending_list = []
     for trend in results:
-        outdated_top_trending_list.append(trend)
+        trending_list.append(trend)
 
-    return outdated_top_trending_list
+    return trending_list
+
+# Returns a collection of relevant tweets matching a specified trend name
+# @param: search_type: 'popular', 'recent', or 'mixed'
+def getTweetsForTrend(api, trendName, search_type):
+	max_tweets = 100
+	query = trendName
+	tweets = [status._json for status in tweepy.Cursor(api.search, q=query, result_type=search_type).items(max_tweets)]
+	return tweets
+
 
 # Saves past topTrending lists.
 # Perhaps it will be useful in the future?

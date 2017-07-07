@@ -5,8 +5,21 @@
     const Schema = mongoose.Schema;
 
     let TrendEmotionSchema = new Schema({
-        name: { type: 'String' },
-        count: { type: 'Number' }
+        happy: { 
+            count: { type: 'Number' }
+        },
+        sad: {
+            count: { type: 'Number' }
+        },
+        funny: {
+            count: { type: 'Number' }
+        },
+        mad: {
+            count: { type: 'Number' }
+        },
+        lit: {
+            count: { type: 'Number' }
+        }
     }, {strict: true});
 
     /**
@@ -18,9 +31,7 @@
         count: { type: 'Number' }
     }, {strict: true});
 
-    /**
-     * @property tweet_count:  the amount of tweets we searched for emojis.
-     */
+
     let TopTrending = new Schema({
         name: { type: 'String', required: true },
         url: { type: 'String' },
@@ -30,9 +41,10 @@
         img_url: { type: 'String' },
         top_tweet: { type: 'String' },
         retweet_count: { type: 'Number' },
-        tweet_count: { type: 'Number' },
-        emotions: [ TrendEmotionSchema ],
+        tweets_processed: { type: 'Number' },
+        emotions: TrendEmotionSchema,
         emojis: [ TrendEmomiSchema ],
+        total_emoji: { type: 'Number' },
         datetime_retrieved: { type: 'Date' },
         datetime_last_updated: { type: 'Date' }
     }, { timestamps: true }, {strict: true});

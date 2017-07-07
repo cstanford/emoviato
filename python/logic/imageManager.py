@@ -28,12 +28,12 @@ def GetTopImg(trend):
 
     dat = json.loads(response)
 
-    if("_type" in dat):
-        if(dat["_type"] == "ErrorResponse"):
-            return "http://i2.mirror.co.uk/incoming/article8075004.ece/ALTERNATES/s615b/Harambe.jpg"
-
     if("value" in dat and dat["value"] != []):
         return dat["value"][0]["contentUrl"]
+
+    if("_type" in dat):
+        if(dat["_type"] == "ErrorResponse"):
+            return BING_DEFAULT_IMG
 
     # If all else fails, return picture of Harambe
     return BING_DEFAULT_IMG

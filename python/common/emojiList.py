@@ -1,0 +1,95 @@
+# Each emotion contains a list of emojis in unicode.
+
+# TODO: implement better way to search through emojis. 
+# TODO: recategorize emojis associated w/each emotion. Add comment to indicate emoji type by each unicode char. 
+
+HAPPY_EMOJI =   [ 
+u'\U0001F601',
+u'\U0001F603',
+u'\U0001F60A',
+u'\U0001F60B',
+u'\U0001F60C',
+u'\U0001F642',
+u'\U0001F643',
+u'\U0001F638',
+u'\U0001F63B',
+u'\U0000263A',
+u'\U0001F608',
+u'\U0001F600',
+u'\U0001F607',
+u'\U0001F60E',
+u'\U0001F60D'
+]
+
+LIT_EMOJI = [
+u'\U0001F44D', # thumbs up
+u'\U0001F525',
+u'\U00002728',
+u'\U000026A1',
+u'\U0001F31F',
+u'\U0001F320',
+u'\U0001F389',
+u'\U0001F38A',
+u'\U0001F4A3',
+u'\U0001F4A5',
+u'\U0001F4AB',
+u'\U0001F4AF',
+u'\U0001F44C',
+u'\U0001F64C',
+u'\U0000270C',
+u'\U0000261D',
+u'\U0001F346',
+u'\U0001F44F',
+u'\U0001F450',
+u'\U0001F4A6',
+u'\U0001F4B8'
+]
+
+SAD_EMOJI = [ 
+u'\U0001F614',
+u'\U0001F61E',
+u'\U0001F629',
+u'\U0001F63F',
+u'\U0001F641',
+u'\U0001F644',
+u'\U0001F62D',
+u'\U0001F63F',
+u'\U0001F610',
+u'\U0001F615',
+u'\U0001F61F',
+u'\U0001F626',
+u'\U0001F627',
+u'\U0001F613',
+u'\U0001F616',
+u'\U0001F622',
+u'\U0001F625',
+u'\U0001F628',
+u'\U0001F62A',
+u'\U0001F62B',
+u'\U0001F630'
+]
+
+MAD_EMOJI = [ 
+u'\U0001F620',
+u'\U0001F621',
+u'\U0001F624',
+u'\U0001F63E',
+u'\U0001F624',
+u'\U0001F620',
+u'\U0001F44A',
+u'\U0001F47F',
+u'\U0001F62C',
+u'\U0001F611',
+u'\U0001F611'
+]
+
+FUNNY_EMOJI = [
+u'\U0001F602',
+u'\U0001F604',
+u'\U0001F605',
+u'\U0001F606',
+u'\U0001F61D',
+u'\U0001F639',
+u'\U0001f4A9',
+u'\U0001F648'
+]
