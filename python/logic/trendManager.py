@@ -8,8 +8,6 @@ from heapq import nlargest
 import pymongo
 import tweepy
 
-NUMBER_OF_TOP_TRENDS = 5
-
 # Grabs top trends from twitter and updates emoviatodb
 def updateTopTrends(tweepyApi):
 
@@ -17,7 +15,7 @@ def updateTopTrends(tweepyApi):
     trends = tweepyApi.trends_place(id=constants.PLACE_ID_UNITED_STATES, exclude='hashtags')[0]['trends']
 
     # Keep the top n trends by tweet volume.
-    top_trending_list = nlargest(NUMBER_OF_TOP_TRENDS, trends, key=lambda trend:trend['tweet_volume'] != None)
+    top_trending_list = nlargest(constants.NUMBER_OF_TOP_TRENDS, trends, key=lambda trend:trend['tweet_volume'] != None)
     # Current topTrending in emoviatodb
     outdated_top_trending_list = getTopTrends()
 

@@ -2,76 +2,114 @@ from common import emojiList as emotions
 from common import mongoConfig as mongo
 
 from bson.objectid import ObjectId
-# import json
+import collections 
 
 # TODO: implement better way to search through emojis. 
-# TODO: recategorize emojis associated w/each emotion. Add comment to indicate emoji type by each unicode char. 
+# TODO: recategorize emojis associated w/each emotion.
+# TODO: append data to previously scanned trends as opposed to overwriting them. 
 
-# Parses emoji in a single tweet
+# Scans tweet and gathers emoji data
 def parseTweetTextForEmoji(tweet_text):
 
     tweet_text = tweet_text.encode('utf-16', 'surrogatepass').decode('utf-16')
 
     # Count of emojis in each emotion for single tweet
     happy_emoji_count = 0
-    lit_emoji_count = 0
     sad_emoji_count = 0
-    mad_emoji_count = 0
     funny_emoji_count = 0
+    mad_emoji_count = 0	
+    lit_emoji_count =  0
+    total_emoji_count = 0
 
+    emojis_in_tweet_map = {}
     for char in tweet_text:
-        if char in emotions.HAPPY_EMOJI:
-            happy_emoji_count += 1
-        if char in emotions.LIT_EMOJI:
-            lit_emoji_count += 1
-        if char in emotions.SAD_EMOJI:
-            sad_emoji_count += 1
-        if char in emotions.SAD_EMOJI:
-            mad_emoji_count += 1
-        if char in emotions.FUNNY_EMOJI:
-            funny_emoji_count += 1
+        # If the char is an emoji. 'There has got to be a better way!' *Billie May voice*
+        if  (char > u"\U0001f600" and char < u"\U0001f64f") or \
+            (char > u"\U0001f300" and char < u"\U0001f5ff") or \
+            (char > u"\U0001f910" and char < u"\U0001f9c0") or \
+            (char > u"\U00002600" and char < u"\U000026ff") or \
+            (char > u"\U00002700" and char < u"\U000027bf"):
+            
+            total_emoji_count += 1
+            emoji_symbol = char
 
-    return (happy_emoji_count, lit_emoji_count, sad_emoji_count, mad_emoji_count, funny_emoji_count)
+            if (emoji_symbol in emojis_in_tweet_map):
+                emojis_in_tweet_map[emoji_symbol] += 1
+            else:
+                emojis_in_tweet_map[emoji_symbol] = 1
+
+            # No elif because emojis may overlap
+            if char in emotions.HAPPY_EMOJI:
+                happy_emoji_count += 1
+            if char in emotions.SAD_EMOJI:
+                sad_emoji_count += 1
+            if char in emotions.FUNNY_EMOJI:
+                funny_emoji_count += 1
+            if char in emotions.MAD_EMOJI:
+                mad_emoji_count += 1
+            if char in emotions.LIT_EMOJI:
+                lit_emoji_count += 1			
+        
+
+    emojis_in_tweet_list = []
+    for symbol, count in emojis_in_tweet_map.items():
+    	emoji = { 'symbol': symbol, 'count': emojis_in_tweet_map[symbol] }
+    	emojis_in_tweet_list.append(emoji)
+
+    # Simply wrapping the return data
+    response = { 'happy_emoji_count': happy_emoji_count,'sad_emoji_count': sad_emoji_count, 'funny_emoji_count': funny_emoji_count, \
+                'mad_emoji_count': mad_emoji_count, 'lit_emoji_count': lit_emoji_count, 'emojis_in_tweet_list': emojis_in_tweet_list, \
+                'total_emoji_count': total_emoji_count }
+
+    return response
 
 
 def parseTrendForEmoji(trend, tweet_list):
 
-	# Count of tweets searched
-	tweet_count = 0
-    
+    # Count of tweets searched
+    tweets_processed = 0
+
     # Count of emojis corresponding to each emotion for the entire trend
-	happy_emoji_count = 0
-	lit_emoji_count = 0
-	sad_emoji_count = 0
-	mad_emoji_count = 0
-	funny_emoji_count = 0
+    happy_emoji_count = 0
+    sad_emoji_count = 0
+    funny_emoji_count = 0
+    mad_emoji_count = 0	
+    lit_emoji_count = 0
 
-	top_tweet = ''
-	top_tweet_retweet_count = 0
-	total_emoji = 0
+    top_tweet = ''
+    top_tweet_retweet_count = 0
+    total_emoji = 0
+    emojis_in_trend_map = {}
 
-	for tweets in tweet_list:
+    for tweets in tweet_list:
 
-		tweet_count += 1
-		tweet_text = tweets["text"]
-		countOfEmotionsList = parseTweetTextForEmoji(tweet_text)
+        tweets_processed += 1
+        tweet_text = tweets["text"]
+        parsed_tweet_data = parseTweetTextForEmoji(tweet_text)
 
-		# Get the retweet count of currently parsed tweet. If > current max retweet, replace
-		retweet_count = tweets["retweet_count"]
+        # Get the retweet count of currently parsed tweet. If > current max retweet, replace
+        retweet_count = tweets["retweet_count"]
 
-		if (retweet_count > top_tweet_retweet_count):
-			top_tweet_retweet_count = retweet_count
-			top_tweet = tweet_text
+        if (retweet_count > top_tweet_retweet_count):
+            top_tweet_retweet_count = retweet_count
+            top_tweet = tweet_text
 
-		happy_emoji_count += countOfEmotionsList[0]
-		lit_emoji_count += countOfEmotionsList[1]
-		sad_emoji_count += countOfEmotionsList[2]
-		mad_emoji_count += countOfEmotionsList[3]
-		funny_emoji_count += countOfEmotionsList[4]
+        happy_emoji_count += parsed_tweet_data['happy_emoji_count']
+        sad_emoji_count += parsed_tweet_data['sad_emoji_count']
+        funny_emoji_count += parsed_tweet_data['funny_emoji_count']
+        mad_emoji_count += parsed_tweet_data['mad_emoji_count']
+        lit_emoji_count += parsed_tweet_data['lit_emoji_count']
+        total_emoji += parsed_tweet_data['total_emoji_count']
+
+        for emoji in parsed_tweet_data['emojis_in_tweet_list']:
+            if emoji['symbol'] in emojis_in_trend_map:
+                emojis_in_trend_map[ emoji['symbol']] += emoji['count']
+            else:
+                emojis_in_trend_map[ emoji['symbol']] = emoji['count']
 
 
-	trend_emotions = {
-		'happy': { 
+    trend_emotions = {
+        'happy': { 
             'count': happy_emoji_count
         },
         'sad': {
@@ -88,88 +126,17 @@ def parseTrendForEmoji(trend, tweet_list):
         }
     }
 
-	trend['emotions'] = trend_emotions
-	trend['top_tweet'] = top_tweet
+    trend['tweets_processed'] = tweets_processed
+    trend['emotions'] = trend_emotions
+    trend['top_tweet'] = top_tweet
+    
+    # Just putting emojis_in_trend_map data in a list. 
+    emojis_in_trend_list = []
+    for symbol, count in emojis_in_trend_map.items():
+    	entry = { 'symbol': symbol, 'count': emojis_in_trend_map[symbol] }
+    	emojis_in_trend_list.append(entry)
 
-	currentTrendId = trend['_id']
-	mongo.topTrending.find_one_and_replace({'_id': currentTrendId}, trend)
+    trend['emojis'] = emojis_in_trend_list
 
-
-
-        #######################################
-
-		#print to console when we get a hit
-		#if(countOfEmotionsList != (0,0,0,0,0)):
-		  #print("Num Happy: {}, Num Lit: {}, Num Sad: {}, Num Mad: {}, Num Funny: {}. ".format(happy_emoji_count, lit_emoji_count, sad_emoji_count, mad_emoji_count, funny_emoji_count))
-
-
-    # Don't think this is correct...
-	# total_emoji = happy_emoji_count + lit_emoji_count + sad_emoji_count + mad_emoji_count + funny_emoji_count
-
-	# jsonFilename = filename+".json"
-	# destination = os.path.join(destDir, jsonFilename)
-
-	# emoji_data, total_emoji_count = EmojiCounter.emojiCounter(jsonData)
-
-	#we have seen this trend before, so get data from old file to create new file
-	# if (os.path.isfile(destination)):
-	# 	trendFile = open(destination, "r")
-
-	# 	trend_file_obj = json.load(trendFile)
-
-	# 	tweetCount += trend_file_obj["tweetCount"]
-
-	# 	for emotion in trend_file_obj["emotions"]:
-	# 		if(emotion["name"] == "happy"):
-	# 			happy_emoji_count += emotion["count"]
-	# 		elif(emotion["name"] == "lit"):
-	# 			lit_emoji_count += emotion["count"]
-	# 		elif(emotion["name"] == "sad"):
-	# 			sad_emoji_count += emotion["count"]
-	# 		elif(emotion["name"] == "mad"):
-	# 			mad_emoji_count += emotion["count"]
-	# 		elif(emotion["name"] == "funny"):
-	# 			funny_emoji_count += emotion["count"]
-
-	# 	if(trend_file_obj["top_tweet_retweet_count"] > top_tweet_retweet_count):
-	# 		top_tweet_retweet_count = trend_file_obj["top_tweet_retweet_count"]
-	# 		top_tweet = trend_file_obj["mostPopTweet"]
-
-	# 	emoji_map = {}
-	# 	for entry in emoji_data:
-	# 		emoji_map[entry["char"]] = entry["count"]
-
-	# 	for entry in trend_file_obj["emojis"]:
-	# 		if(entry["char"] in emoji_map):
-	# 			emoji_map[entry["char"]] += entry["count"]
-	# 		else:
-	# 			emoji_map[entry["char"]] = entry["count"]
-	# 	emoji_data = []
-	# 	for key, char in emoji_map.items():
-	# 		entry = {"count": emoji_map[key], "char": key}
-	# 		emoji_data.append(entry)
-	# 	total_emoji_count += trend_file_obj["total_emoji"]
-	# 	trendFile.close()
-
-
-	# #creating json file, because (Connor 'Big Sexy' Stanford) didn't want a boring txt file
-	# topimg = BingImgGettr.GetTopImg(trend)
-	# jsonify = {'top_tweet_retweet_count' : top_tweet_retweet_count,
-	# 		   'mostPopTweet' : top_tweet,
-	# 		   'tweetCount' : tweetCount,
-	# 		   'emotions' : [
-	# 		   		{'name': 'happy', 'count' : happy_emoji_count},
-	# 				{'name': 'lit', 'count' : lit_emoji_count},
-	# 				{'name': 'sad', 'count' : sad_emoji_count},
-	# 				{'name': 'mad', 'count' : mad_emoji_count},
-	# 				{'name': 'funny', 'count' : funny_emoji_count}
-	# 		   ],
-	# 		   'emojis' : emoji_data,
-	# 		   'total_emoji' : total_emoji_count,
-	# 		   'img' : topimg,
-	# 		   'trendName' : trend
-	# 		   }
-
-	# outputJson = open(destination, "w")
-
-	# json.dump(jsonify, outputJson, indent=2)
+    currentTrendId = trend['_id']
+    mongo.topTrending.find_one_and_replace({'_id': currentTrendId}, trend)
