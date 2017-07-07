@@ -36,15 +36,10 @@ def updateTopTrends(tweepyApi):
 
         # If the trend object does not have property 'datetime_retrieved',
         # add the property and set it to the current time.
-        try:
-            trend['datetime_retrieved']
-        except KeyError:
+        if 'datetime_retrieved' not in trend:
             trend['datetime_retrieved'] = datetime.datetime.utcnow()
-        # Add or update 'datetime_last_updated'.
-        try:
-            trend['datetime_last_updated'] = datetime.datetime.utcnow()
-        except KeyError:
-            trend['datetime_last_updated'] = datetime.datetime.utcnow()
+
+        trend['datetime_last_updated'] = datetime.datetime.utcnow()
 
     # Update emoviatodb.topTrending.
     mongo.topTrending.delete_many({})

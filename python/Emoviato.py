@@ -1,4 +1,5 @@
 from common import constants
+from logic import emojiManager
 from logic import trendManager
 # import emojiParse
 
@@ -13,14 +14,15 @@ tweepyApi = tweepy.API(tweepyAuth)
 
 # Update emoviatodb.topTrending.
 # Will eventually run consistently on a timer.
-trendManager.updateTopTrends(tweepyApi)
+# trendManager.updateTopTrends(tweepyApi)
 top_trending_list = trendManager.getTopTrends()
-for trend in top_trending_list:
-    pprint.pprint(trend)
-
 # for trend in top_trending_list:
-#     trend_name = trend['name']
-#     tweet_list = trendManager.getTweetsForTrend(tweepyApi, trend_name, 'popular')
+#     pprint.pprint(trend)
+
+for trend in top_trending_list:
+    trend_name = trend['name']
+    tweet_list = trendManager.getTweetsForTrend(tweepyApi, trend_name, 'popular')
+    emojiManager.parseTrendForEmoji(trend, tweet_list)
 
 # trendPath = os.path.join(destDir, 'current-trending-tweets')
 # for trend in top5trends:

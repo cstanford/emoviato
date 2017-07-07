@@ -2,60 +2,57 @@ from common import emojiList as emotions
 from common import mongoConfig as mongo
 
 from bson.objectid import ObjectId
+# import json
 
 # TODO: implement better way to search through emojis. 
 # TODO: recategorize emojis associated w/each emotion. Add comment to indicate emoji type by each unicode char. 
 
 # Parses emoji in a single tweet
-def parseTweetTextForEmoji(tweetText):
+def parseTweetTextForEmoji(tweet_text):
 
-    emojiString = emojiString.encode('utf-16', 'surrogatepass').decode('utf-16')
+    tweet_text = tweet_text.encode('utf-16', 'surrogatepass').decode('utf-16')
 
     # Count of emojis in each emotion for single tweet
-    num_happy = 0
-    num_lit = 0
-    num_sad = 0
-    num_mad = 0
-    num_funny = 0
+    happy_emoji_count = 0
+    lit_emoji_count = 0
+    sad_emoji_count = 0
+    mad_emoji_count = 0
+    funny_emoji_count = 0
 
-    for char in tweetText:
-
+    for char in tweet_text:
         if char in emotions.HAPPY_EMOJI:
-            num_happy += 1
+            happy_emoji_count += 1
         if char in emotions.LIT_EMOJI:
-            num_lit += 1
+            lit_emoji_count += 1
         if char in emotions.SAD_EMOJI:
-            num_sad += 1
+            sad_emoji_count += 1
         if char in emotions.SAD_EMOJI:
-            num_mad += 1
+            mad_emoji_count += 1
         if char in emotions.FUNNY_EMOJI:
-            num_funny += 1
+            funny_emoji_count += 1
 
-    return (num_happy, num_lit, num_sad, num_mad, num_funny)
+    return (happy_emoji_count, lit_emoji_count, sad_emoji_count, mad_emoji_count, funny_emoji_count)
 
 
-def parseTrendForEmoji(trend, tweet_list, destDir, filename):
+def parseTrendForEmoji(trend, tweet_list):
 
 	# Count of tweets searched
 	tweet_count = 0
     
     # Count of emojis corresponding to each emotion for the entire trend
-	num_happy = 0
-	num_lit = 0
-	num_sad = 0
-	num_mad = 0
-	num_funny = 0
+	happy_emoji_count = 0
+	lit_emoji_count = 0
+	sad_emoji_count = 0
+	mad_emoji_count = 0
+	funny_emoji_count = 0
 
-	# parsedJson = jsonData ...  now tweet_list. remove comment when done cleaning up.
 	top_tweet = ''
-    top_tweet_retweet_count = 0
+	top_tweet_retweet_count = 0
 	total_emoji = 0
 
-	#parsing the jsonFile
 	for tweets in tweet_list:
 
 		tweet_count += 1
-
 		tweet_text = tweets["text"]
 		countOfEmotionsList = parseTweetTextForEmoji(tweet_text)
 
@@ -66,18 +63,36 @@ def parseTrendForEmoji(trend, tweet_list, destDir, filename):
 			top_tweet_retweet_count = retweet_count
 			top_tweet = tweet_text
 
-		num_happy += countOfEmotionsList[0]
-		num_lit += countOfEmotionsList[1]
-		num_sad += countOfEmotionsList[2]
-		num_mad += countOfEmotionsList[3]
-		num_funny += countOfEmotionsList[4]
+		happy_emoji_count += countOfEmotionsList[0]
+		lit_emoji_count += countOfEmotionsList[1]
+		sad_emoji_count += countOfEmotionsList[2]
+		mad_emoji_count += countOfEmotionsList[3]
+		funny_emoji_count += countOfEmotionsList[4]
 
 
-        #######################################
-        # res = topTrending.find({"_id": ObjectId("595ecad80168812da016b683")})
+	trend_emotions = {
+		'happy': { 
+            'count': happy_emoji_count
+        },
+        'sad': {
+            'count': sad_emoji_count
+        },
+        'funny': {
+            'count': funny_emoji_count
+        },
+        'mad': {
+            'count': mad_emoji_count
+        },
+        'lit': {
+            'count': lit_emoji_count
+        }
+    }
 
+	trend['emotions'] = trend_emotions
+	trend['top_tweet'] = top_tweet
 
-
+	currentTrendId = trend['_id']
+	mongo.topTrending.find_one_and_replace({'_id': currentTrendId}, trend)
 
 
 
@@ -85,11 +100,11 @@ def parseTrendForEmoji(trend, tweet_list, destDir, filename):
 
 		#print to console when we get a hit
 		#if(countOfEmotionsList != (0,0,0,0,0)):
-		  #print("Num Happy: {}, Num Lit: {}, Num Sad: {}, Num Mad: {}, Num Funny: {}. ".format(num_happy, num_lit, num_sad, num_mad, num_funny))
+		  #print("Num Happy: {}, Num Lit: {}, Num Sad: {}, Num Mad: {}, Num Funny: {}. ".format(happy_emoji_count, lit_emoji_count, sad_emoji_count, mad_emoji_count, funny_emoji_count))
 
 
     # Don't think this is correct...
-	# total_emoji = num_happy + num_lit + num_sad + num_mad + num_funny
+	# total_emoji = happy_emoji_count + lit_emoji_count + sad_emoji_count + mad_emoji_count + funny_emoji_count
 
 	# jsonFilename = filename+".json"
 	# destination = os.path.join(destDir, jsonFilename)
@@ -106,15 +121,15 @@ def parseTrendForEmoji(trend, tweet_list, destDir, filename):
 
 	# 	for emotion in trend_file_obj["emotions"]:
 	# 		if(emotion["name"] == "happy"):
-	# 			num_happy += emotion["count"]
+	# 			happy_emoji_count += emotion["count"]
 	# 		elif(emotion["name"] == "lit"):
-	# 			num_lit += emotion["count"]
+	# 			lit_emoji_count += emotion["count"]
 	# 		elif(emotion["name"] == "sad"):
-	# 			num_sad += emotion["count"]
+	# 			sad_emoji_count += emotion["count"]
 	# 		elif(emotion["name"] == "mad"):
-	# 			num_mad += emotion["count"]
+	# 			mad_emoji_count += emotion["count"]
 	# 		elif(emotion["name"] == "funny"):
-	# 			num_funny += emotion["count"]
+	# 			funny_emoji_count += emotion["count"]
 
 	# 	if(trend_file_obj["top_tweet_retweet_count"] > top_tweet_retweet_count):
 	# 		top_tweet_retweet_count = trend_file_obj["top_tweet_retweet_count"]
@@ -143,11 +158,11 @@ def parseTrendForEmoji(trend, tweet_list, destDir, filename):
 	# 		   'mostPopTweet' : top_tweet,
 	# 		   'tweetCount' : tweetCount,
 	# 		   'emotions' : [
-	# 		   		{'name': 'happy', 'count' : num_happy},
-	# 				{'name': 'lit', 'count' : num_lit},
-	# 				{'name': 'sad', 'count' : num_sad},
-	# 				{'name': 'mad', 'count' : num_mad},
-	# 				{'name': 'funny', 'count' : num_funny}
+	# 		   		{'name': 'happy', 'count' : happy_emoji_count},
+	# 				{'name': 'lit', 'count' : lit_emoji_count},
+	# 				{'name': 'sad', 'count' : sad_emoji_count},
+	# 				{'name': 'mad', 'count' : mad_emoji_count},
+	# 				{'name': 'funny', 'count' : funny_emoji_count}
 	# 		   ],
 	# 		   'emojis' : emoji_data,
 	# 		   'total_emoji' : total_emoji_count,
