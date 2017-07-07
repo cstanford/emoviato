@@ -6,7 +6,6 @@ import collections
 
 # TODO: implement better way to search through emojis. 
 # TODO: recategorize emojis associated w/each emotion.
-# TODO: append data to previously scanned trends as opposed to overwriting them. 
 
 # Scans tweet and gathers emoji data
 def parseTweetTextForEmoji(tweet_text):
@@ -81,6 +80,21 @@ def parseTrendForEmoji(trend, tweet_list):
     total_emoji = 0
     emojis_in_trend_map = {}
 
+    # If a trend that was previously processed is still trending, we don't want to reset the data
+    if ('tweets_processed' in trend):
+        tweets_processed += trend['tweets_processed']
+        total_emoji += trend['total_emoji']
+        happy_emoji_count += trend['emotions']['happy']['count']
+        sad_emoji_count += trend['emotions']['sad']['count']
+        funny_emoji_count += trend['emotions']['funny']['count']
+        mad_emoji_count += trend['emotions']['mad']['count']
+        lit_emoji_count += trend['emotions']['lit']['count']
+        top_tweet = trend['top_tweet']
+        top_tweet_retweet_count = trend['top_tweet_retweet_count']
+    
+        # Convert list of objects retrieved from emoviatodb to a python dict.
+        emojis_in_trend_map = { item['symbol']:item['count'] for item in trend['emojis'] }
+
     for tweets in tweet_list:
 
         tweets_processed += 1
@@ -129,8 +143,10 @@ def parseTrendForEmoji(trend, tweet_list):
     trend['tweets_processed'] = tweets_processed
     trend['emotions'] = trend_emotions
     trend['top_tweet'] = top_tweet
+    trend['top_tweet_retweet_count'] = top_tweet_retweet_count
+    trend['total_emoji'] = total_emoji
     
-    # Just putting emojis_in_trend_map data in a list. 
+    # Put emojis_in_trend_map data in a list. Makes things nice on frontend. 
     emojis_in_trend_list = []
     for symbol, count in emojis_in_trend_map.items():
     	entry = { 'symbol': symbol, 'count': emojis_in_trend_map[symbol] }
