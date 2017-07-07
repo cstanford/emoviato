@@ -48,16 +48,11 @@ def parseTweetTextForEmoji(tweet_text):
                 mad_emoji_count += 1
             if char in emotions.LIT_EMOJI:
                 lit_emoji_count += 1			
-        
 
-    emojis_in_tweet_list = []
-    for symbol, count in emojis_in_tweet_map.items():
-    	emoji = { 'symbol': symbol, 'count': emojis_in_tweet_map[symbol] }
-    	emojis_in_tweet_list.append(emoji)
 
     # Simply wrapping the return data
     response = { 'happy_emoji_count': happy_emoji_count,'sad_emoji_count': sad_emoji_count, 'funny_emoji_count': funny_emoji_count, \
-                'mad_emoji_count': mad_emoji_count, 'lit_emoji_count': lit_emoji_count, 'emojis_in_tweet_list': emojis_in_tweet_list, \
+                'mad_emoji_count': mad_emoji_count, 'lit_emoji_count': lit_emoji_count, 'emojis_in_tweet_map': emojis_in_tweet_map, \
                 'total_emoji_count': total_emoji_count }
 
     return response
@@ -95,6 +90,7 @@ def parseTrendForEmoji(trend, tweet_list):
         # Convert list of objects retrieved from emoviatodb to a python dict.
         emojis_in_trend_map = { item['symbol']:item['count'] for item in trend['emojis'] }
 
+
     for tweets in tweet_list:
 
         tweets_processed += 1
@@ -115,11 +111,11 @@ def parseTrendForEmoji(trend, tweet_list):
         lit_emoji_count += parsed_tweet_data['lit_emoji_count']
         total_emoji += parsed_tweet_data['total_emoji_count']
 
-        for emoji in parsed_tweet_data['emojis_in_tweet_list']:
-            if emoji['symbol'] in emojis_in_trend_map:
-                emojis_in_trend_map[ emoji['symbol']] += emoji['count']
+        for (symbol, count) in parsed_tweet_data['emojis_in_tweet_map'].items():
+            if symbol in emojis_in_trend_map:
+                emojis_in_trend_map[symbol] += count
             else:
-                emojis_in_trend_map[ emoji['symbol']] = emoji['count']
+                emojis_in_trend_map[symbol] = count
 
 
     trend_emotions = {
