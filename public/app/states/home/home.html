@@ -14,10 +14,10 @@
   </div>
   <div class="card-deck-wrapper">
       <div class="card-deck">
-      <div class="card card-outline-primary trend-card" ng-repeat="trend in homeController.topTrends" ng-click="homeController.goToTrendReport($index)">
-        <span class="card-header fa fa-lg fa-hashtag trend-card-title" ng-bind="trend.trendName"></span>
+      <div class="card card-outline-primary trend-card" ng-repeat="trend in homeController.topTrends" ng-click="homeController.goToTrendReport(trend)">
+        <span class="card-header fa fa-lg fa-hashtag trend-card-title" ng-bind="trend.name"></span>
         <div class="card-block">
-          <img class="card-img-botttom img-fluid trend-card-image" src="{{trend.img}}" alt="Card image cap">
+          <img class="card-img-botttom img-fluid trend-card-image" src="{{trend.img_url}}" alt="Card image cap">
         </div>
       </div>
      </div>

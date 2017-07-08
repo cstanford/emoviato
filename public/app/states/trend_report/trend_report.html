@@ -3,31 +3,31 @@
     <div class="row text-xs-center">
         <div class="card-deck-wrapper col-xs-12 col-md-5 pull-right">
             <div class="card card-outline-primary trend-card">
-                <h4 class="card-header fa fa-lg fa-hashtag" id="current-trend-header" ng-bind="trendController.currentTrendName"></h4>
+                <h4 class="card-header fa fa-lg fa-hashtag" id="current-trend-header" ng-bind="reportController.currentTrendName"></h4>
                 <div class="card-block">
-                    <img class="card-img-top img-fluid trend-card-image" src="{{trendController.trendData.img}}" alt="Card image cap">
+                    <img class="card-img-top img-fluid trend-card-image" src="{{reportController.currentTrend.img_url}}" alt="Card image cap">
                 </div>
-                <button type="buttton" class="btn btn-outline-secondary home-btn" ng-bind="'\uD83C\uDfE0'" ng-click="trendController.goHome()"></button>
+                <button type="buttton" class="btn btn-outline-secondary home-btn" ng-bind="'\uD83C\uDfE0'" ng-click="reportController.goHome()"></button>
             </div>
-            </div>
+        </div>
         <div class="card card-outline-primary col-xs-12 col-md-6 offset-md-1 top-tweet">
             <h3 class="card-header" id="top-tweet-header">Top Tweet</h3>
-            <p class="card-text" ng-bind="trendController.trendData.mostPopTweet"></p>
+            <p class="card-text" ng-bind="reportController.currentTrend.top_tweet"></p>
         </div>
         <div class="card card-outline-primary col-xs-12 col-md-6 offset-md-1 top-emoji">
             <h3 class="card-header" id="top-emoji-header">Top Emoji</h3>
-            <h1 class="text-success text-xs-center display-4" ng-bind="trendController.top5EmojiString"></h1>
+            <h1 class="text-success text-xs-center display-4" ng-bind="reportController.top5EmojiString"></h1>
         </div>
     </div>
     <div class="row">
         <div class="spacer-row"></div>
         <div class="col-md-5">
-            <highchart id="pie-chart" config="trendController.pieChartConfig"></highchart>
+            <highchart id="pie-chart" config="reportController.pieChartConfig"></highchart>
         </div>
         <div class="col-md-6">
-           <h4 class="fa fa-twitter fa-3x big-text"> processed: {{trendController.trendData.tweetCount}}</h4>
+           <h4 class="fa fa-twitter fa-3x big-text"> processed: {{reportController.currentTrend.tweets_processed}}</h4>
             <div class="spacer-row"></div>
-            <h4 class="fa fa-hashtag fa-3x big-text"> emoji: {{trendController.trendData.totalEmojis}}</h4>
+            <h4 class="fa fa-hashtag fa-3x big-text"> emoji: {{reportController.currentTrend.total_emoji}}</h4>
             <div class="spacer-row"></div>
             <h4 class="fa fa-users fa-3x big-text"> emoviato: {{'\uD83D\uDCAF'}}</h4>
         </div>
@@ -35,9 +35,14 @@
     <div class="spacer-row"></div>
     <div class="row">
         <div class="col-xs-12">
-            <highchart id="column-chart" config="trendController.columnChartConfig"></highchart>
+            <highchart id="column-chart" config="reportController.columnChartConfig"></highchart>
         </div>
-        <button class="btn btn-secondary col-md-2 offset-md-5" style="margin-top: 30px" ng-click="trendController.invertColumnChart()" ng-bind="trendController.buttonText"></button>
+        <div ng-if="!reportController.colChartIsInverted">
+            <button class="btn btn-secondary col-md-2 offset-md-5" style="margin-top: 30px" ng-click="reportController.invertColumnChart()">Invert Chart</button>
+        </div>
+        <div ng-if="reportController.colChartIsInverted">
+            <button class="btn btn-secondary col-md-2 offset-md-5" style="margin-top: 30px" ng-click="reportController.invertColumnChart()">Invert-Invert Chart</button>
+        </div>
     </div>
     <div class="footer-spacer"></div>
 </div>

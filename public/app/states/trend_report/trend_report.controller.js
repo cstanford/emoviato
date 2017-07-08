@@ -1,23 +1,29 @@
 (function() {
     'use strict';
 
-    angular.module('emoviato.ui.controllers').controller('TrendController', Controller);
+    angular.module('emoviato.ui.controllers').controller('ReportController', Controller);
 
-    Controller.$inject = ['$log', '$state', '$stateParams', 'ChartService'];
+    Controller.$inject = ['$log', '$state', '$stateParams', 'TrendService'];
 
-    function Controller($log, $state, $stateParams, ChartService) {
+    function Controller($log, $state, $stateParams, TrendService) {
 
-        var trendReportContainer = ChartService.getTrendReportContainer();
-        this.trendData = trendReportContainer.trendData;
-        this.currentTrendName = this.trendData.trendName;
+        // TODO: move chart config to a directive.
+        // TODO: Add feature that shows how long the current trend has been trending.
+        // TODO: Fix image scaling issue.
+
+        var alias = this;
+        var trendContainer = TrendService.getTrendContainer();
+        this.currentTrend = trendContainer.currentTrend;
+        this.currentTrendName = $stateParams.currentTrendName;
+        
+        var currentTrendEmotions = this.currentTrend.emotions;
+        // sort list according to emotion name
+        currentTrendEmotions.sort(function(a,b) {return (a.name > b.name) ? 1 : ((b.name > a.name) ? -1 : 0);} ); 
 
 
         // finds emotion with highest count
-        var alias = this;
-        var topEmotionCount = Math.max.apply(Math,alias.trendData.emotions.map(function(o){return o.count;}));
-        var topEmotion = alias.trendData.emotions.find(function(o){ return o.count == topEmotionCount; });
-
-
+        var topEmotionCount = Math.max.apply(Math,currentTrendEmotions.map(function(o){return o.count;}));
+        var topEmotion = currentTrendEmotions.find(function(o){ return o.count == topEmotionCount; });
 
         var getTop5Emoji = function(arr, prop, n) {
             // clone before sorting, to preserve the original array
@@ -33,18 +39,18 @@
             return clone.slice(0, n || 1);
         };
 
-        var top5Emoji = getTop5Emoji(alias.trendData.emojis, "count", 5);
+        var top5Emoji = getTop5Emoji(alias.currentTrend.emojis, "count", 5);
         var getTop5EmojiString = function() {
             var result = '';
-            for(var i = 0; i < alias.trendData.emojis.length; i++) {
+            for(var i = 0; i < alias.currentTrend.emojis.length; i++) {
                 if(i === 5) {
                     break;
                 }
-                result += top5Emoji[i].char;
+                result += top5Emoji[i].symbol;
                 result += ' ';
             }
             if(result === ''){
-                result = alias.trendData.trendName + ' isn\'t dank enough!';
+                result = alias.currentTrend.name + ' isn\'t dank enough!';
             }
             return result;
         };
@@ -84,20 +90,25 @@
         };
         setHeaderEmotionColor();
 
-        // Total num of emojis that we have mapped to an emotion
-        var totalCategorizedEmojiCount = alias.trendData.emotions.reduce(function(acc, o) { return acc + o.count; }, 0);
+
+        // // Total num of emojis that we have mapped to an emotion
+        var totalCategorizedEmojiCount = currentTrendEmotions.reduce(function(acc, o) { return acc + o.count; }, 0);
 
         var divisor = totalCategorizedEmojiCount;
         var getPercentage = function (num) {
-            return Number(((num / divisor) * 100).toFixed(2));
+            // return Number(((num / divisor) * 100).toFixed(2));
+            var p = Number(((num / divisor) * 100).toFixed(2));
+            console.log(p);
+            return p;
         };
         // Cant do this in the chart config :(
-        var percentageHappy = getPercentage(this.trendData.emotions[0].count);
-        var percentageLit = getPercentage(this.trendData.emotions[1].count);
-        var percentageSad = getPercentage(this.trendData.emotions[2].count);
-        var percentageMad = getPercentage(this.trendData.emotions[3].count);
-        var percentageFunny = getPercentage(this.trendData.emotions[4].count);
-        var percentageUncategorized = getPercentage(alias.trendData.totalEmojis - totalCategorizedEmojiCount);
+        // Objs in currentTrendEmotions are sorted by obj.name so we know that this order will be correct.
+        var percentageFunny = getPercentage(currentTrendEmotions[0].count);
+        var percentageHappy = getPercentage(currentTrendEmotions[1].count);  
+        var percentageLit = getPercentage(currentTrendEmotions[2].count);                          
+        var percentageMad = getPercentage(currentTrendEmotions[3].count);
+        var percentageSad = getPercentage(currentTrendEmotions[4].count);
+        // var percentageUncategorized = getPercentage(alias.currentTrend.total_emoji - totalCategorizedEmojiCount);
 
         var litEmoji = '\ud83d\udd25';
         var madEmoji = '\ud83d\ude21';
@@ -206,9 +217,9 @@
         };
 
 
-        var maxXAxisLen = alias.trendData.emojis.length;
-        var colCategories = alias.trendData.emojis.map(function (o) {return o.char;});
-        var colData = alias.trendData.emojis.map(function (o) { return o.count;});
+        var maxXAxisLen = alias.currentTrend.emojis.length;
+        var colCategories = alias.currentTrend.emojis.map(function (o) {return o.symbol;});
+        var colData = alias.currentTrend.emojis.map(function (o) { return o.count;});
 
         this.columnChartConfig = {
 
@@ -253,17 +264,14 @@
             useHighStocks: false,
         };
 
-        var isInverted = false;
-        this.buttonText = 'Invert Chart';
+        this.colChartIsInverted = false;
         this.invertColumnChart = function () {
-            if(isInverted) {
-                isInverted = false;
-                this.buttonText = 'Invert Chart';
+            if(alias.colChartIsInverted) {
+                alias.colChartIsInverted = false;
                 this.columnChartConfig.options.chart.inverted = false;
             }
             else {
-                isInverted = true;
-                this.buttonText = 'Invert-Invert Chart';
+                alias.colChartIsInverted = true;
                 this.columnChartConfig.options.chart.inverted = true;
             }
         };
@@ -273,12 +281,10 @@
         };
 
         var testLog = function () {
-            console.log("trendData");
-            console.log(this.trendData);
-
+            console.log("currentTrend");
+            console.log(this.currentTrend);
         }.bind(this);
-        testLog();
-
+        // testLog();
 
     }
 

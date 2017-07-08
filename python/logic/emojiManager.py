@@ -69,6 +69,7 @@ def parseTrendForEmoji(trend, tweet_list):
     funny_emoji_count = 0
     mad_emoji_count = 0	
     lit_emoji_count = 0
+    trend_emotions = {}
 
     top_tweet = ''
     top_tweet_retweet_count = 0
@@ -79,16 +80,18 @@ def parseTrendForEmoji(trend, tweet_list):
     if ('tweets_processed' in trend):
         tweets_processed += trend['tweets_processed']
         total_emoji += trend['total_emoji']
-        happy_emoji_count += trend['emotions']['happy']['count']
-        sad_emoji_count += trend['emotions']['sad']['count']
-        funny_emoji_count += trend['emotions']['funny']['count']
-        mad_emoji_count += trend['emotions']['mad']['count']
-        lit_emoji_count += trend['emotions']['lit']['count']
         top_tweet = trend['top_tweet']
         top_tweet_retweet_count = trend['top_tweet_retweet_count']
     
         # Convert list of objects retrieved from emoviatodb to a python dict.
         emojis_in_trend_map = { item['symbol']:item['count'] for item in trend['emojis'] }
+        trend_emotions = { item['name']:item['count'] for item in trend['emotions'] }
+
+        happy_emoji_count += trend_emotions['happy']
+        sad_emoji_count += trend_emotions['sad']
+        funny_emoji_count += trend_emotions['funny']
+        mad_emoji_count += trend_emotions['mad']
+        lit_emoji_count += trend_emotions['lit']
 
 
     for tweets in tweet_list:
@@ -118,37 +121,30 @@ def parseTrendForEmoji(trend, tweet_list):
                 emojis_in_trend_map[symbol] = count
 
 
-    trend_emotions = {
-        'happy': { 
-            'count': happy_emoji_count
-        },
-        'sad': {
-            'count': sad_emoji_count
-        },
-        'funny': {
-            'count': funny_emoji_count
-        },
-        'mad': {
-            'count': mad_emoji_count
-        },
-        'lit': {
-            'count': lit_emoji_count
-        }
-    }
-
+    trend_emotions['happy'] = happy_emoji_count
+    trend_emotions['sad'] = sad_emoji_count
+    trend_emotions['funny'] = funny_emoji_count
+    trend_emotions['mad'] = mad_emoji_count
+    trend_emotions['lit'] = lit_emoji_count
     trend['tweets_processed'] = tweets_processed
     trend['emotions'] = trend_emotions
     trend['top_tweet'] = top_tweet
     trend['top_tweet_retweet_count'] = top_tweet_retweet_count
     trend['total_emoji'] = total_emoji
     
-    # Put emojis_in_trend_map data in a list. Makes things nice on frontend. 
+    # Convert python dicts to lists. Makes things nice on frontend. 
     emojis_in_trend_list = []
     for symbol, count in emojis_in_trend_map.items():
     	entry = { 'symbol': symbol, 'count': emojis_in_trend_map[symbol] }
     	emojis_in_trend_list.append(entry)
 
+    trend_emotions_list = []
+    for name, count in trend_emotions.items():
+    	entry = { 'name': name, 'count': trend_emotions[name] }
+    	trend_emotions_list.append(entry)
+
     trend['emojis'] = emojis_in_trend_list
+    trend['emotions'] = trend_emotions_list
 
     currentTrendId = trend['_id']
     mongo.topTrending.find_one_and_replace({'_id': currentTrendId}, trend)

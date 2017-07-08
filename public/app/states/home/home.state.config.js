@@ -8,9 +8,9 @@ angular.module('emoviato.ui.routes')
                         templateUrl: 'app/states/home/home.html',
                         controller: 'HomeController as homeController',
                         resolve: {
-                            topTrends: ['$log', '$stateParams', 'ChartService',
-                                function($log, $stateParams, ChartService) {
-                                    return ChartService.refreshTopTrendsContainer().then(function(response) { // Gets the new binding container when it needs to be updated
+                            topTrends: ['$log', '$stateParams', 'TrendService',
+                                function($log, $stateParams, TrendService) {
+                                    return TrendService.refreshTopTrending().then(function(response) { // Gets the new binding container when it needs to be updated
 
                                         $log.debug(response.data);
                                         return response.data;
