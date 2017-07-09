@@ -24,7 +24,20 @@ $ cd gulp
 $ npm install
 ```
 
-Build:
+### Build:
+Development:
+```sh
+$ cd gulp
+$ gulp fullbuild
+```
+
+Watch frontend javascript and sass files (will not update server code - run gulp fullbuild for server changes):
+```sh
+$ cd gulp
+$ gulp watch
+```
+
+Production:
 ```sh
 $ cd gulp
 $ gulp fullbuildprod
@@ -50,7 +63,7 @@ $ cd python
 $ python3 Emoviato.py
 ```
 Emoviato will begin fetching data from twitter (this normally takes about 30 seconds give or take.)
-- ##### Do not run the script more than once per 15 minutes!
+- ##### Do not run the script as is more than once per 15 minutes!
 - the twitter api limits the number of requests we can make.
 
 Once the python script is finished, navigate back to localhost:11000 and check out the data!
