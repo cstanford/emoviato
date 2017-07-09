@@ -19,7 +19,8 @@ def GetTopImg(trend):
                     'count' : 1,
                     'offset' : 0,
                     'mkt' : 'en-US',
-                    'safeSearch' : 'Moderate'
+                    'safeSearch' : 'Moderate',
+                    'aspect': 'Square'
                     }
 
     query_params = urllib.parse.urlencode(query_params)

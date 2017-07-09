@@ -36,13 +36,9 @@ $ cd server
 $ node server.js
 ```
 
-### Get lit
-- Navigate to localhost:11000
-- Sample data is ready to go!
-
 ### Fetching Data
 
-To begin fetching your own data you will need two more dependancies:
+To begin fetching you will need a few more things:
  * [Python3]
  * [Tweepy] - a python twitter api
  * [Pymongo] - a python mongodb driver
@@ -56,17 +52,8 @@ $ python3 Emoviato.py
 Emoviato will begin fetching data from twitter (this normally takes about 30 seconds give or take.)
 - ##### Do not run the script more than once per 15 minutes!
 - the twitter api limits the number of requests we can make.
-- todo: take out our auth key...explain how to get one...
 
 Once the python script is finished, navigate back to localhost:11000 and check out the data!
-
-##### Made hackathon style by:
-- Connor Stanford
-- Alex Fontenot
-- Brad Landreneau
-- Hung Le
-
-
 
 [Bower]: <https://bower.io/>
 [node.js]: <http://nodejs.org>
@@ -76,5 +63,3 @@ Once the python script is finished, navigate back to localhost:11000 and check o
 [Tweepy]: <https://github.com/tweepy/tweepy>
 [Pymongo]: <https://api.mongodb.com/python/current/installation.html>
 [MongoDB]: <https://www.mongodb.com/download-center?filter=enterprise?jmp=nav#enterprise>
-
-

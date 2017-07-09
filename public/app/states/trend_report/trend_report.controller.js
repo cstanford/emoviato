@@ -7,9 +7,11 @@
 
     function Controller($log, $state, $stateParams, TrendService) {
 
-        // TODO: move chart config to a directive.
+        // TODO: move chart configs to a directive.
         // TODO: Add feature that shows how long the current trend has been trending.
         // TODO: Fix image scaling issue.
+        // TODO: Do something with pie chart when no emojis fall in an emotion category. 
+        // TODO: UI update (make it not shitty). Display trend rank. Time trending, etc..
 
         var alias = this;
         var trendContainer = TrendService.getTrendContainer();
@@ -91,15 +93,12 @@
         setHeaderEmotionColor();
 
 
-        // // Total num of emojis that we have mapped to an emotion
+        // Total num of emojis that we have mapped to an emotion
         var totalCategorizedEmojiCount = currentTrendEmotions.reduce(function(acc, o) { return acc + o.count; }, 0);
 
         var divisor = totalCategorizedEmojiCount;
         var getPercentage = function (num) {
-            // return Number(((num / divisor) * 100).toFixed(2));
-            var p = Number(((num / divisor) * 100).toFixed(2));
-            console.log(p);
-            return p;
+            return Number(((num / divisor) * 100).toFixed(2));
         };
         // Cant do this in the chart config :(
         // Objs in currentTrendEmotions are sorted by obj.name so we know that this order will be correct.
