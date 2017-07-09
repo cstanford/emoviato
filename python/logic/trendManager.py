@@ -19,27 +19,24 @@ def updateTopTrends(tweepyApi):
     # Current topTrending in emoviatodb
     outdated_top_trending_list = getTopTrends()
 
-    for trend in top_trending_list:
+    for index, trend in enumerate(top_trending_list):
 
-        # Fetch and add an image to the trend object.
-        trend['img_url'] = imageManager.GetTopImg(trend['name'])
-
-        # If an existing trend is still trending when we update,
-        # preserve the original datetime_retrieved.
         if outdated_top_trending_list is not None:
             for i in range(len(outdated_top_trending_list)):
                 if str(outdated_top_trending_list[i]['name']) == str(trend['name']):
-                    trend['datetime_retrieved'] = \
-                    outdated_top_trending_list[i]['datetime_retrieved']
+                    trend = outdated_top_trending_list[i]
 
-        # If the trend object does not have property 'datetime_retrieved',
-        # add the property and set it to the current time.
-        if 'datetime_retrieved' not in trend:
-            trend['datetime_retrieved'] = datetime.datetime.utcnow()
 
         trend['datetime_last_updated'] = datetime.datetime.utcnow()
 
-    # Update emoviatodb.topTrending.
+        # If the trend was prev processed, we already have an image & time retrieved
+        if 'tweets_processed' not in trend:
+            trend['img_url'] = imageManager.GetTopImg(trend['name'])
+            trend['datetime_retrieved'] = datetime.datetime.utcnow()
+        else:
+            top_trending_list[index] = trend
+
+    # Update emoviatodb.topTrends.
     mongo.topTrending.delete_many({})
     mongo.topTrending.insert(top_trending_list)
 
