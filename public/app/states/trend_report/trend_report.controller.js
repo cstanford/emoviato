@@ -120,29 +120,17 @@
         this.pieChartConfig = {
 
             options: {
-                //This is the Main Highcharts chart config. Any Highchart options are valid here.
-                //will be overriden by values specified below.
                 chart: {
                     type: 'pie'
-                }, // funny mad happy lit sad uncategorized
+                },      // funny, mad, happy, lit, sad, uncategorized
                 colors: ['#03A9F4', '#D32F2F', '#FFEB3B', '#FF9800', '#3F51B5', '#78909C'],
                 tooltip: {
-                    shared: true,
-                    formatter: function()
-                    {
-                        var value = this;
-                        var string = '<div>';
-                        string += '<p>' + value.point.series.name + '</p>';
-                        string += '<strong>' + value.point.legend + ':</strong> ';
-                        string += '<span>' + value.point.y + ' %' + '</span>';
-                        string += '</li>';
-                        string += '</div>';
-                        return string;
-                    },
-                    useHTML: true
+                    pointFormat: '<strong>{point.legend}: </strong><b>{point.percentage:.1f}%</b>'
                 },
                 plotOptions: {
                     pie: {
+                        allowPointSelect: true,
+                        cursor: 'pointer',
                         dataLabels: {
                             enabled: true
                         },
@@ -151,8 +139,7 @@
                 },
                 legend: {
                     labelFormatter: function () {
-                        var opAlias = this;
-                        return '<h2>' + opAlias.legend + '</h2>';
+                        return '<h2>' + this.legend + '</h2>';
                     }
                 },
             },
@@ -163,7 +150,7 @@
                     name: funnyEmoji,
                     y: percentageFunny,
                     drilldown: 'Funny',
-                    legend: 'Funny'
+                    legend: 'Funny',
                 }, {
                     name: madEmoji,
                     y: percentageMad,
@@ -193,27 +180,9 @@
                 // }
                 ]
             }],
-            //Title configuration (optional)
             title: {
                 text: 'Range of Emotions'
-            },
-            //Boolean to control showing loading status on chart (optional)
-            //Could be a string if you want to show specific loading text.
-            loading: false,
-            //Configuration for the xAxis (optional). Currently only one x axis can be dynamically controlled.
-            //properties currentMin and currentMax provided 2-way binding to the chart's maximum and minimum
-            xAxis: {
-                currentMin: 0,
-                currentMax: 20,
-                title: {text: 'values'}
-            },
-            //Whether to use Highstocks instead of Highcharts (optional). Defaults to false.
-            useHighStocks: false,
-            //size (optional) if left out the chart will default to size of the div or something sensible.
-            // size: {
-            //     width: 400,
-            //     height: 300
-            // }
+            }
         };
 
 
@@ -224,8 +193,6 @@
         this.columnChartConfig = {
 
             options: {
-                //This is the Main Highcharts chart config. Any Highchart options are valid here.
-                //will be overriden by values specified below.
                 chart: {
                     inverted: false,
                 },
@@ -236,8 +203,6 @@
                     }
                 }
             },
-            //Series object (optional) - a list of series using normal Highcharts series options.
-            //This is where each emoji will go.
             series: [{
                 type: 'column',
                 name: 'Count',
@@ -245,23 +210,21 @@
                 data: colData,
                 showInLegend: false
             }],
-            //Title configuration (optional)
             title: {
                 text: 'Distribution of Emoji'
             },
-            //Boolean to control showing loading status on chart (optional)
-            //Could be a string if you want to show specific loading text.
-            loading: false,
-            //Configuration for the xAxis (optional). Currently only one x axis can be dynamically controlled.
-            //properties currentMin and currentMax provided 2-way binding to the chart's maximum and minimum
             xAxis: {
-                categories: colCategories
+                categories: colCategories,
+                labels: {
+                    useHTML: true,
+                    formatter: function () {
+                        return twemoji.parse(this.value);
+                    }
+                }
             },
             yAxis: {
                 title: {text: 'Emojis counted'}
-            },
-            //Whether to use Highstocks instead of Highcharts (optional). Defaults to false.
-            useHighStocks: false,
+            }
         };
 
         this.colChartIsInverted = false;

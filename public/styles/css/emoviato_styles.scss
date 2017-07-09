@@ -43,8 +43,15 @@ $uncategorized-color: #78909C;
 .content {
   position: relative;
   background-color: #fdfdfd;
-  }
+}
 
+// Size emojis parsed by twemoji according to the surrounding text
+img.emoji {
+   height: 1em;
+   width: 1em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -0.1em;
+}
 
 #trend-background {
   background-color: #fdfdfd;
