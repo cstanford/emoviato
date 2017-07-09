@@ -1,31 +1,28 @@
-import emojiParse
+from common import constants
+from logic import emojiManager
+from logic import trendManager
+
 import json
-import tweepy
-import os.path
+import pprint
 import re
+import tweepy
 
-#authentification
-auth = tweepy.OAuthHandler('WAmc6nksqtBkRXkYHDzGTkNC2', 'rHbTMCkMjZU3Ru4pPrh1GFbPrcGfVyFfUXNOqqueN9cOuMdylv')
-auth.set_access_token('371692355-JUMH5vdqTgUlCGVukLDRFOePL9QrYHni7H79X49I', 'VbsIxYfEkLlBTcfEvJkyO2fNDCCHt0ZKVzKL81FY2RV9V')
-api = tweepy.API(auth)
+tweepyAuth = tweepy.OAuthHandler(constants.TWEEPY_CONSUMER_TOKEN, constants.TWEEPY_CONSUMER_SECRET)
+tweepyAuth.set_access_token(constants.TWITTER_CONSUMER_KEY, constants.TWITTER_CONSUMER_SECRET)
+tweepyApi = tweepy.API(tweepyAuth)
 
-#getting the main folder path we are working in
-currentDir = os.path.dirname(os.path.abspath(__file__))
-destDir = os.path.join(currentDir, '../public/app/web-data')
-try:
-    os.makedirs(destDir)
-except OSError:
-    pass # directory already exists
+# Update emoviatodb.topTrending.
+# Will eventually run consistently on a timer.
+trendManager.updateTopTrends(tweepyApi)
+top_trending_list = trendManager.getTopTrends()
+# for trend in top_trending_list:
+#     pprint.pprint(trend)
 
-#get top 5 trends in json object held in variable
-top5trends = emojiParse.getTopTrends(api, destDir)
-trendPath = os.path.join(destDir, 'current-trending-tweets')
-for trend in top5trends:
-	trendname = trend["trendName"]
-	trendTweetJson = emojiParse.getTweetsFromTrends(api, trendname,"popular")
-	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"recent")
-	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
-	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
-	trendTweetJson += emojiParse.getTweetsFromTrends(api, trendname,"mixed")
-
-	emojiParse.emojiParser(trendname, trendTweetJson, trendPath, trend["fileName"])
+for trend in top_trending_list:
+    trend_name = trend['name']
+    tweet_list = trendManager.getTweetsForTrend(tweepyApi, trend_name, 'popular')
+    tweet_list += trendManager.getTweetsForTrend(tweepyApi, trend_name, 'recent')
+    tweet_list += trendManager.getTweetsForTrend(tweepyApi, trend_name, 'mixed')
+    tweet_list += trendManager.getTweetsForTrend(tweepyApi, trend_name, 'mixed')
+    tweet_list += trendManager.getTweetsForTrend(tweepyApi, trend_name, 'mixed')    
+    emojiManager.parseTrendForEmoji(trend, tweet_list)

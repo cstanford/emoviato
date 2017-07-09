@@ -167,7 +167,8 @@ gulp.task('css', function() {
         'public/plugin/angular-bootstrap/angular-bootstrap-csp.css',
         'public/plugin/components-font-awesome/css/font-awesome.css',
         'public/plugin/angular-motion/dist/angular-motion.css',
-        'public/plugin/bootstrap/dist/css/bootstrap.css'
+        'public/plugin/bootstrap/dist/css/bootstrap.css',
+        'public/styles/css/third-party/twemoji-awesome.css'
     ])
     .pipe(concat(cssFilename))
     .pipe(frep(newLinePattern))
