@@ -70,6 +70,11 @@ Emoviato will begin fetching data from twitter (this normally takes about 30 sec
 
 Once the python script is finished, navigate back to localhost:11000 and check out the data!
 
+![](https://github.com/cstanford/emoviato/blob/master/misc/app-imgs/home.png)
+![](https://github.com/cstanford/emoviato/blob/master/misc/app-imgs/trend_report.png)
+![](https://github.com/cstanford/emoviato/blob/master/misc/app-imgs/col.png)
+![](https://github.com/cstanford/emoviato/blob/master/misc/app-imgs/colemo2.png)
+
 [Bower]: <https://bower.io/>
 [node.js]: <http://nodejs.org>
 [Gulp]: <http://gulpjs.com>
