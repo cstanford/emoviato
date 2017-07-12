@@ -55,9 +55,11 @@ To begin fetching you will need a few more things:
  * [Python3]
  * [Tweepy] - a python twitter api
  * [Pymongo] - a python mongodb driver
-> Note: emoviatodb is set to run on port 10100 - it is suggested that you edit your mongod.cfg file accordingly. 
+> Note: emoviatodb is set to run on port 10100 - it is suggested that you edit your mongod.conf file accordingly. 
 
-Run the python scripts:
+Navigate to emoviato/python/common/constants.py and update the authentication constants.
+
+Start mongod as a service and then run Emoviato.py:
 ```sh
 $ cd python
 $ python3 Emoviato.py
